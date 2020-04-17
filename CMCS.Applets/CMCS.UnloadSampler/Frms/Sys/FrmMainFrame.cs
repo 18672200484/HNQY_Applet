@@ -29,6 +29,11 @@ namespace CMCS.UnloadSampler.Frms.Sys
             FrmMainFrame.superTabControlManager = new SuperTabControlManager(this.superTabControl1);
 
             OpenWeighCheck();
+
+            if (SelfVars.LoginUser.USERKIND != "超级用户")
+            {
+                Unloadbtn.Enabled = false;
+            }
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -112,5 +117,11 @@ namespace CMCS.UnloadSampler.Frms.Sys
         }
 
         #endregion
+
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            UnloadSampleList frm = new UnloadSampleList();
+            frm.ShowDialog();
+        }
     }
 }

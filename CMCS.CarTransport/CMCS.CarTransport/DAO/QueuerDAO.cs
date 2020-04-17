@@ -138,24 +138,40 @@ namespace CMCS.CarTransport.DAO
         private int getPointCount(Decimal carCount)
         {
             int PointCount = 3;
-            if (carCount == 1)
-            {
-                PointCount = 18;
-            }
-            else if (carCount == 2)
-            {
 
-                PointCount = 9;
-            }
-            else if (carCount > 2 && carCount < 9)
+            List<CodeContent> list = commonDAO.GetCodeContentByKind("采样点数配置方案");
+            foreach (var item in list)
             {
+                string[] str = item.Code.Split('-');
+                if (str.Length == 2)
+                {
+                    if(carCount>=Decimal.Parse(str[0])&& carCount<= Decimal.Parse(str[1]))
+                    {
+                        PointCount = int.Parse(item.Remark);
+                        break;
+                    }
+                }
+            }
 
-                PointCount = 6;
-            }
-            else
-            {
-                PointCount = 3;
-            }
+
+            //if (carCount == 1)
+            //{
+            //    PointCount = 18;
+            //}
+            //else if (carCount == 2)
+            //{
+
+            //    PointCount = 9;
+            //}
+            //else if (carCount > 2 && carCount < 9)
+            //{
+
+            //    PointCount = 6;
+            //}
+            //else
+            //{
+            //    PointCount = 3;
+            //}
 
             return PointCount;
         }

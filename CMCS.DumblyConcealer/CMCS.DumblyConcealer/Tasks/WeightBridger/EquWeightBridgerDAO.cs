@@ -35,73 +35,95 @@ namespace CMCS.DumblyConcealer.Tasks.WeightBridger
         {
             int res = 0;
             DateTime tm = DateTime.Now.AddDays(-CommonDAO.GetInstance().GetAppletConfigInt32("轨道衡数据读取天数")).Date;
-            string sql = "select 总序号,车号,车型,[重量(kg)],[速度(km/h)],计量时间,列文件名 from TR_1 Where 计量时间>='" + tm + "' and [重量(kg)]>10 order by 计量时间 asc";
+            string sql = "select 总序号,车号,车型,[重量(kg)],[速度(km/h)],计量时间,皮重 from TR_1 Where 计量时间>='" + tm + "' and [重量(kg)]>10 order by 计量时间 asc";
             DataTable tb = DcDbers.GetInstance().WeightBridger_Dber.ExecuteDataTable(sql);
 
             for (int i = 0; i < tb.Rows.Count; i++)
             {
-                string pKId = tb.Rows[i]["车号"] + "-" + tb.Rows[i]["车型"];
-                string str = tb.Rows[i]["列文件名"].ToString().Substring(tb.Rows[i]["列文件名"].ToString().Length - 1, 1);
-                FulTrainWeightRecord trainWeightRecord = Dbers.GetInstance().SelfDber.Entity<FulTrainWeightRecord>("where PKID=:PKID and CreateDate>=:CreateDate", new { PKID = pKId, CreateDate = DateTime.Now.AddDays(-3) });
+                string pKId = tb.Rows[i]["车号"] + "-" + tb.Rows[i]["总序号"];
+                //string str = tb.Rows[i]["列文件名"].ToString().Substring(tb.Rows[i]["列文件名"].ToString().Length - 1, 1);
+                FulTrainWeightRecord trainWeightRecord = Dbers.GetInstance().SelfDber.Entity<FulTrainWeightRecord>("where PKID=:PKID", new { PKID = pKId});
                 if (trainWeightRecord == null)
                 {
-                    if (str.ToUpper() == "L")
-                    {
-                        res += Dbers.GetInstance().SelfDber.Insert<FulTrainWeightRecord>(
-                          new FulTrainWeightRecord
-                          {
+
+                    FulTrainWeightRecord TrainWeightRecord = new FulTrainWeightRecord();
+                    TrainWeightRecord.PKID = pKId;
+                    TrainWeightRecord.ApparatusNumber = GlobalVars.MachineCode_GDH_1;
+                    TrainWeightRecord.CarNumber = tb.Rows[i]["车号"].ToString();
+                    TrainWeightRecord.CarModel = tb.Rows[i]["车型"].ToString();
+                    TrainWeightRecord.GrossWeight = Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["重量(kg)"].ToString()) ? "0" :tb.Rows[i]["重量(kg)"].ToString()) / 1000;
+                    TrainWeightRecord.TareWeight = Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["皮重"].ToString())?"0":tb.Rows[i]["皮重"].ToString()) / 1000;
+                    TrainWeightRecord.SuttleWeight = Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["重量(kg)"].ToString()) ? "0" : tb.Rows[i]["重量(kg)"].ToString()) / 1000 - Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["皮重"].ToString()) ? "0" : tb.Rows[i]["皮重"].ToString()) / 1000;
+                    TrainWeightRecord.Speed = Decimal.Parse(tb.Rows[i]["速度(km/h)"].ToString());
+                    TrainWeightRecord.GrossDate = Convert.ToDateTime(tb.Rows[i]["计量时间"]);
+                    res += Dbers.GetInstance().SelfDber.Insert(TrainWeightRecord);
+                    //res += Dbers.GetInstance().SelfDber.Insert<FulTrainWeightRecord>(
+                    //      new FulTrainWeightRecord
+                    //      {
 
 
 
-                              PKID = pKId,
-                              ApparatusNumber = GlobalVars.MachineCode_GDH_1,
-                              CarNumber = tb.Rows[i]["车号"].ToString(),
-                              CarModel = tb.Rows[i]["车型"].ToString(),
-                              //TicketWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
-                              GrossWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
-                              TareWeight = 20000,
-                              // StandardWeight = entity.JingZhong,
-                              Speed = Decimal.Parse(tb.Rows[i]["速度(km/h)"].ToString()),
+                    //          PKID = pKId,
+                    //          ApparatusNumber = GlobalVars.MachineCode_GDH_1,
+                    //          CarNumber = tb.Rows[i]["车号"].ToString(),
+                    //          CarModel = tb.Rows[i]["车型"].ToString(),
+                    //          //TicketWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
+                    //          GrossWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString())/1000,
+                    //          TareWeight = tb.Rows[i]["重量(kg)"].ToString() == "" ? 0 : Decimal.Parse(tb.Rows[i]["皮重"].ToString()) / 1000,
+                    //          SuttleWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()) / 1000 - (tb.Rows[i]["重量(kg)"].ToString() == "" ? 0 : Decimal.Parse(tb.Rows[i]["皮重"].ToString()) / 1000),
 
-                              GrossDate = Convert.ToDateTime(tb.Rows[i]["计量时间"]),
-                              // SkinTime = Convert.ToDateTime(entity.TrainsDate.ToShortDateString() + " " + entity.TrainsTime),
-                              //LeaveTime = Convert.ToDateTime(entity.TrainsDate.ToShortDateString() + " " + entity.TrainsTime),
+                    //          Speed = Decimal.Parse(tb.Rows[i]["速度(km/h)"].ToString()),
 
-                          }
-                              );
-                    }
+                    //          GrossDate = Convert.ToDateTime(tb.Rows[i]["计量时间"]),
+                    //          // SkinTime = Convert.ToDateTime(entity.TrainsDate.ToShortDateString() + " " + entity.TrainsTime),
+                    //          //LeaveTime = Convert.ToDateTime(entity.TrainsDate.ToShortDateString() + " " + entity.TrainsTime),
+
+                    //      }
+                    //          );
+               
                 }
                 else
                 {
-                    if (str.ToUpper() == "R")
-                    {
-                        trainWeightRecord.TareWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString());
-                        trainWeightRecord.SuttleWeight = trainWeightRecord.GrossWeight - trainWeightRecord.TareWeight;
-                        trainWeightRecord.TareDate = Convert.ToDateTime(tb.Rows[i]["计量时间"]);
-                        res += Dbers.GetInstance().SelfDber.Update(trainWeightRecord);
-                    }
-                    else
-                    {
-                        res += Dbers.GetInstance().SelfDber.Update<FulTrainWeightRecord>(
-                     new FulTrainWeightRecord
-                     {
 
 
-                         PKID = pKId,
-                         ApparatusNumber = GlobalVars.MachineCode_GDH_1,
-                         CarNumber = tb.Rows[i]["车号"].ToString(),
-                         CarModel = tb.Rows[i]["车型"].ToString(),
-                         //TicketWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
-                         GrossWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
-                         TareWeight = 20000,
-                         // StandardWeight = entity.JingZhong,
-                         Speed = Decimal.Parse(tb.Rows[i]["速度(km/h)"].ToString()),
+                    trainWeightRecord.ApparatusNumber = GlobalVars.MachineCode_GDH_1;
+                         trainWeightRecord.CarNumber = tb.Rows[i]["车号"].ToString();
+                    trainWeightRecord.CarModel = tb.Rows[i]["车型"].ToString();
+                    //TicketWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
+                    trainWeightRecord.GrossWeight = Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["重量(kg)"].ToString()) ? "0" : tb.Rows[i]["重量(kg)"].ToString()) / 1000;
+                    trainWeightRecord.TareWeight = Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["皮重"].ToString()) ? "0" : tb.Rows[i]["皮重"].ToString()) / 1000;
+                    trainWeightRecord.SuttleWeight = Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["重量(kg)"].ToString()) ? "0" : tb.Rows[i]["重量(kg)"].ToString()) / 1000 - Decimal.Parse(string.IsNullOrEmpty(tb.Rows[i]["皮重"].ToString()) ? "0" : tb.Rows[i]["皮重"].ToString()) / 1000;
+                    trainWeightRecord.Speed = Decimal.Parse(tb.Rows[i]["速度(km/h)"].ToString());
+                    trainWeightRecord.TareDate = Convert.ToDateTime(tb.Rows[i]["计量时间"]);
+                    res += Dbers.GetInstance().SelfDber.Update(trainWeightRecord);
+                    //if (str.ToUpper() == "L")
+                    //{
+                    //    trainWeightRecord.TareWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString());
+                    //    trainWeightRecord.SuttleWeight = trainWeightRecord.GrossWeight - trainWeightRecord.TareWeight;
+                    //    trainWeightRecord.TareDate = Convert.ToDateTime(tb.Rows[i]["计量时间"]);
+                    //    res += Dbers.GetInstance().SelfDber.Update(trainWeightRecord);
+                    //}
+                    //else
+                    //{
+                    //res += Dbers.GetInstance().SelfDber.Update<FulTrainWeightRecord>(
+                    //  new FulTrainWeightRecord
+                    //  {
 
-                         GrossDate = Convert.ToDateTime(tb.Rows[i]["计量时间"])
-                     }
-                         );
 
-                    }
+
+                    //      trainWeightRecord.ApparatusNumber = GlobalVars.MachineCode_GDH_1,
+                    //      CarNumber = tb.Rows[i]["车号"].ToString(),
+                    //      CarModel = tb.Rows[i]["车型"].ToString(),
+                    //      //TicketWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
+                    //      GrossWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()),
+                    //      TareWeight = tb.Rows[i]["皮重"]==null?0:Decimal.Parse(tb.Rows[i]["皮重"].ToString()) / 1000,
+                    //      SuttleWeight = Decimal.Parse(tb.Rows[i]["重量(kg)"].ToString()) / 1000 - (tb.Rows[i]["皮重"] == null ? 0 : Decimal.Parse(tb.Rows[i]["皮重"].ToString()) / 1000),
+                    //      Speed = Decimal.Parse(tb.Rows[i]["速度(km/h)"].ToString()),
+                    //      TareDate = Convert.ToDateTime(tb.Rows[i]["计量时间"])
+                    //  }
+                    //      );
+
+                    //}
 
                 }
 

@@ -43,6 +43,7 @@ namespace CMCS.UnloadSampler.Frms.Sys
             this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.superTabItem2 = new DevComponents.DotNetBar.SuperTabItem();
             this.panelEx2 = new DevComponents.DotNetBar.PanelEx();
+            this.Unloadbtn = new DevComponents.DotNetBar.ButtonX();
             this.lblCurrentTime = new System.Windows.Forms.Label();
             this.btnApplicationExit = new DevComponents.DotNetBar.ButtonX();
             this.btnOpenSetting = new DevComponents.DotNetBar.ButtonX();
@@ -179,6 +180,7 @@ namespace CMCS.UnloadSampler.Frms.Sys
             // 
             this.panelEx2.CanvasColor = System.Drawing.SystemColors.Control;
             this.panelEx2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.panelEx2.Controls.Add(this.Unloadbtn);
             this.panelEx2.Controls.Add(this.lblCurrentTime);
             this.panelEx2.Controls.Add(this.btnApplicationExit);
             this.panelEx2.Controls.Add(this.btnOpenSetting);
@@ -193,6 +195,20 @@ namespace CMCS.UnloadSampler.Frms.Sys
             this.panelEx2.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.panelEx2.Style.GradientAngle = 90;
             this.panelEx2.TabIndex = 1;
+            // 
+            // Unloadbtn
+            // 
+            this.Unloadbtn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.Unloadbtn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Unloadbtn.AutoExpandOnClick = true;
+            this.Unloadbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Unloadbtn.Location = new System.Drawing.Point(117, 10);
+            this.Unloadbtn.Name = "Unloadbtn";
+            this.Unloadbtn.Size = new System.Drawing.Size(108, 31);
+            this.Unloadbtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.Unloadbtn.TabIndex = 15;
+            this.Unloadbtn.Text = "卸样记录";
+            this.Unloadbtn.Click += new System.EventHandler(this.buttonX1_Click);
             // 
             // lblCurrentTime
             // 
@@ -213,7 +229,7 @@ namespace CMCS.UnloadSampler.Frms.Sys
             this.btnApplicationExit.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnApplicationExit.AutoExpandOnClick = true;
             this.btnApplicationExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApplicationExit.Location = new System.Drawing.Point(118, 10);
+            this.btnApplicationExit.Location = new System.Drawing.Point(231, 10);
             this.btnApplicationExit.Name = "btnApplicationExit";
             this.btnApplicationExit.Size = new System.Drawing.Size(108, 31);
             this.btnApplicationExit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -282,6 +298,7 @@ namespace CMCS.UnloadSampler.Frms.Sys
         private System.Windows.Forms.Timer timer_CurrentTime;  
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel2;
         private DevComponents.DotNetBar.SuperTabItem superTabItem2;
+        private DevComponents.DotNetBar.ButtonX Unloadbtn;
     }
 }
 
