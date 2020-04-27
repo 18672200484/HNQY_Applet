@@ -97,9 +97,7 @@ namespace CMCS.CarTransport.Weighter.Frms
 			set
 			{
 				inductorCoil1 = value;
-
 				panCurrentWeight.Refresh();
-
 				commonDAO.SetSignalDataValue(commonAppConfig.AppIdentifier, eSignalDataName.地感1信号.ToString(), value ? "1" : "0");
 			}
 		}
@@ -947,7 +945,7 @@ namespace CMCS.CarTransport.Weighter.Frms
 					}
 				}
 				#endregion
-				
+
 				#region LED控制卡1
 
 				string led1SocketIP = commonDAO.GetAppletConfigString("LED显示屏1_IP地址");
@@ -1877,9 +1875,9 @@ namespace CMCS.CarTransport.Weighter.Frms
 				if (entity == null) return;
 				gridRow.Cells["clmSupplierName"].Value = "****";
 				gridRow.Cells["clmMineName"].Value = "****";
-                gridRow.Cells["clmTransportCompanyName"].Value = "****";
-                gridRow.Cells["clmFuelKindName"].Value = "****";
-            }
+				gridRow.Cells["clmTransportCompanyName"].Value = "****";
+				gridRow.Cells["clmFuelKindName"].Value = "****";
+			}
 		}
 
 
