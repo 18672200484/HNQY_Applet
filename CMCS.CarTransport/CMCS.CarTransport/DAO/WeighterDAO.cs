@@ -191,6 +191,7 @@ namespace CMCS.CarTransport.DAO
 				if (transport.GrossWeight == transport.TareWeight)
 				{
 					Log4Neter.Error("保存运输记录", new Exception("重量异常,毛重与皮重一致"));
+					return false;
 				}
 				result = SelfDber.Update(transport);
 				if (result == 0)
