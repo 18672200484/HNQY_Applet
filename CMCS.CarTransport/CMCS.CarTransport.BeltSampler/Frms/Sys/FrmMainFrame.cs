@@ -85,7 +85,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms.Sys
             if (FrmMainFrame.superTabControlManager.GetTab(uniqueKey) == null)
             {
                 FrmBeltSampler frm = new FrmBeltSampler();
-                FrmMainFrame.superTabControlManager.CreateTab(frm.Text, uniqueKey, frm, false, false);
+                FrmMainFrame.superTabControlManager.CreateTab(frm.Text, uniqueKey, frm, true, false);
             }
             else
                 FrmMainFrame.superTabControlManager.ChangeToTab(uniqueKey);
