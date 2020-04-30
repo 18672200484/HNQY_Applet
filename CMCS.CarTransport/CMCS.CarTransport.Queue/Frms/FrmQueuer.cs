@@ -1452,6 +1452,12 @@ namespace CMCS.CarTransport.Queue.Frms
 				return false;
 			}
 
+			if (string.IsNullOrEmpty(this.CurrentAutotruck.EmissionStandard))
+			{
+				MessageBoxEx.Show("该车辆未填写排放标准", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return false;
+			}
+
 			if (isRulst(this.CurrentAutotruck))
 			{
 				MessageBoxEx.Show("该车辆排放不符合国标", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);

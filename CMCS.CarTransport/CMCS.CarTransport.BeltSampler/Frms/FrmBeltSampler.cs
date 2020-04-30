@@ -287,7 +287,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 		{
 			if (CurrentRCSampling == null) { MessageBoxEx.Show("请先设置当前采样单"); return; }
 
-			if (this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机) { MessageBoxEx.Show(this.CurrentSampleMachine.EquipmentName + "未就绪", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
+			if (this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机2 || this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机) { MessageBoxEx.Show(this.CurrentSampleMachine.EquipmentName + "未就绪", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
 
 			if (!SendSamplingPlan()) { MessageBoxEx.Show("采样计划发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
 
@@ -305,6 +305,8 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 		/// <param name="e"></param>
 		private void btnStartSampler_Click(object sender, EventArgs e)
 		{
+			if (this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机) { MessageBoxEx.Show(this.CurrentSampleMachine.EquipmentName + "未就绪", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
+
 			if (CurrentRCSampling == null) { MessageBoxEx.Show("请先设置当前采样单"); return; }
 
 			if (!SendSamplingCMD(true)) { MessageBoxEx.Show("采样命令发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
@@ -477,7 +479,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 				if (string.IsNullOrEmpty(machineCode)) continue;
 
 				string systemStatus = CommonDAO.GetInstance().GetSignalDataValue(machineCode, eSignalDataName.系统.ToString());
-				if (systemStatus == eEquInfSamplerSystemStatus.就绪待机.ToString())
+				if (systemStatus == eEquInfSamplerSystemStatus.就绪待机.ToString() || systemStatus == eEquInfSamplerSystemStatus.就绪待机2.ToString())
 					uCtrlSignalLight.LightColor = EquipmentStatusColors.BeReady;
 				else if (systemStatus == eEquInfSamplerSystemStatus.正在运行.ToString() || systemStatus == eEquInfSamplerSystemStatus.正在卸样.ToString())
 					uCtrlSignalLight.LightColor = EquipmentStatusColors.Working;
