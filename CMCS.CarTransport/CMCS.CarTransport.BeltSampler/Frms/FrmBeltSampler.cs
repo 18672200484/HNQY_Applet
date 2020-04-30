@@ -287,7 +287,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 		{
 			if (CurrentRCSampling == null) { MessageBoxEx.Show("请先设置当前采样单"); return; }
 
-			if (this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机2 || this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机) { MessageBoxEx.Show(this.CurrentSampleMachine.EquipmentName + "未就绪", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
+			//if (this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机2 && this.CurrentSystemStatus != eEquInfSamplerSystemStatus.就绪待机) { MessageBoxEx.Show(this.CurrentSampleMachine.EquipmentName + "未就绪", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
 
 			if (!SendSamplingPlan()) { MessageBoxEx.Show("采样计划发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
 
