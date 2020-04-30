@@ -459,7 +459,7 @@ namespace CMCS.UnloadSampler.Frms
 				if (string.IsNullOrEmpty(machineCode)) continue;
 
 				string systemStatus = commonDAO.GetSignalDataValue(machineCode, eSignalDataName.系统.ToString());
-				if (systemStatus == eEquInfSamplerSystemStatus.就绪待机.ToString())
+				if (systemStatus == eEquInfSamplerSystemStatus.就绪待机.ToString() || systemStatus == eEquInfSamplerSystemStatus.就绪待机2.ToString())
 					uCtrlSignalLight.LightColor = EquipmentStatusColors.BeReady;
 				else if (systemStatus == eEquInfSamplerSystemStatus.正在运行.ToString() || systemStatus == eEquInfSamplerSystemStatus.正在卸样.ToString())
 					uCtrlSignalLight.LightColor = EquipmentStatusColors.Working;
