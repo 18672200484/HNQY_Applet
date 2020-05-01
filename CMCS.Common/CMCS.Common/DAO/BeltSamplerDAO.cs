@@ -101,11 +101,11 @@ namespace CMCS.Common.DAO
 		{
 			message = string.Empty;
 
-			if (GetBeltSamplerSystemStatue(machineCode) != eEquInfSamplerSystemStatus.就绪待机.ToString())
-			{
-				message = "采样机系统未就绪";
-				return false;
-			}
+			//if (GetBeltSamplerSystemStatue(machineCode) != eEquInfSamplerSystemStatus.就绪待机.ToString())
+			//{
+			//	message = "采样机系统未就绪";
+			//	return false;
+			//}
 
 			if (Dbers.GetInstance().SelfDber.Count<InfBeltSampleUnloadCmd>("where MachineCode=:MachineCode and DataFlag=0", new { MachineCode = machineCode }) > 0)
 			{
