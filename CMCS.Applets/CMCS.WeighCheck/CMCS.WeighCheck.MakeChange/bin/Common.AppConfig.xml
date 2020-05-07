@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <CommonAppConfig>
-  <!--³ÌÐòÎ¨Ò»±êÊ¶-->
-  <AppIdentifier>ÖÆÑùÑùÆ·µÇ¼Ç</AppIdentifier>
-  <!--¼¯ÖÐ¹Ü¿ØOracleÊý¾Ý¿âÁ¬½Ó×Ö·û´®-->
+  <!--ï¿½ï¿½ï¿½ï¿½Î¨Ò»ï¿½ï¿½Ê¶-->
+  <AppIdentifier>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·ï¿½Ç¼ï¿½</AppIdentifier>
+  <!--ï¿½ï¿½ï¿½Ð¹Ü¿ï¿½Oracleï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½-->
   <SelfConnStr>Data Source=server6;User ID=bieos_hnqy;Password=1234;Persist Security Info=False;</SelfConnStr>
 </CommonAppConfig>
 
