@@ -24,7 +24,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 	{
 		public EquBeltSamplerDAO(string machineCode, OracleDapperDber equDber)
 		{
-			this.MachineCode = machineCode;
+			MachineCode = machineCode;
 			this.EquDber = equDber;
 		}
 
@@ -113,7 +113,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 
 				res += commonDAO.SetSignalDataValue(ConvertToCmcsMachineCode(entity.MachineCode), entity.TagName, entity.TagValue) ? 1 : 0;
 			}
-			output(string.Format("同步实时信号 {0} 条-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步实时信号 {0} 条-{1}", res, MachineCode), eOutputType.Normal);
 
 			return res;
 		}
@@ -153,7 +153,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 		{
 			int res = 0;
 
-			List<EquPDCYJBarrel> infpdcybarrels = this.EquDber.Entities<EquPDCYJBarrel>("where DataFlag=0 and MachineCode=:MachineCode", new { MachineCode = ConvertToInfMachineCode(this.MachineCode) });
+			List<EquPDCYJBarrel> infpdcybarrels = this.EquDber.Entities<EquPDCYJBarrel>("where DataFlag=0 and MachineCode=:MachineCode", new { MachineCode = ConvertToInfMachineCode(MachineCode) });
 			foreach (EquPDCYJBarrel entity in infpdcybarrels)
 			{
 				string machineName = ConvertToCmcsMachineCode(entity.MachineCode);
@@ -186,7 +186,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 			else if (emptyBarrelCount == 0)
 				commonDAO.SaveSysMessage(eMessageType.皮带采样机.ToString(), "皮带采样机集样罐已满!", eMessageType.皮带采样机.ToString(), "查看|取消", false);
 
-			output(string.Format("同步集样罐记录 {0} 条-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步集样罐记录 {0} 条-{1}", res, MachineCode), eOutputType.Normal);
 		}
 
 		/// <summary>
@@ -209,7 +209,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 				}
 			}
 
-			output(string.Format("同步故障信息记录 {0} 条-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步故障信息记录 {0} 条-{1}", res, MachineCode), eOutputType.Normal);
 		}
 
 		/// <summary>
@@ -222,7 +222,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 			int res = 0;
 
 			// 集中管控 > 第三方 
-			foreach (InfBeltSamplePlan entity in BeltSamplerDAO.GetInstance().GetWaitForSyncBeltSamplePlan(GlobalVars.InterfaceType_PDCYJ, this.MachineCode))
+			foreach (InfBeltSamplePlan entity in BeltSamplerDAO.GetInstance().GetWaitForSyncBeltSamplePlan(MachineCode))
 			{
 				bool isSuccess = false;
 
@@ -265,7 +265,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					res++;
 				}
 			}
-			output(string.Format("同步采样计划 {0} 条（集中管控 > 第三方）-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步采样计划 {0} 条（集中管控 > 第三方）-{1}", res, MachineCode), eOutputType.Normal);
 
 			res = 0;
 			// 第三方 > 集中管控
@@ -288,7 +288,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					res++;
 				}
 			}
-			output(string.Format("同步采样计划 {0} 条（第三方 > 集中管控）-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步采样计划 {0} 条（第三方 > 集中管控）-{1}", res, MachineCode), eOutputType.Normal);
 		}
 
 		/// <summary>
@@ -301,7 +301,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 			int res = 0;
 
 			// 集中管控 > 第三方 
-			foreach (InfBeltSampleCmd entity in BeltSamplerDAO.GetInstance().GetWaitForSyncBeltSampleCmd(GlobalVars.InterfaceType_PDCYJ))
+			foreach (InfBeltSampleCmd entity in BeltSamplerDAO.GetInstance().GetWaitForSyncBeltSampleCmd(this.MachineCode))
 			{
 				bool isSuccess = false;
 
@@ -330,7 +330,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					res++;
 				}
 			}
-			output(string.Format("同步控制命令 {0} 条（集中管控 > 第三方）-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步控制命令 {0} 条（集中管控 > 第三方）-{1}", res, MachineCode), eOutputType.Normal);
 
 			res = 0;
 			// 第三方 > 集中管控
@@ -352,7 +352,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					res++;
 				}
 			}
-			output(string.Format("同步控制命令 {0} 条（第三方 > 集中管控）-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步控制命令 {0} 条（第三方 > 集中管控）-{1}", res, MachineCode), eOutputType.Normal);
 		}
 
 		/// <summary>
@@ -365,7 +365,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 			int res = 0;
 
 			// 集中管控 > 第三方
-			foreach (InfBeltSampleUnloadCmd entity in BeltSamplerDAO.GetInstance().GetWaitForSyncBeltSampleUnloadCmd(GlobalVars.InterfaceType_PDCYJ))
+			foreach (InfBeltSampleUnloadCmd entity in BeltSamplerDAO.GetInstance().GetWaitForSyncBeltSampleUnloadCmd(this.MachineCode))
 			{
 				bool isSuccess = false;
 
@@ -394,7 +394,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					res++;
 				}
 			}
-			output(string.Format("同步卸样命令 {0} 条（集中管控 > 第三方）-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步卸样命令 {0} 条（集中管控 > 第三方）-{1}", res, MachineCode), eOutputType.Normal);
 
 			res = 0;
 			// 第三方 > 集中管控
@@ -416,7 +416,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					res++;
 				}
 			}
-			output(string.Format("同步卸样命令 {0} 条（第三方 > 集中管控）-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步卸样命令 {0} 条（第三方 > 集中管控）-{1}", res, MachineCode), eOutputType.Normal);
 		}
 
 		/// <summary>
@@ -473,7 +473,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 				}
 			}
 
-			output(string.Format("同步卸样结果 {0} 条-{1}", res, this.MachineCode), eOutputType.Normal);
+			output(string.Format("同步卸样结果 {0} 条-{1}", res, MachineCode), eOutputType.Normal);
 		}
 	}
 }

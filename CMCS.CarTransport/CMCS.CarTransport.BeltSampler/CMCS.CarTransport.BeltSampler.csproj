@@ -38,6 +38,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AU, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -210,6 +213,7 @@
     <Content Include="bin\RW.LZR12.pdb" />
     <Content Include="bin\System.Data.SQLite.dll" />
     <Content Include="bin\update.xml" />
+    <Content Include="icon.ico" />
     <Content Include="汽车皮带采样机程序.txt" />
   </ItemGroup>
   <ItemGroup>

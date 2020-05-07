@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using CMCS.Common;
+using CMCS.Common.DAO;
 using CMCS.Common.Utilities;
+using CMCS.DapperDber.Dbs.OracleDb;
 using CMCS.DumblyConcealer.Enums;
 using CMCS.DumblyConcealer.Tasks.BeltSampler;
 using CMCS.DumblyConcealer.Win.Core;
@@ -33,14 +35,14 @@ namespace CMCS.DumblyConcealer.Win.DumblyTasks
 		void ExecuteAllTask()
 		{
 			#region #1皮带采样机
+			EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_1, DcDbers.GetInstance().BeltSampler_Dber1);
+
 			taskSimpleScheduler.StartNewTask("快速同步", () =>
 				{
-					EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_1, DcDbers.GetInstance().BeltSampler_Dber1);
-
+					beltSamplerDAO.SyncPlan(this.rTxtOutputer.Output);
 					beltSamplerDAO.SyncSignal(this.rTxtOutputer.Output);
 					beltSamplerDAO.SyncError(this.rTxtOutputer.Output);
 					beltSamplerDAO.SyncBarrel(this.rTxtOutputer.Output);
-					beltSamplerDAO.SyncPlan(this.rTxtOutputer.Output);
 					beltSamplerDAO.SyncUnloadCmd(this.rTxtOutputer.Output);
 					beltSamplerDAO.SyncCmd(this.rTxtOutputer.Output);
 					beltSamplerDAO.SyncUnloadResult(this.rTxtOutputer.Output);
@@ -49,33 +51,33 @@ namespace CMCS.DumblyConcealer.Win.DumblyTasks
 
 			this.taskSimpleScheduler.StartNewTask("同步上位机运行状态-心跳", () =>
 			{
-				EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_1, DcDbers.GetInstance().BeltSampler_Dber1);
-
+				//EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_1, DcDbers.GetInstance().BeltSampler_Dber1);
 				beltSamplerDAO.SyncHeartbeatSignal();
 
 			}, 30000, OutputError);
 			#endregion
 
 			#region #2皮带采样机
+			EquBeltSamplerDAO beltSamplerDAO2 = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_2, DcDbers.GetInstance().BeltSampler_Dber2);
+
 			taskSimpleScheduler.StartNewTask("快速同步", () =>
 			{
-				EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_2, DcDbers.GetInstance().BeltSampler_Dber2);
+				beltSamplerDAO2.SyncPlan(this.rTxtOutputer.Output);
+				beltSamplerDAO2.SyncSignal(this.rTxtOutputer.Output);
+				beltSamplerDAO2.SyncError(this.rTxtOutputer.Output);
+				beltSamplerDAO2.SyncBarrel(this.rTxtOutputer.Output);
 
-				beltSamplerDAO.SyncSignal(this.rTxtOutputer.Output);
-				beltSamplerDAO.SyncError(this.rTxtOutputer.Output);
-				beltSamplerDAO.SyncBarrel(this.rTxtOutputer.Output);
-				beltSamplerDAO.SyncPlan(this.rTxtOutputer.Output);
-				beltSamplerDAO.SyncUnloadCmd(this.rTxtOutputer.Output);
-				beltSamplerDAO.SyncCmd(this.rTxtOutputer.Output);
-				beltSamplerDAO.SyncUnloadResult(this.rTxtOutputer.Output);
+				beltSamplerDAO2.SyncUnloadCmd(this.rTxtOutputer.Output);
+				beltSamplerDAO2.SyncCmd(this.rTxtOutputer.Output);
+				beltSamplerDAO2.SyncUnloadResult(this.rTxtOutputer.Output);
 
 			}, 3000, OutputError);
 
 			this.taskSimpleScheduler.StartNewTask("同步上位机运行状态-心跳", () =>
 			{
-				EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_2, DcDbers.GetInstance().BeltSampler_Dber2);
+				//EquBeltSamplerDAO beltSamplerDAO = new EquBeltSamplerDAO(GlobalVars.MachineCode_PDCYJ_2, DcDbers.GetInstance().BeltSampler_Dber2);
 
-				beltSamplerDAO.SyncHeartbeatSignal();
+				beltSamplerDAO2.SyncHeartbeatSignal();
 
 			}, 30000, OutputError);
 			#endregion

@@ -101,11 +101,11 @@ namespace CMCS.Common.DAO
 		{
 			message = string.Empty;
 
-			if (GetBeltSamplerSystemStatue(machineCode) != eEquInfSamplerSystemStatus.就绪待机.ToString())
-			{
-				message = "采样机系统未就绪";
-				return false;
-			}
+			//if (GetBeltSamplerSystemStatue(machineCode) != eEquInfSamplerSystemStatus.就绪待机.ToString())
+			//{
+			//	message = "采样机系统未就绪";
+			//	return false;
+			//}
 
 			if (Dbers.GetInstance().SelfDber.Count<InfBeltSampleUnloadCmd>("where MachineCode=:MachineCode and DataFlag=0", new { MachineCode = machineCode }) > 0)
 			{
@@ -207,29 +207,29 @@ namespace CMCS.Common.DAO
 		/// </summary>
 		/// <param name="interfaceType">接口类型</param>
 		/// <returns></returns>
-		public List<InfBeltSamplePlan> GetWaitForSyncBeltSamplePlan(string interfaceType, string machineCode)
+		public List<InfBeltSamplePlan> GetWaitForSyncBeltSamplePlan(string machineCode)
 		{
-			return Dbers.GetInstance().SelfDber.Entities<InfBeltSamplePlan>("where InterfaceType=:InterfaceType and MachineCode=:MachineCode and SyncFlag=0", new { InterfaceType = interfaceType, MachineCode = machineCode });
+			return Dbers.GetInstance().SelfDber.Entities<InfBeltSamplePlan>("where MachineCode=:MachineCode and SyncFlag=0", new { MachineCode = machineCode });
 		}
 
 		/// <summary>
 		/// 获取待同步到第三方接口的控制命令
 		/// </summary>
-		/// <param name="interfaceType">接口类型</param>
+		/// <param name="machineCode">设备编码</param>
 		/// <returns></returns>
-		public List<InfBeltSampleCmd> GetWaitForSyncBeltSampleCmd(string interfaceType)
+		public List<InfBeltSampleCmd> GetWaitForSyncBeltSampleCmd(string machineCode)
 		{
-			return Dbers.GetInstance().SelfDber.Entities<InfBeltSampleCmd>("where InterfaceType=:InterfaceType and SyncFlag=0", new { InterfaceType = interfaceType });
+			return Dbers.GetInstance().SelfDber.Entities<InfBeltSampleCmd>("where MachineCode=:MachineCode and SyncFlag=0", new { MachineCode = machineCode });
 		}
 
 		/// <summary>
 		/// 获取待同步到第三方接口的卸样命令
 		/// </summary>
-		/// <param name="interfaceType">接口类型</param>
+		/// <param name="machineCode">设备编码</param>
 		/// <returns></returns>
-		public List<InfBeltSampleUnloadCmd> GetWaitForSyncBeltSampleUnloadCmd(string interfaceType)
+		public List<InfBeltSampleUnloadCmd> GetWaitForSyncBeltSampleUnloadCmd(string machineCode)
 		{
-			return Dbers.GetInstance().SelfDber.Entities<InfBeltSampleUnloadCmd>("where InterfaceType=:InterfaceType and SyncFlag=0", new { InterfaceType = interfaceType });
+			return Dbers.GetInstance().SelfDber.Entities<InfBeltSampleUnloadCmd>("where MachineCode=:MachineCode and SyncFlag=0", new { MachineCode = machineCode });
 		}
 
 		/// <summary>

@@ -17,28 +17,29 @@ using CMCS.Common.Entities.Sys;
 
 namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 {
-    public partial class FrmAppletLog_Oper : DevComponents.DotNetBar.Metro.MetroForm
-    {
-        String id = String.Empty;
-        bool edit = false;
-        CmcsAppletLog cmcsAppletLog;
-        public FrmAppletLog_Oper()
-        {
-            InitializeComponent();
-            edit = true;
-        }
-        public FrmAppletLog_Oper(CmcsAppletLog pId, bool pEdit)
-        {
-            InitializeComponent();
-            cmcsAppletLog = pId;
-            edit = pEdit;
-        }
+	public partial class FrmAppletLog_Oper : DevComponents.DotNetBar.Metro.MetroForm
+	{
+		String id = String.Empty;
+		bool edit = false;
+		CmcsAppletLog cmcsAppletLog;
+		public FrmAppletLog_Oper()
+		{
+			InitializeComponent();
+			edit = true;
+		}
+		public FrmAppletLog_Oper(CmcsAppletLog pId, bool pEdit)
+		{
+			InitializeComponent();
+			cmcsAppletLog = pId;
+			edit = pEdit;
+		}
 
 
-        private void FrmAppletLog_Oper_Load(object sender, EventArgs e)
-        {
-            txtTitle.Text=cmcsAppletLog.Title;
-            txt_Content.Text = cmcsAppletLog.Content;
-        }
-    }
+		private void FrmAppletLog_Oper_Load(object sender, EventArgs e)
+		{
+			txtTitle.Text = cmcsAppletLog.Title;
+			txtCreateDate.Text = cmcsAppletLog.CreateDate.ToString();
+			txt_Content.Text = cmcsAppletLog.Content;
+		}
+	}
 }
