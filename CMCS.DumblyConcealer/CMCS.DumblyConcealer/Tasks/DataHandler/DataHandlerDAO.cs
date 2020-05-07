@@ -288,6 +288,11 @@ namespace CMCS.DumblyConcealer.Tasks.CarSynchronous
             CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "采制化存指标_化验数", AssayCount.ToString());
             #endregion
 
+            #region 火车皮带采样机数据
+            sql = "select * from  inftbbeltsampleplan  t where t.machinecode='#1入厂皮带采样机' and rownum=1  order by t.createdate desc";
+
+            #endregion
+
             output("结束同步首页总体信息", eOutputType.Normal);
         }
 
