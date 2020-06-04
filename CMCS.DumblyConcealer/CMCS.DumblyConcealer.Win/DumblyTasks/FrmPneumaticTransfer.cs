@@ -48,6 +48,7 @@ namespace CMCS.DumblyConcealer.Win.DumblyTasks
 
             this.taskSimpleScheduler.StartNewTask("取样、弃样状态检测", () =>
             {
+               
                 pneumaticTransfer_XMJS_DAO.CheckCYGCmd(this.rTxtOutputer2.Output);
             }, 3000, OutputError);
 
