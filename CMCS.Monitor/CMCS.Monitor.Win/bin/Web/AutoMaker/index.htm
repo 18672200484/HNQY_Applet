@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+    <script type="text/javascript" src="../Resources/plugins/jquery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../Resources/plugins/layer/layer.min.js"></script>
+    <script type="text/javascript" src="../Resources/plugins/svg/svg.js"></script>
+    <script type="text/javascript" src="../Resources/js/svgHelper.js"></script>
+    <script type="text/javascript">
+
+        $(function ($) {
+
+        });
+
+
+
+        // 注册SVG元素脚本事件
+        function initSvgElementEvent() {
+            canvas1.find("*[inkscape\\:label=1号全自动制样机点击域],*[inkscape\\:label=2号全自动制样机点击域]").bind("click", function (evt) {
+       
+                // 选中制样机
+                AutoMakerV8Cef.ChangeSelected(evt.target.getAttribute("inkscape:label"));
+      
+                changeSelected(evt.target.getAttribute("inkscape:label"));
+            });
+
+            canvas1.find("*[inkscape\\:label=1号全自动制样机点击域],*[inkscape\\:label=2号全自动制样机点击域]").css("cursor", "pointer");
+        }
+
+
+        var list = ["1号全自动制样机", "2号全自动制样机"];
+
+        function changeSelected(selVal) {
+
+            for (var i = 0; i < list.length; i++) {
+                if (selVal.indexOf(list[i]) != -1) {
+                    changeColor1(canvas1.find("*[inkscape\\:label=" + list[i] + "选中]"), "#00A551");
+                }
+                else
+                    changeColor1(canvas1.find("*[inkscape\\:label=" + list[i] + "选中]"), "#FDFDFD");
+            }
+        }
+
+        var canvas1;
+        window.onload = function () {
+            canvas1 = getCanvas1();
+            // 注册SVG元素脚本事件
+            initSvgElementEvent();
+            getCanvas1().find("*[inkscape\\:label=故障信息]").css("cursor", "pointer");
+            getCanvas1().find("*[inkscape\\:label=故障信息]").bind("click", function () {
+                // 打开火车入厂翻车机监控
+                ShowHitchs('#1');
+            });
+
+            getCanvas1().find("*[inkscape\\:label=恢复当前任务]").css("cursor", "pointer");
+            getCanvas1().find("*[inkscape\\:label=恢复当前任务]").bind("click", function () {
+                // 恢复当前任务
+                var res = AutoMakerV8Cef.presam("#1");
+            });
+
+            getCanvas1().find("*[inkscape\\:label=继续下条任务]").css("cursor", "pointer");
+            getCanvas1().find("*[inkscape\\:label=继续下条任务]").bind("click", function () {
+                // 继续下条任务
+                var res = AutoMakerV8Cef.nextsam("#1");
+            });
+
+            getCanvas1().find("*[inkscape\\:label=#1在线全水分析仪]").css("cursor", "pointer");
+            getCanvas1().find("*[inkscape\\:label=#1在线全水分析仪]").bind("click", function () {
+                // 查看1在线全水分析仪结果记录
+                AutoMakerV8Cef.OpenZXQSRecord();
+            });
+        };
+
+        // 获取SVG jquery对象
+        function getSVGjQuery(id) {
+            return $(document.getElementById(id).getSVGDocument())
+        }
+
+        // 获取 svgCanvas1 SVG jquery对象
+        function getCanvas1() {
+            return getSVGjQuery("svgCanvas1");
+        }
+
+        // 请求数据 - 后台调用
+        function requestData(datas) {
+            for (var i = 0; i < datas.length; i++) {
+                dataHandler(datas[i]);
+            }
+        }
+        var keys = "";
+        var angle = 1;
+        // 处理数据
+        function dataHandler(data) {
+            try {
+                // key_value
+                if (data.Type == 0)
+                    $("#" + data.Key).html(data.Value);
+                // json_data
+                else if (data.Type == 1) {
+                    if (data.Key == "采样机1_集样罐" || data.Key == "采样机2_集样罐") loadBarrels(data);
+                }
+                // svg_text
+                else if (data.Type == 2) {
+                    getCanvas1().find("*[inkscape\\:label=" + data.Key + "]").html(data.Value);
+                }
+                // svg_color
+                else if (data.Type == 3) {
+                    changeColor1(getCanvas1().find("*[inkscape\\:label=" + data.Key + "]"), data.Value);
+                }
+                else if (data.Type == 4) {
+                    if (data.Value == "false")
+                        getCanvas1().find("*[inkscape\\:label=" + data.Key + "]").hide();
+                    else
+                        getCanvas1().find("*[inkscape\\:label=" + data.Key + "]").show();
+                }
+                //svg_dyncolor
+                else if (data.Type == 6) {
+                    if (data.Value == 1) {
+                        if (data.P == true) {
+                            changeColor(getCanvas1().find("*[inkscape\\:label=" + data.Key + "1]"), "#FF0000");
+                            changeColor(getCanvas1().find("*[inkscape\\:label=" + data.Key + "2]"), "#999999");
+                        } else {
+                            changeColor(getCanvas1().find("*[inkscape\\:label=" + data.Key + "2]"), "#FF0000");
+                            changeColor(getCanvas1().find("*[inkscape\\:label=" + data.Key + "1]"), "#999999");
+                        }
+                    } else {
+                        changeColor(getCanvas1().find("*[inkscape\\:label=" + data.Key + "1]"), "#999999");
+                        changeColor(getCanvas1().find("*[inkscape\\:label=" + data.Key + "2]"), "#999999");
+                    }
+                }
+                // svg_blinkcolor
+                else if (data.Type == 7) {
+                    changeColor1(getCanvas1().find("*[inkscape\\:label=" + data.Key + "]"), data.Value);
+                    if (data.Value == "#FF0000" || data.Value == "Red") {
+                        getCanvas1().find("*[inkscape\\:label=" + data.Key + "]").animate({ opacity: 0.45 }, 400);
+                        getCanvas1().find("*[inkscape\\:label=" + data.Key + "]").animate({ opacity: 1 }, 400);
+                    }
+                }
+
+                else if (data.Type = 9999) {
+                    keys = data.Value;
+                }
+
+            } catch (e) {
+                //alert(e.Message);
+            }
+        }
+
+        // 测试 改变数据
+        function test1() {
+            dataHandler({ Key: "制样机_6mm缩分", Type: "9999", Value: "制样机_6mm破碎" });
+        }
+
+        var temp = 0;
+        // 测试 改变颜色
+        function testColor() {
+            //            dataHandler({ Key: "制样机_6mm缩分1", Type: "9999", Value: "制样机_一体机" });
+            if (temp == 0) {
+                changeColor(getCanvas1().find("*[inkscape\\:label=6mm输送机1]"), "red");
+                temp = 1;
+            } else {
+                changeColor(getCanvas1().find("*[inkscape\\:label=6mm输送机1]"), "#999999");
+                temp = 0;
+            }
+        }
+
+        //        function ruturnkeys(name, show, j) {
+        //            if (show == "true") {
+        //                for (var i = 1; i < 3; i++) {
+        //                    try {
+        //                        var tempgetCanvas = getCanvas1().find("*[inkscape\\:label=" + name + i + "]");
+        //                        if (tempgetCanvas.length == 0) {
+        //                            break;
+        //                        }
+        //                        if (j % 2 == i % 2) {
+        //                            changeColor(tempgetCanvas, "red");
+        //                        }
+        //                        else {
+        //                            changeColor(tempgetCanvas, "#999999");
+        //                        }
+        //                    } catch (e) {
+        //                        break;
+        //                    }
+        //                }
+        //            }
+        //            else {
+        //                for (var i = 1; i < 3; i++) {
+        //                    try {
+        //                        var tempgetCanvas = getCanvas1().find("*[inkscape\\:label=" + name + i + "]");
+        //                        if (tempgetCanvas.length == 0) {
+        //                            break;
+        //                        }
+        //                        changeColor(tempgetCanvas, "#999999");
+        //                    } catch (e) {
+        //                        break;
+        //                    }
+        //                }
+        //            }
+        //        }
+
+        //        // 移动效果
+        //        var j = 1;
+        //        var keys = "";
+        //        window.setInterval(function () {
+        //            var mykeys = keys.split('|');
+        //            for (var nums = 0; nums < mykeys.length; nums++) {
+        //                for (var itemeach in keys.split('|')) {
+        //                    if (mykeys[nums].split(',').length == 2)
+        //                        ruturnkeys(mykeys[nums].split(',')[0], mykeys[nums].split(',')[1], j);
+        //                }
+        //            }
+        //            j++;
+        //        }, 666);
+
+        //加载出样信息
+        function LoadSampleInfo(datas) {
+            for (var i = 0; i < datas.length; i++) {
+                getCanvas1().find("*[inkscape\\:label=出样时间" + (i + 1) + "]").html(datas[i].EndTime);
+                getCanvas1().find("*[inkscape\\:label=样品类型" + (i + 1) + "]").html(datas[i].YPType);
+                getCanvas1().find("*[inkscape\\:label=样品编码" + (i + 1) + "]").html(datas[i].BarrelCode);
+                getCanvas1().find("*[inkscape\\:label=样重" + (i + 1) + "]").html(datas[i].YPWeight);
+                getCanvas1().find("*[inkscape\\:label=传输状态" + (i + 1) + "]").html(datas[i].Status);
+//                getCanvas1().find("*[inkscape\\:label=传输状态" + (i + 1) + "]").html(datas[i].Place);
+            }
+        }
+
+        function ShowHitchs(param) {
+            AutoMakerV8Cef.GetHitchs(param);
+        }
+
+        var i=360;
+        window.setInterval(function () {
+            //            alert(getCanvas1().find("*[inkscape\\:label=弃料]"));
+            //            getCanvas1().find("*[inkscape\\:label=222]").css("transform", "rotate(" + i + "deg)");
+
+            if (keys.indexOf("6mm破碎") >= 0) {
+                $("#6mm破碎1").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("6mm缩分") >= 0) {
+                $("#6mm缩分1").css("transform", "rotate(" + i + "deg)");
+                $("#6mm缩分2").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("3mm破碎") >= 0) {
+                $("#3mm破碎1").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("3mm缩分") >= 0) {
+                $("#3mm缩分1").css("transform", "rotate(" + i + "deg)");
+                $("#3mm缩分2").css("transform", "rotate(" + i + "deg)");
+                $("#3mm缩分3").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("0.2mm破碎") >= 0) {
+                $("#02mm破碎1").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("0.2mm缩分") >= 0) {
+                $("#02mm缩分1").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("红外干燥") >= 0) {
+                $("#干燥").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("弃料输送机") >= 0) {
+                $("#弃料").css("transform", "rotate(" + i + "deg)");
+            }
+            if (keys.indexOf("清洗样") >= 0) {
+                $("#清洗样").css("transform", "rotate(" + i + "deg)");
+            }
+//            if (keys.indexOf("除尘系统") >= 0) {
+//                $("#02mm破碎1").css("transform", "rotate(" + i + "deg)");
+//                $("#02mm缩分1").css("transform", "rotate(" + i + "deg)");
+//                $("#3mm破碎1").css("transform", "rotate(" + i + "deg)");
+//                $("#3mm缩分1").css("transform", "rotate(" + i + "deg)");
+//                $("#3mm缩分2").css("transform", "rotate(" + i + "deg)");
+//                $("#3mm缩分3").css("transform", "rotate(" + i + "deg)");
+//                $("#6mm破碎1").css("transform", "rotate(" + i + "deg)");
+//                $("#6mm缩分1").css("transform", "rotate(" + i + "deg)");
+//                $("#6mm缩分2").css("transform", "rotate(" + i + "deg)");
+//                $("#干燥").css("transform", "rotate(" + i + "deg)");
+//                $("#弃料").css("transform", "rotate(" + i + "deg)");
+//                $("#清洗样").css("transform", "rotate(" + i + "deg)");
+//            }
+
+
+
+            //            i =i- 120;
+            //            if (i >= 360)
+            //                i = 0;
+
+            i -= 36;
+            if (i <= 0)
+                i = 360;
+
+        }, 100);
+
+
+    </script>
+    <style type="text/css">
+        html, body
+        {
+            margin: 0px;
+            padding: 0px;
+            font-family: 微软雅黑;
+            background-color: rgb(0, 0, 0);
+        }
+        
+        .div-root
+        {
+            position: relative;
+            margin: 0px auto;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+        .divMain
+        {
+            position: absolute;
+            top: 56px;
+            left: 1290px;
+            width: 571px;
+            height: 197px;
+            overflow: hidden;
+            border: 1px solid #5C6065;
+        }
+        .lblMoreError
+        {
+            position: absolute;
+            width: 90px;
+            font-family: 微软雅黑;
+            font-size: 16px;
+            cursor: pointer;
+            border-color: #2C3E48;
+            border-width: 0px 0px 0px 0px;
+            color: White;
+        }
+        .lblMoreError:hover
+        {
+            border-color: #00CED1;
+            color: #00CED1;
+        }
+        
+        /*异常table样式*/
+        .table
+        {
+            border-collapse: collapse;
+            border: 1px solid #5C6065;
+            width: 100%;
+        }
+        
+        .table td
+        {
+            border: 1px solid #5C6065;
+        }
+        
+        .trTitle
+        {
+            background-color: #2C3E48;
+            text-align: center;
+            font-size: 20px;
+            color: White;
+            height: 40px;
+        }
+        .trContent
+        {
+            text-align: center;
+            height: 30px;
+        }
+        
+        /*异常table样式*/
+        .ErrorInfoTable
+        {
+            border-collapse: collapse;
+            border: 1px solid #5C6065;
+            width: 100%;
+        }
+        .ErrorInfoTable td
+        {
+            border: 1px solid #5C6065;
+        }
+        
+        .trErrorInfoTitle
+        {
+            background-color: #2C3E48;
+            text-align: center;
+            font-size: 17px;
+            font-family: 微软雅黑;
+            color: White;
+            height: 49px;
+        }
+        .trErrorInfoContent
+        {
+            text-align: center;
+            height: 49px;
+            color: White;
+        }
+    </style>
+</head>
+<body onselectstart="return false;">
+    <div class="divMain" id="divMain">
+        <div id="ErrorInfoTable" style="width: 100%; height: 100%; overflow: auto;">
+            <table class="ErrorInfoTable" border="1">
+                <tr class="trErrorInfoTitle">
+                    <td style="width: 210px;">
+                        故障时间
+                    </td>
+                    <td>
+                        故障内容
+                    </td>
+                </tr>
+                <tr class="trErrorInfoContent">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr class="trErrorInfoContent">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr class="trErrorInfoContent">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="div-root" id="divCanvas">
+        <embed id="svgCanvas1" src="Resources/AutoMaker.svg" type="image/svg+xml" />
+    </div>
+    <div id="createtable" style="width: 800px; height: 385px; display: none; overflow: auto;">
+    </div>
+     <img id="02mm破碎1" src="Resources/images/02mm破碎1.png" style="position: absolute; top: 173.5px; left: 1603px; width: 44px;height: 44px;"/>
+     <img id="02mm缩分1" src="Resources/images/02mm缩分1.png" style="position: absolute; top: 173.5px; left: 1774px; width: 44px;height: 44px;"/>
+     <img id="3mm破碎1" src="Resources/images/3mm破碎1.png" style="position: absolute; top: 173.5px; left: 824px; width: 44px;height: 44px;"/>
+     <img id="3mm缩分1" src="Resources/images/3mm缩分1.png" style="position: absolute; top: 173.5px; left: 976px; width: 44px;height: 44px;"/>
+     <img id="3mm缩分2" src="Resources/images/3mm缩分2.png" style="position: absolute; top: 173.5px; left: 1127px; width: 44px;height: 44px;"/>
+     <img id="3mm缩分3" src="Resources/images/3mm缩分3.png" style="position: absolute; top: 173.5px; left: 1448px; width: 44px;height: 44px;"/>
+     <img id="6mm破碎1" src="Resources/images/6mm破碎1.png" style="position: absolute; top: 173.5px; left: 313px; width: 44px;height: 44px;"/>
+     <img id="6mm缩分1" src="Resources/images/6mm缩分1.png" style="position: absolute; top: 173.5px; left: 501px; width: 44px;height: 44px;"/>
+     <img id="6mm缩分2" src="Resources/images/6mm缩分2.png" style="position: absolute; top: 173.5px; left: 657px; width: 44px;height: 44px;"/>
+     <img id="干燥" src="Resources/images/干燥.png" style="position: absolute; top: 173.5px; left: 1280px; width: 44px;height: 44px;"/>
+     <img id="弃料" src="Resources/images/弃料.png" style="position: absolute; top: 337px; left: 657px; width: 44px;height: 44px;"/>
+     <img id="清洗样" src="Resources/images/清洗样.png" style="position: absolute; top: 337px; left: 1280px; width: 44px;height: 44px;"/>
+</body>
+</html>

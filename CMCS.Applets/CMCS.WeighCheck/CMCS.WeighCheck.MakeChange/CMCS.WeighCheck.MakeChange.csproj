@@ -157,7 +157,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Common.AppConfig.xml" />
+    <Content Include="bin\Common.AppConfig.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="icon.ico" />
     <Content Include="制样码转换及存样柜.txt" />
   </ItemGroup>

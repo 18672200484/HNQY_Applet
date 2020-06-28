@@ -1,0 +1,3256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="AssayManage.svg"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1910 920"
+   style="enable-background:new 0 0 1910 920;"
+   xml:space="preserve"
+   width="100%"
+   height="100%"><metadata
+   id="metadata488"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs486" />
+<style
+   type="text/css"
+   id="style3">
+	.st0{fill:#FF0000;}
+	.st1{fill:#00C000;}
+	.st2{fill:#26A9E0;fill-opacity:0.1294;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'MicrosoftYaHei';}
+	.st5{font-size:21.3369px;}
+	.st6{fill:#6D6E70;}
+	.st7{font-size:20.9098px;}
+	.st8{fill:#1B75BB;}
+	.st9{fill:#A6A8AB;}
+	.st10{fill:#BBBDBF;}
+	.st11{fill:#00ADEE;enable-background:new    ;}
+	.st12{font-size:17.9235px;}
+	.st13{fill:#00C000;enable-background:new    ;}
+	.st14{fill:#D0D2D3;enable-background:new    ;}
+	.st15{fill:#00B7EE;}
+	.st16{fill:#F1F1F2;}
+	.st17{font-size:17.978px;}
+	.st18{font-size:20.1963px;}
+	.st19{fill:#0099CC;}
+	.st20{fill:#CCCCCC;}
+	.st21{fill:#D0D2D3;}
+	.st22{fill:#006699;}
+	.st23{fill:#EC1C24;}
+	.st24{fill:#58595B;}
+	.st25{font-size:14.4241px;}
+	.st26{font-size:17.3119px;}
+	.st27{fill:#999999;}
+	.st28{fill:#929497;}
+	.st29{fill:#187A9A;}
+	.st30{fill:#2A2A2A;}
+	.st31{fill:#33CCFF;}
+	.st32{fill:#007DA7;}
+	.st33{fill:#484848;}
+	.st34{fill:#00CC33;}
+	.st35{fill:#663300;}
+	.st36{fill:#333333;}
+	.st37{fill:#073694;}
+	.st38{fill:#424242;}
+	.st39{fill:#FF6600;}
+</style>
+<sodipodi:namedview
+   bordercolor="#666666"
+   borderopacity="1"
+   gridtolerance="10"
+   guidetolerance="10"
+   id="namedview631"
+   inkscape:current-layer="svg2"
+   inkscape:cx="1120.3365"
+   inkscape:cy="379.43171"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-height="1017"
+   inkscape:window-maximized="1"
+   inkscape:window-width="1920"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:zoom="1.2287944"
+   objecttolerance="10"
+   pagecolor="#ffffff"
+   showgrid="false">
+	</sodipodi:namedview>
+<rect
+   id="rect215"
+   sodipodi:insensitive="true"
+   width="1910"
+   height="920">
+</rect>
+<path
+   id="circle141"
+   inkscape:connector-curvature="0"
+   class="st0"
+   d="M1583.4,165.5c0-8.5-6.9-15.4-15.4-15.4s-15.4,6.9-15.4,15.4  s6.9,15.4,15.4,15.4S1583.4,174,1583.4,165.5z" />
+<path
+   id="circle191"
+   inkscape:connector-curvature="0"
+   class="st1"
+   d="M1583.4,111.9c0-8.5-6.9-15.4-15.4-15.4s-15.4,6.9-15.4,15.4  s6.9,15.4,15.4,15.4S1583.4,120.4,1583.4,111.9z" />
+<polygon
+   id="rect237"
+   class="st2"
+   points="1043.3,77.1 1764.2,77.1 1764.2,40.2 1043.3,40.2 " />
+<text
+   id="text239"
+   transform="matrix(1.0013 0 0 1 1107.1074 66.3711)"
+   class="st3 st4 st5">已审核样品</text>
+
+
+
+
+
+<text
+   id="text247"
+   transform="matrix(1.0013 0 0 1 1351.0273 66.4023)"
+   class="st3 st4 st5">未审核样品</text>
+
+
+
+
+
+<polygon
+   id="polygon323"
+   class="st6"
+   points="1278.4,40.2 1278.4,200.1 1277.4,200.1 1277.4,40.2 " />
+<polygon
+   id="polygon325"
+   class="st6"
+   points="1516.1,40.2 1516.1,200.1 1515.1,200.1 1515.1,40.2 " />
+<text
+   transform="matrix(1.0013 0 0 1 1146.9297 145.4385)"
+   class="st3 st4 st7"
+   id="text14"
+   inkscape:label="已审核_数量">10个</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1397.7656 145.4385)"
+   class="st3 st4 st7"
+   id="text16"
+   inkscape:label="未审核_数量">2个</text>
+
+
+
+
+
+<text
+   id="text341"
+   transform="matrix(1.0013 0 0 1 1613.5908 172.522)"
+   class="st3 st4 st7">正在运行</text>
+
+
+
+
+
+<text
+   id="text343"
+   transform="matrix(1.0013 0 0 1 1633.1885 119.8643)"
+   class="st3 st4 st7">待机</text>
+
+
+
+
+
+<path
+   id="path249"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M116.9,200.1h854.5v-160H116.9  C116.9,40.2,116.9,200.1,116.9,200.1z M115.9,201.1v-162h856.5v162H115.9L115.9,201.1z" />
+<polygon
+   id="rect243"
+   class="st2"
+   points="116.9,77.1 971.3,77.1 971.3,40.2 116.9,40.2 " />
+<text
+   id="text245"
+   transform="matrix(1.0013 0 0 1 135.0869 66.3716)"
+   class="st3 st4 st5">每日化验工作</text>
+
+
+
+
+
+<rect
+   id="rect249"
+   x="136.1"
+   y="93.2"
+   class="st8"
+   width="22.2"
+   height="22.1" />
+<rect
+   id="rect251"
+   x="136.1"
+   y="127.6"
+   class="st1"
+   width="22.2"
+   height="22.1" />
+<rect
+   id="rect253"
+   x="136.1"
+   y="161.5"
+   class="st9"
+   width="22.2"
+   height="22.1" />
+<rect
+   id="rect255"
+   x="271.9"
+   y="93.2"
+   class="st10"
+   width="581.7"
+   height="22.1" />
+<rect
+   id="rect257"
+   x="271.9"
+   y="127.6"
+   class="st10"
+   width="581.7"
+   height="22.1" />
+<rect
+   id="rect259"
+   x="271.9"
+   y="161.5"
+   class="st10"
+   width="581.7"
+   height="22.1" />
+<rect
+   id="rect261"
+   x="269.8"
+   y="93.2"
+   inkscape:label="化验完成_Line"
+   class="st8"
+   width="480.8"
+   height="22.1">
+</rect>
+<rect
+   id="rect263"
+   x="269.8"
+   y="127.6"
+   inkscape:label="化验中_Line"
+   class="st1"
+   width="73.8"
+   height="22.1">
+</rect>
+<rect
+   id="rect265"
+   x="269.8"
+   y="161.5"
+   inkscape:label="待化验数_Line"
+   class="st6"
+   width="216"
+   height="22.1">
+</rect>
+<text
+   id="text317"
+   transform="matrix(1.0013 0 0 1 161.6284 110.6729)"
+   class="st3 st4 st5">化验完成</text>
+
+
+
+
+
+<text
+   id="text319"
+   transform="matrix(1.0013 0 0 1 172.312 145.105)"
+   class="st3 st4 st5">化验中</text>
+
+
+
+
+
+<text
+   id="text321"
+   transform="matrix(1.0013 0 0 1 161.6284 178.9341)"
+   class="st3 st4 st5">待化验数</text>
+
+
+
+
+
+<text
+   id="text335"
+   inkscape:label="化验完成_数量"
+   sodipodi:linespacing="125%"
+   transform="matrix(1.0013 0 0 1 884.9268 110.6587)"
+   class="st11 st4 st12">10</text>
+
+
+
+
+
+<text
+   id="text337"
+   inkscape:label="化验中_数量"
+   sodipodi:linespacing="125%"
+   transform="matrix(1.0013 0 0 1 891.0684 145.0898)"
+   class="st13 st4 st12">2</text>
+
+
+
+
+
+<text
+   id="text339"
+   inkscape:label="待化验数_数量"
+   sodipodi:linespacing="125%"
+   transform="matrix(1.0013 0 0 1 890.8887 178.9199)"
+   class="st14 st4 st12">8</text>
+
+
+
+
+
+<rect
+   id="rect555"
+   x="116.9"
+   y="77.1"
+   class="st6"
+   width="854.5"
+   height="1" />
+<rect
+   id="rect557"
+   x="1042.3"
+   y="77.1"
+   class="st6"
+   width="721.7"
+   height="1" />
+<path
+   id="path559"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M1043.3,200.1H1764v-160h-720.7V200.1z M1042.3,201.1v-162H1765  v162H1042.3L1042.3,201.1z" />
+<path
+   id="path227"
+   inkscape:connector-curvature="0"
+   class="st15"
+   d="m 679.93365,623.97239 h 128.8 v -116.2 h -128.8 v 116.2 l 0,0 z m 130.8,3.8 h -132.7 -2 v -1.9 -120 -2 h 2 132.7 2 v 2 120.1 2 l -2,-0.2 0,0 z"
+   style="fill:#00b7ee" />
+
+
+
+
+<text
+   id="text221"
+   transform="scale(1.0006498,0.99935063)"
+   class="st16 st4 st17"
+   x="715.7807"
+   y="532.33911"
+   style="font-size:17.98968315px;fill:#f1f1f2;font-family:MicrosoftYaHei">化验室</text>
+
+
+
+
+
+<text
+   id="text223"
+   transform="scale(1.0006498,0.99935063)"
+   class="st16 st4 st17"
+   x="706.60016"
+   y="554.37488"
+   style="font-size:17.98968315px;fill:#f1f1f2;font-family:MicrosoftYaHei">网络管理</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<polygon
+   id="polygon345_1_"
+   class="st3"
+   points="825.8,378 825.8,416 823.8,416 823.8,378 " />
+<polygon
+   id="polygon345_4_"
+   class="st3"
+   points="1016.5,378 1016.5,416 1014.5,416 1014.5,378 " />
+
+
+
+
+
+
+<g
+   id="g62"
+   transform="translate(-150.56635,0.3723885)">
+	<g
+   id="g531"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+		<g
+   id="g533">
+			<path
+   id="path535"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="m 868.1,586.7 h -49.8 c -0.7,0 -1.2,-0.5 -1.2,-1.2 v -31.8 c 0,-0.7 0.5,-1.2 1.2,-1.2 h 49.8 c 0.7,0 1.2,0.6 1.2,1.2 v 31.8 c 0,0.7 -0.5,1.2 -1.2,1.2 l 0,0 0,0 z m -49.6,-1.6 h 49.1 V 554 h -49.1 v 31.1 z"
+   style="fill:#0099cc" />
+		</g>
+	</g>
+	<g
+   id="g537"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+		<g
+   id="g539">
+			<rect
+   id="rect541"
+   x="821.09998"
+   y="556.20001"
+   class="st20"
+   width="44.099998"
+   height="26.9"
+   style="fill:#cccccc" />
+		</g>
+	</g>
+	<path
+   id="path545"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="m 927.4,608 c 0.1,0 0.2,-0.1 0.2,-0.2 v -1.4 h -66.3 v 1.4 c 0,0.1 0.1,0.2 0.2,0.2 h 65.9 l 0,0 z m -23.5,-0.8 h 22.4 c 0.2,0 0.3,0.2 0.3,0.3 0,0.2 -0.1,0.3 -0.3,0.3 h -22.4 c -0.2,0 -0.4,-0.2 -0.4,-0.3 0.1,-0.2 0.3,-0.3 0.4,-0.3 z m -10.6,0 h 7.3 c 0.2,0 0.3,0.2 0.3,0.3 0,0.2 -0.2,0.3 -0.3,0.3 h -7.3 c -0.2,0 -0.3,-0.2 -0.3,-0.3 0,-0.2 0.2,-0.3 0.3,-0.3 z M 889,607 c 0.3,0 0.5,0.3 0.5,0.5 0,0.2 -0.3,0.5 -0.5,0.5 -0.2,0 -0.5,-0.3 -0.5,-0.5 -0.1,-0.3 0.2,-0.5 0.5,-0.5 z"
+   style="fill:#cccccc" />
+	<path
+   id="path547"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="m 860.3,605.6 v 2.3 c 0,0.5 0.4,1.1 1.1,1.1 h 66.1 c 0.5,0 1,-0.4 1,-1.1 v -2.3 h -68.2 l 0,0 z M 928,606 v 1.9 c 0,0.4 -0.3,0.6 -0.6,0.6 h -66.1 c -0.4,0 -0.6,-0.3 -0.6,-0.6 V 606 m 67.3,0 0,0 0,0 z"
+   style="fill:#0099cc" />
+</g>
+
+<polygon
+   id="polygon345_21_"
+   class="st3"
+   points="1487.7,378 1487.7,416 1485.7,416 1485.7,378 " />
+<polygon
+   id="polygon345_20_"
+   class="st3"
+   points="1678.4,378 1678.4,416 1676.4,416 1676.4,378 " />
+
+
+<polygon
+   id="polygon395_6_"
+   class="st3"
+   points="1485.7,414 1678.4,414 1678.4,416 1485.7,416 " />
+<polygon
+   id="polygon345_13_"
+   class="st3"
+   points="203.8,378 203.8,416 201.8,416 201.8,378 " />
+<polygon
+   id="polygon345_14_"
+   class="st3"
+   points="163.9,414 163.9,452 161.9,452 161.9,414 " />
+<polygon
+   id="polygon345_12_"
+   class="st3"
+   points="394.5,378 394.5,416 392.5,416 392.5,378 " />
+
+<polygon
+   id="polygon345_10_"
+   class="st3"
+   points="585.2,378 585.2,416 583.2,416 583.2,378 " />
+<polygon
+   id="polygon395_3_"
+   class="st3"
+   points="161.9,414 585.2,414 585.2,416 161.9,416 " />
+
+<polygon
+   id="polygon345_8_"
+   class="st3"
+   points="833.8,752.9 833.8,714.9 835.8,714.9 835.8,752.9 " />
+<polygon
+   id="polygon345_9_"
+   class="st3"
+   points="653.1,752.9 653.1,714.9 655.1,714.9 655.1,752.9 " />
+<polygon
+   id="polygon345_7_"
+   class="st3"
+   points="1024.5,752.9 1024.5,714.9 1026.5,714.9 1026.5,752.9 " />
+
+
+
+<polygon
+   id="polygon345_17_"
+   class="st3"
+   points="392.5,752.9 392.5,714.9 394.5,714.9 394.5,752.9 " />
+<polygon
+   id="polygon345_16_"
+   class="st3"
+   points="201.8,752.9 201.8,714.9 203.8,714.9 203.8,752.9 " />
+
+
+<polygon
+   id="polygon395_4_"
+   class="st3"
+   points="201.8,714.9 394.5,714.9 394.5,716.9 201.8,716.9 " />
+<g
+   id="_155703936"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<rect
+   id="rect13"
+   x="895.3"
+   y="295.6"
+   class="st10"
+   width="54.8"
+   height="62.7" />
+	<rect
+   id="rect15"
+   x="895.3"
+   y="293.1"
+   class="st19"
+   width="54.8"
+   height="2.4" />
+	<rect
+   id="rect17"
+   x="903.9"
+   y="303"
+   class="st19"
+   width="37.2"
+   height="16.4" />
+	<rect
+   id="rect19"
+   x="905.1"
+   y="332.5"
+   class="st21"
+   width="35.3"
+   height="18.9" />
+	<polygon
+   id="polygon21"
+   class="st19"
+   points="944.5,328.7 940.3,332.5 905.1,332.5 901.1,328.7  " />
+	<polygon
+   id="polygon23"
+   class="st22"
+   points="944.3,356.5 940.3,351.4 905.1,351.4 901.1,356.5  " />
+	<polygon
+   id="polygon25"
+   class="st22"
+   points="901.1,328.8 905.1,332.5 905.1,351.4 901.1,356.5  " />
+	<polygon
+   id="polygon27"
+   class="st19"
+   points="944.4,328.8 940.4,332.5 940.4,351.4 944.4,356.5  " />
+	<path
+   id="_155704392"
+   inkscape:connector-curvature="0"
+   class="st22"
+   d="M925.2,312.3c0.7,0.7,1.1,1.6,1.1,2.7c0,1-0.4,2-1.1,2.7   l0,0c-0.7,0.7-1.6,1.1-2.7,1.1c-1,0-2-0.4-2.7-1.1l0,0c-0.7-0.7-1.1-1.6-1.1-2.7c0-1,0.4-2,1.1-2.7l0,0c0.7-0.7,1.6-1.1,2.7-1.1   S924.5,311.7,925.2,312.3L925.2,312.3z" />
+	<path
+   id="_155704320"
+   inkscape:connector-curvature="0"
+   class="st3"
+   d="M922.8,315c0-0.1,0-0.1-0.1-0.2l0,0c0,0-0.1-0.1-0.2-0.1   s-0.1,0-0.2,0.1l0,0c0,0-0.1,0.1-0.1,0.2s0,0.1,0.1,0.2l0,0c0,0,0.1,0.1,0.2,0.1c0.1,0,0.1,0,0.2-0.1l0,0   C922.7,315.1,922.8,315.1,922.8,315z" />
+	<path
+   id="circle31"
+   inkscape:connector-curvature="0"
+   class="st22"
+   d="M939,311.2c0-0.4-0.4-0.8-0.8-0.8c-0.4,0-0.8,0.4-0.8,0.8   s0.4,0.8,0.8,0.8S939,311.6,939,311.2z" />
+	<path
+   id="circle33"
+   inkscape:connector-curvature="0"
+   class="st23"
+   d="M943.2,334.2c0-0.4-0.4-0.8-0.8-0.8c-0.4,0-0.8,0.4-0.8,0.8   s0.4,0.8,0.8,0.8S943.2,334.7,943.2,334.2z" />
+	<rect
+   id="rect35"
+   x="942.5"
+   y="336.4"
+   class="st24"
+   width="0.9"
+   height="10.5" />
+</g>
+<text
+   id="text133"
+   transform="matrix(1.0013 0 0 1 1034.3711 339.7954)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1051.4404 359.6689)"
+   class="st16 st4 st12"
+   id="text111"
+   inkscape:label="2#水分仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle155"
+   inkscape:connector-curvature="0"
+   inkscape:label="水分仪2_运行状态"
+   class="st0"
+   d="  M1070.2,307.5c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S1070.2,314.3,1070.2,307.5z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon374"
+   class="st6"
+   points="1024,296.5 1024,364.7 1023,364.7 1023,296.5 " />
+<polygon
+   id="rect393_25"
+   class="st2"
+   points="929.6,279.5 1101.3,279.5 1101.3,253.3 929.6,253.3 " />
+<path
+   id="path575"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M929.6,376.6h171.7V253.3H929.6V376.6L929.6,376.6z   M928.6,377.6V252.3h173.7v125.3H928.6L928.6,377.6z" />
+<polygon
+   id="polygon577"
+   class="st6"
+   points="929.6,279.5 1101.3,279.5 1101.3,280.5 929.6,280.5 " />
+<text
+   id="text580"
+   transform="matrix(1.0013 0 0 1 936.8828 271.9326)"
+   class="st3 st4 st26">#2入厂_微波水分仪</text>
+
+
+
+
+
+<g
+   id="_155703936_2_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<rect
+   id="rect13_2_"
+   x="1112.7"
+   y="295.6"
+   class="st10"
+   width="54.8"
+   height="62.7" />
+	<rect
+   id="rect15_2_"
+   x="1112.7"
+   y="293.1"
+   class="st19"
+   width="54.8"
+   height="2.4" />
+	<rect
+   id="rect17_2_"
+   x="1121.3"
+   y="303"
+   class="st19"
+   width="37.2"
+   height="16.4" />
+	<rect
+   id="rect19_2_"
+   x="1122.5"
+   y="332.5"
+   class="st21"
+   width="35.3"
+   height="18.9" />
+	<polygon
+   id="polygon21_2_"
+   class="st19"
+   points="1161.9,328.7 1157.7,332.5 1122.5,332.5 1118.5,328.7  " />
+	<polygon
+   id="polygon23_2_"
+   class="st22"
+   points="1161.7,356.5 1157.7,351.4 1122.5,351.4 1118.5,356.5  " />
+	<polygon
+   id="polygon25_2_"
+   class="st22"
+   points="1118.5,328.8 1122.5,332.5 1122.5,351.4 1118.5,356.5  " />
+	<polygon
+   id="polygon27_2_"
+   class="st19"
+   points="1161.8,328.8 1157.8,332.5 1157.8,351.4 1161.8,356.5  " />
+	<path
+   id="_155704392_2_"
+   inkscape:connector-curvature="0"
+   class="st22"
+   d="M1142.6,312.3c0.7,0.7,1.1,1.6,1.1,2.7   c0,1-0.4,2-1.1,2.7l0,0c-0.7,0.7-1.6,1.1-2.7,1.1c-1,0-2-0.4-2.7-1.1l0,0c-0.7-0.7-1.1-1.6-1.1-2.7c0-1,0.4-2,1.1-2.7l0,0   c0.7-0.7,1.6-1.1,2.7-1.1C1141,311.2,1141.9,311.7,1142.6,312.3L1142.6,312.3z" />
+	<path
+   id="_155704320_2_"
+   inkscape:connector-curvature="0"
+   class="st3"
+   d="M1140.2,315c0-0.1,0-0.1-0.1-0.2l0,0   c0,0-0.1-0.1-0.2-0.1s-0.1,0-0.2,0.1l0,0c0,0-0.1,0.1-0.1,0.2s0,0.1,0.1,0.2l0,0c0,0,0.1,0.1,0.2,0.1s0.1,0,0.2-0.1l0,0   C1140.1,315.1,1140.2,315.1,1140.2,315z" />
+	<path
+   id="circle31_2_"
+   inkscape:connector-curvature="0"
+   class="st22"
+   d="M1156.4,311.2c0-0.4-0.4-0.8-0.8-0.8s-0.8,0.4-0.8,0.8   s0.4,0.8,0.8,0.8S1156.4,311.6,1156.4,311.2z" />
+	<path
+   id="circle33_2_"
+   inkscape:connector-curvature="0"
+   class="st23"
+   d="M1160.6,334.2c0-0.4-0.4-0.8-0.8-0.8s-0.8,0.4-0.8,0.8   s0.4,0.8,0.8,0.8S1160.6,334.7,1160.6,334.2z" />
+	<rect
+   id="rect35_2_"
+   x="1159.9"
+   y="336.4"
+   class="st24"
+   width="0.9"
+   height="10.5" />
+</g>
+<text
+   id="text133_2_"
+   transform="matrix(1.0013 0 0 1 1264.9922 339.7954)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1282.0615 359.6689)"
+   class="st16 st4 st12"
+   id="text134"
+   inkscape:label="1#入炉水分仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle155_2_"
+   inkscape:connector-curvature="0"
+   inkscape:label="入炉水分仪1_运行状态"
+   class="st0"
+   d="  M1300.8,307.5c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S1300.8,314.3,1300.8,307.5z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon374_2_"
+   class="st6"
+   points="1254.6,296.5 1254.6,364.7 1253.6,364.7 1253.6,296.5 " />
+<polygon
+   id="rect393_25_7_"
+   class="st2"
+   points="1160.2,279.5 1331.9,279.5 1331.9,253.3 1160.2,253.3 " />
+<path
+   id="path575_6_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M1160.2,376.6h171.7V253.3h-171.7V376.6L1160.2,376.6z   M1159.2,377.6V252.3h173.7v125.3H1159.2L1159.2,377.6z" />
+<polygon
+   id="polygon577_6_"
+   class="st6"
+   points="1160.2,279.5 1331.9,279.5 1331.9,280.5 1160.2,280.5 " />
+<text
+   id="text580_6_"
+   transform="matrix(1.0013 0 0 1 1167.5039 271.9326)"
+   class="st3 st4 st26">#1入炉_微波水分仪</text>
+
+
+
+
+
+<g
+   id="_155703936_1_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<rect
+   id="rect13_1_"
+   x="715.6"
+   y="295.6"
+   class="st10"
+   width="54.8"
+   height="62.7" />
+	<rect
+   id="rect15_1_"
+   x="715.6"
+   y="293.1"
+   class="st19"
+   width="54.8"
+   height="2.4" />
+	<rect
+   id="rect17_1_"
+   x="724.2"
+   y="303"
+   class="st19"
+   width="37.2"
+   height="16.4" />
+	<rect
+   id="rect19_1_"
+   x="725.4"
+   y="332.5"
+   class="st21"
+   width="35.3"
+   height="18.9" />
+	<polygon
+   id="polygon21_1_"
+   class="st19"
+   points="764.8,328.7 760.6,332.5 725.4,332.5 721.4,328.7  " />
+	<polygon
+   id="polygon23_1_"
+   class="st22"
+   points="764.6,356.5 760.6,351.4 725.4,351.4 721.4,356.5  " />
+	<polygon
+   id="polygon25_1_"
+   class="st22"
+   points="721.4,328.8 725.4,332.5 725.4,351.4 721.4,356.5  " />
+	<polygon
+   id="polygon27_1_"
+   class="st19"
+   points="764.7,328.8 760.7,332.5 760.7,351.4 764.7,356.5  " />
+	<path
+   id="_155704392_1_"
+   inkscape:connector-curvature="0"
+   class="st22"
+   d="M745.5,312.3c0.7,0.7,1.1,1.6,1.1,2.7   c0,1-0.4,2-1.1,2.7l0,0c-0.7,0.7-1.6,1.1-2.7,1.1c-1,0-2-0.4-2.7-1.1l0,0c-0.7-0.7-1.1-1.6-1.1-2.7c0-1,0.4-2,1.1-2.7l0,0   c0.7-0.7,1.6-1.1,2.7-1.1S744.8,311.7,745.5,312.3L745.5,312.3z" />
+	<path
+   id="_155704320_1_"
+   inkscape:connector-curvature="0"
+   class="st3"
+   d="M743.1,315c0-0.1,0-0.1-0.1-0.2l0,0c0,0-0.1-0.1-0.2-0.1   s-0.1,0-0.2,0.1l0,0c0,0-0.1,0.1-0.1,0.2s0,0.1,0.1,0.2l0,0c0,0,0.1,0.1,0.2,0.1c0.1,0,0.1,0,0.2-0.1l0,0   C743,315.1,743.1,315.1,743.1,315z" />
+	<path
+   id="circle31_1_"
+   inkscape:connector-curvature="0"
+   class="st22"
+   d="M759.3,311.2c0-0.4-0.4-0.8-0.8-0.8   c-0.4,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8S759.3,311.6,759.3,311.2z" />
+	<path
+   id="circle33_1_"
+   inkscape:connector-curvature="0"
+   class="st23"
+   d="M763.5,334.2c0-0.4-0.4-0.8-0.8-0.8   c-0.4,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8S763.5,334.7,763.5,334.2z" />
+	<rect
+   id="rect35_1_"
+   x="762.8"
+   y="336.4"
+   class="st24"
+   width="0.9"
+   height="10.5" />
+</g>
+<text
+   id="text133_1_"
+   transform="matrix(1.0013 0 0 1 843.6719 339.7954)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 860.7402 359.6689)"
+   class="st16 st4 st12"
+   id="text157"
+   inkscape:label="1#水分仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle155_1_"
+   inkscape:connector-curvature="0"
+   inkscape:label="水分仪1_运行状态"
+   class="st0"
+   d="  M879.5,307.5c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S879.5,314.3,879.5,307.5z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon374_1_"
+   class="st6"
+   points="833.3,296.5 833.3,364.7 832.3,364.7 832.3,296.5 " />
+<polygon
+   id="rect393_25_2_"
+   class="st2"
+   points="738.9,279.5 910.6,279.5 910.6,253.3 738.9,253.3 " />
+<path
+   id="path575_3_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M738.9,376.6h171.7V253.3H738.9V376.6L738.9,376.6z   M737.9,377.6V252.3h173.7v125.3H737.9L737.9,377.6z" />
+<polygon
+   id="polygon577_3_"
+   class="st6"
+   points="738.9,279.5 910.6,279.5 910.6,280.5 738.9,280.5 " />
+<text
+   id="text580_3_"
+   transform="matrix(1.0013 0 0 1 746.1836 271.9326)"
+   class="st3 st4 st26">#1入厂_微波水分仪</text>
+
+
+
+
+
+<path
+   id="circle173_0"
+   inkscape:connector-curvature="0"
+   inkscape:label="量热仪1_运行状态"
+   class="st1"
+   d="  M258.6,306.8c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S258.6,313.6,258.6,306.8z" />
+<text
+   id="text193_1"
+   transform="matrix(1.0013 0 0 1 215.1387 339.1128)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 232.208 358.9844)"
+   class="st16 st4 st12"
+   id="text167"
+   inkscape:label="1#量热仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon420"
+   class="st6"
+   points="202.8,297 202.8,365.1 201.8,365.1 201.8,297 " />
+<g
+   id="g170">
+	<path
+   id="_155699736"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="M136.8,304.9h13.4l4.6,4.5h22.4l4.6-4.5h3.9   c2.9,0,5.4,2.4,5.4,5.3v48.6c0,2.9-2.4,5.3-5.4,5.3h-48.8c-2.9,0-5.4-2.4-5.4-5.3v-48.6C131.4,307.3,133.8,304.9,136.8,304.9   L136.8,304.9z" />
+	<path
+   id="_155699664"
+   inkscape:connector-curvature="0"
+   class="st27"
+   d="M140.2,355.6c0.9,0,1.6,0.7,1.6,1.6s-0.7,1.6-1.6,1.6   c-0.9,0-1.6-0.7-1.6-1.6C138.6,356.3,139.3,355.6,140.2,355.6z M140.2,355.3c1,0,1.9,0.8,1.9,1.9c0,1-0.8,1.9-1.9,1.9   c-1,0-1.9-0.8-1.9-1.9C138.3,356.2,139.2,355.3,140.2,355.3z" />
+	<path
+   id="_155699592"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M177.5,300.1v6.7h-23.7v-6.7l0,0c0-6.5,5.3-11.8,11.8-11.8   C172.2,288.3,177.5,293.6,177.5,300.1L177.5,300.1L177.5,300.1z" />
+	
+		<ellipse
+   id="_155699520"
+   sodipodi:cx="210.722"
+   sodipodi:cy="298.47101"
+   sodipodi:rx="4.8969898"
+   sodipodi:ry="4.8970098"
+   class="st22"
+   cx="165.8"
+   cy="296.3"
+   rx="5.2"
+   ry="5.2">
+	</ellipse>
+	
+		<ellipse
+   id="_155699448"
+   sodipodi:cx="217.229"
+   sodipodi:cy="305.642"
+   sodipodi:rx="1.53303"
+   sodipodi:ry="1.53303"
+   class="st22"
+   cx="172.7"
+   cy="303.9"
+   rx="1.6"
+   ry="1.6">
+	</ellipse>
+	<path
+   id="_155699088"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M131.1,301.5h9.1c1.9,0,3.6,1.3,4.1,3.1H127   C127.5,302.8,129.2,301.5,131.1,301.5L131.1,301.5z M136.8,304.9h7.6h5.8l4.6,4.5h22.4l4.6-4.5h3.9c2.9,0,5.4,2.4,5.4,5.3v5.1   h-59.5v-5.1c0-0.2,0-0.3,0-0.5h-0.3c-2.3,0-4.2-1.9-4.2-4.1l0,0c0-0.2,0-0.5,0.1-0.7L136.8,304.9L136.8,304.9z" />
+</g>
+<polygon
+   id="rect393_25_1_"
+   class="st2"
+   points="116.9,279.5 288.6,279.5 288.6,253.3 116.9,253.3 " />
+<path
+   id="path575_1_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M116.9,376.6h171.7V253.3H116.9V376.6L116.9,376.6z   M115.9,377.6V252.3h173.7v125.3H115.9L115.9,377.6z" />
+<polygon
+   id="polygon577_1_"
+   class="st6"
+   points="116.9,279.5 288.6,279.5 288.6,280.5 116.9,280.5 " />
+<path
+   id="circle173_0_6_"
+   inkscape:connector-curvature="0"
+   inkscape:label="量热仪4_运行状态"
+   class="st1"
+   d="  M258.6,506.7c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S258.6,513.5,258.6,506.7z" />
+<text
+   id="text193_1_6_"
+   transform="matrix(1.0013 0 0 1 215.1387 539.0127)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 232.208 558.8848)"
+   class="st16 st4 st12"
+   id="text183"
+   inkscape:label="4#量热仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon420_6_"
+   class="st6"
+   points="202.8,496.9 202.8,565 201.8,565 201.8,496.9 " />
+<g
+   id="g186">
+	<path
+   id="_155699736_6_"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="M136.8,504.8h13.4l4.6,4.5h22.4l4.6-4.5h3.9   c2.9,0,5.4,2.4,5.4,5.3v48.6c0,2.9-2.4,5.3-5.4,5.3h-48.8c-2.9,0-5.4-2.4-5.4-5.3v-48.6C131.4,507.2,133.8,504.8,136.8,504.8   L136.8,504.8z" />
+	<path
+   id="_155699664_6_"
+   inkscape:connector-curvature="0"
+   class="st27"
+   d="M140.2,555.5c0.9,0,1.6,0.7,1.6,1.6   c0,0.9-0.7,1.6-1.6,1.6c-0.9,0-1.6-0.7-1.6-1.6C138.6,556.2,139.3,555.5,140.2,555.5z M140.2,555.2c1,0,1.9,0.8,1.9,1.9   c0,1-0.8,1.9-1.9,1.9c-1,0-1.9-0.8-1.9-1.9C138.3,556.1,139.2,555.2,140.2,555.2z" />
+	<path
+   id="_155699592_6_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M177.5,500v6.7h-23.7V500l0,0c0-6.5,5.3-11.8,11.8-11.8   C172.2,488.2,177.5,493.5,177.5,500L177.5,500L177.5,500z" />
+	
+		<ellipse
+   id="_155699520_6_"
+   sodipodi:cx="210.722"
+   sodipodi:cy="298.47101"
+   sodipodi:rx="4.8969898"
+   sodipodi:ry="4.8970098"
+   class="st22"
+   cx="165.8"
+   cy="496.2"
+   rx="5.2"
+   ry="5.2">
+	</ellipse>
+	
+		<ellipse
+   id="_155699448_6_"
+   sodipodi:cx="217.229"
+   sodipodi:cy="305.642"
+   sodipodi:rx="1.53303"
+   sodipodi:ry="1.53303"
+   class="st22"
+   cx="172.7"
+   cy="503.8"
+   rx="1.6"
+   ry="1.6">
+	</ellipse>
+	<path
+   id="_155699088_6_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M131.1,501.4h9.1c1.9,0,3.6,1.3,4.1,3.1H127   C127.5,502.7,129.2,501.4,131.1,501.4L131.1,501.4z M136.8,504.8h7.6h5.8l4.6,4.5h22.4l4.6-4.5h3.9c2.9,0,5.4,2.4,5.4,5.3v5.1   h-59.5v-5.1c0-0.2,0-0.3,0-0.5h-0.3c-2.3,0-4.2-1.9-4.2-4.1l0,0c0-0.2,0-0.5,0.1-0.7L136.8,504.8L136.8,504.8z" />
+</g>
+<polygon
+   id="rect393_25_6_"
+   class="st2"
+   points="116.9,479.4 288.6,479.4 288.6,453.2 116.9,453.2 " />
+<path
+   id="path575_8_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M116.9,576.5h171.7V453.2H116.9V576.5L116.9,576.5z   M115.9,577.5V452.2h173.7v125.3H115.9L115.9,577.5z" />
+<polygon
+   id="polygon577_8_"
+   class="st6"
+   points="116.9,479.4 288.6,479.4 288.6,480.4 116.9,480.4 " />
+<path
+   id="circle173_0_1_"
+   inkscape:connector-curvature="0"
+   inkscape:label="量热仪2_运行状态"
+   class="st1"
+   d="  M449.2,306.8c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2S430.3,319,437,319C443.8,319,449.2,313.6,449.2,306.8z" />
+<text
+   id="text193_1_1_"
+   transform="matrix(1.0013 0 0 1 405.7651 339.1128)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 422.835 358.9844)"
+   class="st16 st4 st12"
+   id="text199"
+   inkscape:label="2#量热仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon420_1_"
+   class="st6"
+   points="393.4,297 393.4,365.1 392.4,365.1 392.4,297 " />
+<g
+   id="g202">
+	<path
+   id="_155699736_1_"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="M327.4,304.9h13.4l4.6,4.5h22.4l4.6-4.5h3.9   c2.9,0,5.4,2.4,5.4,5.3v48.6c0,2.9-2.4,5.3-5.4,5.3h-48.8c-2.9,0-5.4-2.4-5.4-5.3v-48.6C322.1,307.3,324.5,304.9,327.4,304.9   L327.4,304.9z" />
+	<path
+   id="_155699664_1_"
+   inkscape:connector-curvature="0"
+   class="st27"
+   d="M330.8,355.6c0.9,0,1.6,0.7,1.6,1.6s-0.7,1.6-1.6,1.6   s-1.6-0.7-1.6-1.6C329.2,356.3,329.9,355.6,330.8,355.6z M330.8,355.3c1,0,1.9,0.8,1.9,1.9c0,1-0.8,1.9-1.9,1.9s-1.9-0.8-1.9-1.9   C328.9,356.2,329.8,355.3,330.8,355.3z" />
+	<path
+   id="_155699592_1_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M368.1,300.1v6.7h-23.7v-6.7l0,0   c0-6.5,5.3-11.8,11.8-11.8C362.8,288.3,368.1,293.6,368.1,300.1L368.1,300.1L368.1,300.1z" />
+	
+		<ellipse
+   id="_155699520_1_"
+   sodipodi:cx="210.722"
+   sodipodi:cy="298.47101"
+   sodipodi:rx="4.8969898"
+   sodipodi:ry="4.8970098"
+   class="st22"
+   cx="356.4"
+   cy="296.3"
+   rx="5.2"
+   ry="5.2">
+	</ellipse>
+	
+		<ellipse
+   id="_155699448_1_"
+   sodipodi:cx="217.229"
+   sodipodi:cy="305.642"
+   sodipodi:rx="1.53303"
+   sodipodi:ry="1.53303"
+   class="st22"
+   cx="363.3"
+   cy="303.9"
+   rx="1.6"
+   ry="1.6">
+	</ellipse>
+	<path
+   id="_155699088_1_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M321.8,301.5h9.1c1.9,0,3.6,1.3,4.1,3.1h-17.3   C318.2,302.8,319.8,301.5,321.8,301.5L321.8,301.5z M327.4,304.9h7.6h5.8l4.6,4.5h22.4l4.6-4.5h3.9c2.9,0,5.4,2.4,5.4,5.3v5.1   h-59.5v-5.1c0-0.2,0-0.3,0-0.5h-0.3c-2.3,0-4.2-1.9-4.2-4.1l0,0c0-0.2,0-0.5,0.1-0.7L327.4,304.9L327.4,304.9z" />
+</g>
+<polygon
+   id="rect393_25_4_"
+   class="st2"
+   points="307.5,279.5 479.2,279.5 479.2,253.3 307.5,253.3 " />
+<path
+   id="path575_2_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M307.5,376.6h171.7V253.3H307.5V376.6L307.5,376.6z   M306.6,377.6V252.3h173.7v125.3H306.6L306.6,377.6z" />
+<polygon
+   id="polygon577_2_"
+   class="st6"
+   points="307.5,279.5 479.2,279.5 479.2,280.5 307.5,280.5 " />
+<path
+   id="circle173_0_5_"
+   inkscape:connector-curvature="0"
+   inkscape:label="量热仪3_运行状态"
+   class="st1"
+   d="  M640,306.8c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S640,313.6,640,306.8z" />
+<text
+   id="text193_1_5_"
+   transform="matrix(1.0013 0 0 1 596.5381 339.1128)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 613.6074 358.9844)"
+   class="st16 st4 st12"
+   id="text215"
+   inkscape:label="3#量热仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon420_5_"
+   class="st6"
+   points="584.2,297 584.2,365.1 583.2,365.1 583.2,297 " />
+<g
+   id="g218">
+	<path
+   id="_155699736_5_"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="M518.2,304.9h13.4l4.6,4.5h22.4l4.6-4.5h3.9   c2.9,0,5.4,2.4,5.4,5.3v48.6c0,2.9-2.4,5.3-5.4,5.3h-48.8c-2.9,0-5.4-2.4-5.4-5.3v-48.6C512.8,307.3,515.2,304.9,518.2,304.9   L518.2,304.9z" />
+	<path
+   id="_155699664_5_"
+   inkscape:connector-curvature="0"
+   class="st27"
+   d="M521.6,355.6c0.9,0,1.6,0.7,1.6,1.6s-0.7,1.6-1.6,1.6   c-0.9,0-1.6-0.7-1.6-1.6C520,356.3,520.7,355.6,521.6,355.6z M521.6,355.3c1,0,1.9,0.8,1.9,1.9c0,1-0.8,1.9-1.9,1.9   c-1,0-1.9-0.8-1.9-1.9C519.7,356.2,520.6,355.3,521.6,355.3z" />
+	<path
+   id="_155699592_5_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M558.9,300.1v6.7h-23.7v-6.7l0,0   c0-6.5,5.3-11.8,11.8-11.8C553.6,288.3,558.9,293.6,558.9,300.1L558.9,300.1L558.9,300.1z" />
+	
+		<ellipse
+   id="_155699520_5_"
+   sodipodi:cx="210.722"
+   sodipodi:cy="298.47101"
+   sodipodi:rx="4.8969898"
+   sodipodi:ry="4.8970098"
+   class="st22"
+   cx="547.2"
+   cy="296.3"
+   rx="5.2"
+   ry="5.2">
+	</ellipse>
+	
+		<ellipse
+   id="_155699448_5_"
+   sodipodi:cx="217.229"
+   sodipodi:cy="305.642"
+   sodipodi:rx="1.53303"
+   sodipodi:ry="1.53303"
+   class="st22"
+   cx="554.1"
+   cy="303.9"
+   rx="1.6"
+   ry="1.6">
+	</ellipse>
+	<path
+   id="_155699088_5_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M512.5,301.5h9.1c1.9,0,3.6,1.3,4.1,3.1h-17.3   C508.9,302.8,510.6,301.5,512.5,301.5L512.5,301.5z M518.2,304.9h7.6h5.8l4.6,4.5h22.4l4.6-4.5h3.9c2.9,0,5.4,2.4,5.4,5.3v5.1H513   v-5.1c0-0.2,0-0.3,0-0.5h-0.3c-2.3,0-4.2-1.9-4.2-4.1l0,0c0-0.2,0-0.5,0.1-0.7L518.2,304.9L518.2,304.9z" />
+</g>
+<polygon
+   id="rect393_25_12_"
+   class="st2"
+   points="498.3,279.5 670,279.5 670,253.3 498.3,253.3 " />
+<path
+   id="path575_7_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M498.3,376.6H670V253.3H498.3V376.6L498.3,376.6z   M497.3,377.6V252.3H671v125.3H497.3L497.3,377.6z" />
+<polygon
+   id="polygon577_7_"
+   class="st6"
+   points="498.3,279.5 670,279.5 670,280.5 498.3,280.5 " />
+<path
+   id="circle173"
+   inkscape:connector-curvature="0"
+   inkscape:label="工分仪1_运行状态"
+   class="st0"
+   d="  M1539.3,306.8c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2C1533.9,319,1539.3,313.6,1539.3,306.8z"
+   style="fill:#00c000;fill-opacity:1" />
+<text
+   id="text193"
+   transform="matrix(1.0013 0 0 1 1495.8633 339.1128)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1512.9336 358.9844)"
+   class="st16 st4 st12"
+   id="text232"
+   inkscape:label="1#工分仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon404"
+   class="st28"
+   points="1489.5,297 1489.5,365.1 1488.5,365.1 1488.5,297 " />
+<g
+   id="_155700528"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<rect
+   id="_155700984"
+   x="1351"
+   y="287.5"
+   class="st29"
+   width="18.5"
+   height="27.9" />
+	<path
+   id="_155700912"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M1335.7,302.3h49c2,0,3.6,1.6,3.6,3.6v8.5H1332v-8.5   C1332.1,304,1333.7,302.3,1335.7,302.3z" />
+	<rect
+   id="_155700840"
+   x="1332.1"
+   y="315.4"
+   class="st19"
+   width="56.3"
+   height="10.3" />
+	<rect
+   id="_155700768"
+   x="1332.1"
+   y="325.6"
+   class="st20"
+   width="56.3"
+   height="26.7" />
+	<polygon
+   id="_155700696"
+   class="st19"
+   points="1381.6,359.4 1388.3,359.4 1388.3,352.4 1332.1,352.4 1332.1,359.5 1338.3,359.5    1340.6,357.2 1379.5,357.2  " />
+	
+		<circle
+   id="_155700624"
+   sodipodi:cx="1486.42"
+   sodipodi:cy="351.414"
+   sodipodi:rx="1.28861"
+   sodipodi:ry="1.28861"
+   class="st0"
+   cx="1383.5"
+   cy="347.9"
+   r="1.3"
+   d="m 1384.8,347.89999 c 0,0.71797 -0.582,1.3 -1.3,1.3 -0.718,0 -1.3,-0.58203 -1.3,-1.3 0,-0.71797 0.582,-1.3 1.3,-1.3 0.718,0 1.3,0.58203 1.3,1.3 z">
+	</circle>
+	
+		<ellipse
+   id="_155700552"
+   sodipodi:cx="1463.09"
+   sodipodi:cy="311.71201"
+   sodipodi:rx="8.0233402"
+   sodipodi:ry="2.24491"
+   class="st30"
+   cx="1360.2"
+   cy="308.2"
+   rx="8"
+   ry="2.2"
+   d="m 1368.2,308.20001 c 0,1.21503 -3.5818,2.2 -8,2.2 -4.4183,0 -8,-0.98497 -8,-2.2 0,-1.21502 3.5817,-2.2 8,-2.2 4.4182,0 8,0.98498 8,2.2 z">
+	</ellipse>
+</g>
+<g
+   id="_154937176"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_27"
+   class="st2"
+   points="1320.1,279.1 1481.9,279.1 1481.9,254.4 1320.1,254.4  " />
+	<path
+   id="_154937272"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M1320.1,370.7h161.8V254.4h-161.8V370.7z M1319.2,371.6   V253.4h163.7v118.2L1319.2,371.6L1319.2,371.6z" />
+	<polygon
+   id="_154937200"
+   class="st6"
+   points="1320.1,279.1 1481.9,279.1 1481.9,280 1320.1,280  " />
+</g>
+<text
+   id="text612"
+   transform="matrix(1.0013 0 0 1 1410.4414 271.9424)"
+   class="st3 st4 st26">#1入厂_工分仪</text>
+
+
+
+
+
+<path
+   id="circle173_1_"
+   inkscape:connector-curvature="0"
+   inkscape:label="工分仪1_运行状态"
+   class="st0"
+   d="  M1730.2,306.8c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S1730.2,313.6,1730.2,306.8z"
+   style="fill:#00c000;fill-opacity:1" />
+<text
+   id="text193_1_"
+   transform="matrix(1.0013 0 0 1 1686.6768 339.1128)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1703.7461 358.9844)"
+   class="st16 st4 st12"
+   id="text250"
+   inkscape:label="2#工分仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon404_1_"
+   class="st28"
+   points="1680.3,297 1680.3,365.1 1679.3,365.1 1679.3,297 " />
+<g
+   id="_155700528_1_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<rect
+   id="_155700984_1_"
+   x="1530.8"
+   y="287.5"
+   class="st29"
+   width="18.5"
+   height="27.9" />
+	<path
+   id="_155700912_1_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M1515.5,302.3h49c2,0,3.6,1.6,3.6,3.6v8.5h-56.3v-8.5   C1511.9,304,1513.5,302.3,1515.5,302.3z" />
+	<rect
+   id="_155700840_1_"
+   x="1511.9"
+   y="315.4"
+   class="st19"
+   width="56.3"
+   height="10.3" />
+	<rect
+   id="_155700768_1_"
+   x="1511.9"
+   y="325.6"
+   class="st20"
+   width="56.3"
+   height="26.7" />
+	<polygon
+   id="_155700696_1_"
+   class="st19"
+   points="1561.4,359.4 1568.1,359.4 1568.1,352.4 1511.9,352.4 1511.9,359.5 1518.2,359.5    1520.4,357.2 1559.3,357.2  " />
+	
+		<circle
+   id="_155700624_1_"
+   sodipodi:cx="1486.42"
+   sodipodi:cy="351.414"
+   sodipodi:rx="1.28861"
+   sodipodi:ry="1.28861"
+   class="st0"
+   cx="1563.3"
+   cy="347.9"
+   r="1.3"
+   d="m 1564.6,347.89999 c 0,0.71797 -0.582,1.3 -1.3,1.3 -0.7179,0 -1.3,-0.58203 -1.3,-1.3 0,-0.71797 0.5821,-1.3 1.3,-1.3 0.718,0 1.3,0.58203 1.3,1.3 z">
+	</circle>
+	
+		<ellipse
+   id="_155700552_1_"
+   sodipodi:cx="1463.09"
+   sodipodi:cy="311.71201"
+   sodipodi:rx="8.0233402"
+   sodipodi:ry="2.24491"
+   class="st30"
+   cx="1540"
+   cy="308.2"
+   rx="8"
+   ry="2.2"
+   d="m 1548,308.20001 c 0,1.21503 -3.5817,2.2 -8,2.2 -4.4183,0 -8,-0.98497 -8,-2.2 0,-1.21502 3.5817,-2.2 8,-2.2 4.4183,0 8,0.98498 8,2.2 z">
+	</ellipse>
+</g>
+<g
+   id="_154937176_1_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_27_1_"
+   class="st2"
+   points="1499.9,279.1 1661.7,279.1 1661.7,254.4 1499.9,254.4  " />
+	<path
+   id="_154937272_1_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M1499.9,370.7h161.8V254.4h-161.8V370.7z M1499,371.6   V253.4h163.6v118.2L1499,371.6L1499,371.6z" />
+	<polygon
+   id="_154937200_1_"
+   class="st6"
+   points="1499.9,279.1 1661.7,279.1 1661.7,280 1499.9,280  " />
+</g>
+<text
+   id="text612_1_"
+   transform="matrix(1.0013 0 0 1 1601.2539 271.9424)"
+   class="st3 st4 st26">#2入厂_工分仪</text>
+
+
+
+
+
+<path
+   id="circle173_6"
+   inkscape:connector-curvature="0"
+   inkscape:label="入炉工分仪1_运行状态"
+   class="st0"
+   d="  M1634.9,807.9c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2C1629.4,820.1,1634.9,814.7,1634.9,807.9z"
+   style="fill:#00c000;fill-opacity:1" />
+<text
+   id="text193_7"
+   transform="matrix(1.0013 0 0 1 1591.3027 840.1855)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1608.3721 860.0586)"
+   class="st16 st4 st12"
+   id="text268"
+   inkscape:label="1#入炉工分仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon457"
+   class="st28"
+   points="1585,798.1 1585,866.2 1584,866.2 1584,798.1 " />
+<g
+   id="_155644696"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<rect
+   id="_155645152"
+   x="1440.9"
+   y="760.3"
+   class="st29"
+   width="18.5"
+   height="27.9" />
+	<path
+   id="_155645080"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M1425.6,775.1h49c2,0,3.6,1.6,3.6,3.6v8.5h-56.3v-8.5   C1422,776.8,1423.6,775.1,1425.6,775.1z" />
+	<rect
+   id="_155645008"
+   x="1422"
+   y="788.2"
+   class="st19"
+   width="56.3"
+   height="10.3" />
+	<rect
+   id="_155644936"
+   x="1422"
+   y="798.4"
+   class="st20"
+   width="56.3"
+   height="26.7" />
+	<polygon
+   id="_155644864"
+   class="st19"
+   points="1471.5,832.2 1478.2,832.2 1478.2,825.2 1422,825.2 1422,832.3 1428.3,832.3    1430.5,830 1469.4,830  " />
+	
+		<circle
+   id="_155644792"
+   sodipodi:cx="1486.42"
+   sodipodi:cy="767.65198"
+   sodipodi:rx="1.28861"
+   sodipodi:ry="1.28861"
+   class="st0"
+   cx="1473.4"
+   cy="820.7"
+   r="1.3"
+   d="m 1474.7,820.70001 c 0,0.71797 -0.582,1.3 -1.3,1.3 -0.7179,0 -1.3,-0.58203 -1.3,-1.3 0,-0.71797 0.5821,-1.3 1.3,-1.3 0.718,0 1.3,0.58203 1.3,1.3 z">
+	</circle>
+	
+		<ellipse
+   id="_155644720"
+   sodipodi:cx="1463.09"
+   sodipodi:cy="727.94897"
+   sodipodi:rx="8.0233402"
+   sodipodi:ry="2.24491"
+   class="st30"
+   cx="1450.1"
+   cy="781"
+   rx="8"
+   ry="2.2"
+   d="m 1458.1,781 c 0,1.21503 -3.5817,2.2 -8,2.2 -4.4183,0 -8,-0.98497 -8,-2.2 0,-1.21503 3.5817,-2.2 8,-2.2 4.4183,0 8,0.98497 8,2.2 z">
+	</ellipse>
+</g>
+<g
+   id="_154936840"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_28"
+   class="st2"
+   points="1410,751.9 1571.8,751.9 1571.8,727.2 1410,727.2  " />
+	<path
+   id="_154936936"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M1410,843.5h161.8V727.2H1410V843.5z M1409.1,844.5V726.2   h163.6v118.2L1409.1,844.5L1409.1,844.5z" />
+	<polygon
+   id="_154936864"
+   class="st6"
+   points="1410,751.9 1571.8,751.9 1571.8,752.8 1410,752.8  " />
+</g>
+<text
+   id="text617"
+   transform="matrix(1.0013 0 0 1 1505.8799 773.0146)"
+   class="st3 st4 st26">#1入炉_工分仪</text>
+
+
+
+
+
+<text
+   id="text439_9"
+   transform="matrix(1.0013 0 0 1 1337.0684 844.3799)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1354.1377 864.2549)"
+   class="st16 st4 st12"
+   id="text285"
+   inkscape:label="1#入炉测硫仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle443_11"
+   inkscape:connector-curvature="0"
+   inkscape:label="入炉测硫仪1_运行状态"
+   class="st0"
+   d="  M1378.2,813.7c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2C1372.8,825.9,1378.2,820.4,1378.2,813.7z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon466"
+   class="st28"
+   points="1327.4,802.9 1327.4,871 1326.4,871 1326.4,802.9 " />
+<g
+   id="_155645968"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<path
+   id="_155647792"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M1185.4,761.6h37.7c6.7,0,13.4,6.7,13.4,13.4v11.1H1172   V775C1172,768.2,1178.6,761.6,1185.4,761.6z" />
+	<rect
+   id="_155647720"
+   x="1168.2"
+   y="787.9"
+   class="st31"
+   width="72.1"
+   height="8.3" />
+	<rect
+   id="_155647648"
+   x="1168.2"
+   y="796.3"
+   class="st20"
+   width="72.1"
+   height="37.7" />
+	<rect
+   id="_155647576"
+   x="1190.7"
+   y="787.9"
+   class="st32"
+   width="27.1"
+   height="8.3" />
+	<rect
+   id="_155647504"
+   x="1177.5"
+   y="786.1"
+   class="st33"
+   width="53.5"
+   height="1.8" />
+	<rect
+   id="_155647432"
+   x="1168.2"
+   y="799"
+   class="st22"
+   width="24.1"
+   height="29.8" />
+	<path
+   id="_155647360"
+   inkscape:connector-curvature="0"
+   class="st34"
+   d="M1233.4,827.4c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1   s-1.1-0.5-1.1-1.1S1232.8,827.4,1233.4,827.4z M1233.4,821.6c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1s-1.1-0.5-1.1-1.1   S1232.8,821.6,1233.4,821.6z" />
+	<rect
+   id="_155647288"
+   x="1173.4"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155647216"
+   x="1176.8"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155647144"
+   x="1171.2"
+   y="805"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155647072"
+   x="1171.9"
+   y="809.9"
+   class="st36"
+   width="7.3"
+   height="14" />
+	<rect
+   id="_155647000"
+   x="1171.2"
+   y="823.9"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155646928"
+   x="1183.3"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155646856"
+   x="1182.2"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155646784"
+   x="1182.6"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155646712"
+   x="1182.2"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155646640"
+   x="1183.3"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<rect
+   id="_155646568"
+   x="1187.3"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155646496"
+   x="1186.2"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155646424"
+   x="1186.6"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155646352"
+   x="1186.2"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155646280"
+   x="1187.3"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<path
+   id="_155646208"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M1196.2,803.8L1196.2,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C1195,804.4,1195.5,803.8,1196.2,803.8z" />
+	<path
+   id="_155646136"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M1200.6,803.8L1200.6,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C1199.3,804.4,1199.9,803.8,1200.6,803.8z" />
+	<rect
+   id="_155646064"
+   x="1172"
+   y="779"
+   class="st32"
+   width="64.5"
+   height="7.1" />
+	<rect
+   id="_155645992"
+   x="1168.6"
+   y="822.1"
+   class="st39"
+   width="3.3"
+   height="1.5" />
+</g>
+<g
+   id="_154936504"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_29"
+   class="st2"
+   points="1161.9,751.9 1323.6,751.9 1323.6,727.2 1161.9,727.2  " />
+	<path
+   id="_154936600"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M1161.9,843.5h161.8V727.2h-161.8V843.5L1161.9,843.5z    M1160.9,844.5V726.2h163.7v118.2L1160.9,844.5L1160.9,844.5z" />
+	<polygon
+   id="_154936528"
+   class="st6"
+   points="1161.9,751.9 1323.6,751.9 1323.6,752.8 1161.9,752.8  " />
+</g>
+<text
+   id="text622"
+   transform="matrix(1.0013 0 0 1 1249.8945 772.6436)"
+   class="st3 st4 st26">#1入炉_测硫仪</text>
+
+
+
+
+
+<text
+   id="text439"
+   transform="matrix(1.0013 0 0 1 671.3594 844.3799)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 688.4277 864.2549)"
+   class="st16 st4 st12"
+   id="text322"
+   inkscape:label="1#测硫仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle443"
+   inkscape:connector-curvature="0"
+   inkscape:label="测硫仪1_运行状态"
+   class="st0"
+   d="  M712.5,813.7c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S712.5,820.4,712.5,813.7z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon443"
+   class="st28"
+   points="661.7,802.9 661.7,871 660.7,871 660.7,802.9 " />
+<g
+   id="_155642800"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<path
+   id="_155644624"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M558.1,761.6h37.7c6.7,0,13.4,6.7,13.4,13.4v11.1h-64.5   V775C544.7,768.2,551.3,761.6,558.1,761.6z" />
+	<rect
+   id="_155644552"
+   x="540.9"
+   y="787.9"
+   class="st31"
+   width="72.1"
+   height="8.3" />
+	<rect
+   id="_155644480"
+   x="540.9"
+   y="796.3"
+   class="st20"
+   width="72.1"
+   height="37.7" />
+	<rect
+   id="_155644408"
+   x="563.4"
+   y="787.9"
+   class="st32"
+   width="27.1"
+   height="8.3" />
+	<rect
+   id="_155644336"
+   x="550.2"
+   y="786.1"
+   class="st33"
+   width="53.5"
+   height="1.8" />
+	<rect
+   id="_155644264"
+   x="540.9"
+   y="799"
+   class="st22"
+   width="24.1"
+   height="29.8" />
+	<path
+   id="_155644192"
+   inkscape:connector-curvature="0"
+   class="st34"
+   d="M606.1,827.4c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1   s-1.1-0.5-1.1-1.1S605.5,827.4,606.1,827.4z M606.1,821.6c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1s-1.1-0.5-1.1-1.1   S605.5,821.6,606.1,821.6z" />
+	<rect
+   id="_155644120"
+   x="546.1"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155644048"
+   x="549.5"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155643976"
+   x="543.8"
+   y="805"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155643904"
+   x="544.6"
+   y="809.9"
+   class="st36"
+   width="7.3"
+   height="14" />
+	<rect
+   id="_155643832"
+   x="543.8"
+   y="823.9"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155643760"
+   x="556"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155643688"
+   x="554.9"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643616"
+   x="555.3"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155643544"
+   x="554.9"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643472"
+   x="556"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<rect
+   id="_155643400"
+   x="560"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155643328"
+   x="558.8"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643256"
+   x="559.3"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155643184"
+   x="558.8"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643112"
+   x="560"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<path
+   id="_155643040"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M568.9,803.8L568.9,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C567.6,804.4,568.2,803.8,568.9,803.8z" />
+	<path
+   id="_155642968"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M573.2,803.8L573.2,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C572,804.4,572.6,803.8,573.2,803.8z" />
+	<rect
+   id="_155642896"
+   x="544.7"
+   y="779"
+   class="st32"
+   width="64.5"
+   height="7.1" />
+	<rect
+   id="_155642824"
+   x="541.3"
+   y="822.1"
+   class="st39"
+   width="3.3"
+   height="1.5" />
+</g>
+<g
+   id="_154936168"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_30"
+   class="st2"
+   points="535.5,751.9 697.3,751.9 697.3,727.2 535.5,727.2  " />
+	<path
+   id="_154936264"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M535.5,843.5h161.8V727.2H535.5V843.5z M534.6,844.5V726.2   h163.7v118.2L534.6,844.5L534.6,844.5z" />
+	<polygon
+   id="_154936192"
+   class="st6"
+   points="535.5,751.9 697.3,751.9 697.3,752.8 535.5,752.8  " />
+</g>
+<text
+   id="text627"
+   transform="matrix(1.0013 0 0 1 584.1836 772.6436)"
+   class="st3 st4 st26">#1入厂_测硫仪</text>
+
+
+
+
+
+<text
+   id="text439_1_"
+   transform="matrix(1.0013 0 0 1 862.0186 844.3799)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 879.0869 864.2549)"
+   class="st16 st4 st12"
+   id="text359"
+   inkscape:label="2#测硫仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle443_1_"
+   inkscape:connector-curvature="0"
+   inkscape:label="测硫仪2_运行状态"
+   class="st0"
+   d="  M903.2,813.7c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S903.2,820.4,903.2,813.7z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon443_1_"
+   class="st28"
+   points="852.3,802.9 852.3,871 851.3,871 851.3,802.9 " />
+<g
+   id="_155642800_1_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<path
+   id="_155644624_1_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M737.7,761.6h37.7c6.7,0,13.4,6.7,13.4,13.4v11.1h-64.5   V775C724.3,768.2,731,761.6,737.7,761.6z" />
+	<rect
+   id="_155644552_1_"
+   x="720.5"
+   y="787.9"
+   class="st31"
+   width="72.1"
+   height="8.3" />
+	<rect
+   id="_155644480_1_"
+   x="720.5"
+   y="796.3"
+   class="st20"
+   width="72.1"
+   height="37.7" />
+	<rect
+   id="_155644408_1_"
+   x="743"
+   y="787.9"
+   class="st32"
+   width="27.1"
+   height="8.3" />
+	<rect
+   id="_155644336_1_"
+   x="729.8"
+   y="786.1"
+   class="st33"
+   width="53.5"
+   height="1.8" />
+	<rect
+   id="_155644264_1_"
+   x="720.5"
+   y="799"
+   class="st22"
+   width="24.1"
+   height="29.8" />
+	<path
+   id="_155644192_1_"
+   inkscape:connector-curvature="0"
+   class="st34"
+   d="M785.8,827.4c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1   s-1.1-0.5-1.1-1.1S785.2,827.4,785.8,827.4z M785.8,821.6c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1s-1.1-0.5-1.1-1.1   S785.2,821.6,785.8,821.6z" />
+	<rect
+   id="_155644120_1_"
+   x="725.8"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155644048_1_"
+   x="729.2"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155643976_1_"
+   x="723.5"
+   y="805"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155643904_1_"
+   x="724.2"
+   y="809.9"
+   class="st36"
+   width="7.3"
+   height="14" />
+	<rect
+   id="_155643832_1_"
+   x="723.5"
+   y="823.9"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155643760_1_"
+   x="735.7"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155643688_1_"
+   x="734.5"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643616_1_"
+   x="735"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155643544_1_"
+   x="734.5"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643472_1_"
+   x="735.7"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<rect
+   id="_155643400_1_"
+   x="739.7"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155643328_1_"
+   x="738.5"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643256_1_"
+   x="739"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155643184_1_"
+   x="738.5"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643112_1_"
+   x="739.7"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<path
+   id="_155643040_1_"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M748.5,803.8L748.5,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C747.3,804.4,747.9,803.8,748.5,803.8z" />
+	<path
+   id="_155642968_1_"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M752.9,803.8L752.9,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C751.7,804.4,752.2,803.8,752.9,803.8z" />
+	<rect
+   id="_155642896_1_"
+   x="724.3"
+   y="779"
+   class="st32"
+   width="64.5"
+   height="7.1" />
+	<rect
+   id="_155642824_1_"
+   x="720.9"
+   y="822.1"
+   class="st39"
+   width="3.3"
+   height="1.5" />
+</g>
+<g
+   id="_154936168_1_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_30_1_"
+   class="st2"
+   points="715.2,751.9 877,751.9 877,727.2 715.2,727.2  " />
+	<path
+   id="_154936264_1_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M715.2,843.5H877V727.2H715.2V843.5z M714.3,844.5V726.2   H878v118.2L714.3,844.5L714.3,844.5z" />
+	<polygon
+   id="_154936192_1_"
+   class="st6"
+   points="715.2,751.9 877,751.9 877,752.8 715.2,752.8  " />
+</g>
+<text
+   id="text627_1_"
+   transform="matrix(1.0013 0 0 1 774.8428 772.6436)"
+   class="st3 st4 st26">#2入厂_测硫仪</text>
+
+
+
+
+
+<text
+   id="text439_2_"
+   transform="matrix(1.0013 0 0 1 1052.6777 844.3799)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 1069.7461 864.2549)"
+   class="st16 st4 st12"
+   id="text396"
+   inkscape:label="3#测硫仪_数量">10个</text>
+
+
+
+
+
+<path
+   id="circle443_2_"
+   inkscape:connector-curvature="0"
+   inkscape:label="测硫仪3_运行状态"
+   class="st0"
+   d="  M1093.8,813.7c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2C1088.4,825.9,1093.8,820.4,1093.8,813.7z"
+   style="fill:#00c000;fill-opacity:1" />
+<polygon
+   id="polygon443_2_"
+   class="st28"
+   points="1043,802.9 1043,871 1042,871 1042,802.9 " />
+<g
+   id="_155642800_2_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<path
+   id="_155644624_2_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M917.4,761.6h37.7c6.7,0,13.4,6.7,13.4,13.4v11.1H904   V775C904,768.2,910.7,761.6,917.4,761.6z" />
+	<rect
+   id="_155644552_2_"
+   x="900.2"
+   y="787.9"
+   class="st31"
+   width="72.1"
+   height="8.3" />
+	<rect
+   id="_155644480_2_"
+   x="900.2"
+   y="796.3"
+   class="st20"
+   width="72.1"
+   height="37.7" />
+	<rect
+   id="_155644408_2_"
+   x="922.7"
+   y="787.9"
+   class="st32"
+   width="27.1"
+   height="8.3" />
+	<rect
+   id="_155644336_2_"
+   x="909.5"
+   y="786.1"
+   class="st33"
+   width="53.5"
+   height="1.8" />
+	<rect
+   id="_155644264_2_"
+   x="900.2"
+   y="799"
+   class="st22"
+   width="24.1"
+   height="29.8" />
+	<path
+   id="_155644192_2_"
+   inkscape:connector-curvature="0"
+   class="st34"
+   d="M965.4,827.4c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1   s-1.1-0.5-1.1-1.1C964.4,827.9,964.8,827.4,965.4,827.4z M965.4,821.6c0.6,0,1.1,0.5,1.1,1.1s-0.5,1.1-1.1,1.1s-1.1-0.5-1.1-1.1   S964.8,821.6,965.4,821.6z" />
+	<rect
+   id="_155644120_2_"
+   x="905.5"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155644048_2_"
+   x="908.9"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="6" />
+	<rect
+   id="_155643976_2_"
+   x="903.2"
+   y="805"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155643904_2_"
+   x="903.9"
+   y="809.9"
+   class="st36"
+   width="7.3"
+   height="14" />
+	<rect
+   id="_155643832_2_"
+   x="903.2"
+   y="823.9"
+   class="st20"
+   width="8.7"
+   height="4.9" />
+	<rect
+   id="_155643760_2_"
+   x="915.4"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155643688_2_"
+   x="914.2"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643616_2_"
+   x="914.7"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155643544_2_"
+   x="914.2"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643472_2_"
+   x="915.4"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<rect
+   id="_155643400_2_"
+   x="919.3"
+   y="799"
+   class="st35"
+   width="0.5"
+   height="3.3" />
+	<rect
+   id="_155643328_2_"
+   x="918.2"
+   y="802.3"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643256_2_"
+   x="918.6"
+   y="803.3"
+   class="st37"
+   width="1.9"
+   height="20.7" />
+	<rect
+   id="_155643184_2_"
+   x="918.2"
+   y="824"
+   class="st20"
+   width="2.8"
+   height="1" />
+	<rect
+   id="_155643112_2_"
+   x="919.3"
+   y="825.1"
+   class="st35"
+   width="0.5"
+   height="3.7" />
+	<path
+   id="_155643040_2_"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M928.2,803.8L928.2,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C927,804.4,927.6,803.8,928.2,803.8z" />
+	<path
+   id="_155642968_2_"
+   inkscape:connector-curvature="0"
+   class="st38"
+   d="M932.6,803.8L932.6,803.8c0.7,0,1.2,0.6,1.2,1.2v9.1   c0,0.7-0.6,1.2-1.2,1.2l0,0c-0.7,0-1.2-0.6-1.2-1.2V805C931.4,804.4,931.9,803.8,932.6,803.8z" />
+	<rect
+   id="_155642896_2_"
+   x="904"
+   y="779"
+   class="st32"
+   width="64.5"
+   height="7.1" />
+	<rect
+   id="_155642824_2_"
+   x="900.6"
+   y="822.1"
+   class="st39"
+   width="3.3"
+   height="1.5" />
+</g>
+<g
+   id="_154936168_2_"
+   transform="matrix(1.0611111,0,0,1.0597595,-2.7395977e-4,-16.294711)">
+	<polygon
+   id="rect393_30_4_"
+   class="st2"
+   points="894.9,751.9 1056.7,751.9 1056.7,727.2 894.9,727.2  " />
+	<path
+   id="_154936264_2_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M894.9,843.5h161.8V727.2H894.9V843.5z M894,844.5V726.2   h163.6v118.2L894,844.5L894,844.5z" />
+	<polygon
+   id="_154936192_2_"
+   class="st6"
+   points="894.9,751.9 1056.7,751.9 1056.7,752.8 894.9,752.8  " />
+</g>
+<text
+   id="text627_2_"
+   transform="matrix(1.0013 0 0 1 965.502 772.6436)"
+   class="st3 st4 st26">#3入厂_测硫仪</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<path
+   id="circle173_0_3_"
+   inkscape:connector-curvature="0"
+   inkscape:label="入炉量热仪2_运行状态"
+   class="st1"
+   d="  M449.3,808c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S449.3,814.7,449.3,808z" />
+<text
+   id="text193_1_3_"
+   transform="matrix(1.0013 0 0 1 405.8052 840.2656)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 422.875 860.1367)"
+   class="st16 st4 st12"
+   id="text450"
+   inkscape:label="2#入炉量热仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon420_3_"
+   class="st6"
+   points="393.5,798.1 393.5,866.3 392.5,866.3 392.5,798.1 " />
+<g
+   id="g453">
+	<path
+   id="_155699736_3_"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="M327.5,806.1h13.4l4.6,4.5h22.4l4.6-4.5h3.9   c2.9,0,5.4,2.4,5.4,5.3V860c0,2.9-2.4,5.3-5.4,5.3h-48.8c-2.9,0-5.4-2.4-5.4-5.3v-48.6C322.1,808.5,324.5,806.1,327.5,806.1   L327.5,806.1z" />
+	<path
+   id="_155699664_3_"
+   inkscape:connector-curvature="0"
+   class="st27"
+   d="M330.8,856.8c0.9,0,1.6,0.7,1.6,1.6   c0,0.9-0.7,1.6-1.6,1.6s-1.6-0.7-1.6-1.6C329.3,857.5,330,856.8,330.8,856.8z M330.8,856.5c1,0,1.9,0.8,1.9,1.9   c0,1-0.8,1.9-1.9,1.9c-1,0-1.9-0.8-1.9-1.9C329,857.3,329.8,856.5,330.8,856.5z" />
+	<path
+   id="_155699592_3_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M368.1,801.2v6.7h-23.7v-6.7l0,0   c0-6.5,5.3-11.8,11.8-11.8C362.8,789.4,368.1,794.7,368.1,801.2L368.1,801.2L368.1,801.2z" />
+	
+		<ellipse
+   id="_155699520_3_"
+   sodipodi:cx="210.722"
+   sodipodi:cy="298.47101"
+   sodipodi:rx="4.8969898"
+   sodipodi:ry="4.8970098"
+   class="st22"
+   cx="356.4"
+   cy="797.4"
+   rx="5.2"
+   ry="5.2">
+	</ellipse>
+	
+		<ellipse
+   id="_155699448_3_"
+   sodipodi:cx="217.229"
+   sodipodi:cy="305.642"
+   sodipodi:rx="1.53303"
+   sodipodi:ry="1.53303"
+   class="st22"
+   cx="363.4"
+   cy="805"
+   rx="1.6"
+   ry="1.6">
+	</ellipse>
+	<path
+   id="_155699088_3_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M321.8,802.6h9.1c1.9,0,3.6,1.3,4.1,3.1h-17.3   C318.2,803.9,319.8,802.6,321.8,802.6L321.8,802.6z M327.5,806.1h7.6h5.8l4.6,4.5h22.4l4.6-4.5h3.9c2.9,0,5.4,2.4,5.4,5.3v5.1   h-59.5v-5.1c0-0.2,0-0.3,0-0.5H322c-2.3,0-4.2-1.9-4.2-4.1l0,0c0-0.2,0-0.5,0.1-0.7H327.5L327.5,806.1z" />
+</g>
+<polygon
+   id="rect393_25_8_"
+   class="st2"
+   points="307.6,780.6 479.3,780.6 479.3,754.4 307.6,754.4 " />
+<path
+   id="path575_4_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M307.6,877.7h171.7V754.4H307.6V877.7L307.6,877.7z   M306.6,878.7V753.4h173.7v125.3H306.6L306.6,878.7z" />
+<polygon
+   id="polygon577_4_"
+   class="st6"
+   points="307.6,780.6 479.3,780.6 479.3,781.6 307.6,781.6 " />
+<text
+   id="text423_3_"
+   transform="matrix(1.0013 0 0 1 314.5879 773.1035)"
+   class="st3 st4 st26">#2入炉_量热仪</text>
+
+
+
+
+
+<path
+   id="circle173_0_2_"
+   inkscape:connector-curvature="0"
+   inkscape:label="闂佹彃绻掗崕瑙勭_閺夆晜鍔橀柣妯垮煐閳"
+   class="st1"
+   d="  M258.6,808c0-6.7-5.5-12.2-12.2-12.2s-12.2,5.5-12.2,12.2s5.5,12.2,12.2,12.2S258.6,814.7,258.6,808z" />
+<text
+   id="text193_1_2_"
+   transform="matrix(1.0013 0 0 1 215.1052 840.2656)"
+   class="st16 st4 st25">今日样品</text>
+
+
+
+
+
+<text
+   transform="matrix(1.0013 0 0 1 232.175 860.1367)"
+   class="st16 st4 st12"
+   id="text467"
+   inkscape:label="1#入炉量热仪_数量">10个</text>
+
+
+
+
+
+<polygon
+   id="polygon420_2_"
+   class="st6"
+   points="202.8,798.1 202.8,866.3 201.8,866.3 201.8,798.1 " />
+<g
+   id="g470">
+	<path
+   id="_155699736_2_"
+   inkscape:connector-curvature="0"
+   class="st20"
+   d="M136.8,806.1h13.4l4.6,4.5h22.4l4.6-4.5h3.9   c2.9,0,5.4,2.4,5.4,5.3V860c0,2.9-2.4,5.3-5.4,5.3h-48.8c-2.9,0-5.4-2.4-5.4-5.3v-48.6C131.4,808.5,133.8,806.1,136.8,806.1   L136.8,806.1z" />
+	<path
+   id="_155699664_2_"
+   inkscape:connector-curvature="0"
+   class="st27"
+   d="M140.1,856.8c0.9,0,1.6,0.7,1.6,1.6   c0,0.9-0.7,1.6-1.6,1.6s-1.6-0.7-1.6-1.6C138.6,857.5,139.3,856.8,140.1,856.8z M140.1,856.5c1,0,1.9,0.8,1.9,1.9   c0,1-0.8,1.9-1.9,1.9c-1,0-1.9-0.8-1.9-1.9C138.3,857.3,139.1,856.5,140.1,856.5z" />
+	<path
+   id="_155699592_2_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M177.4,801.2v6.7h-23.7v-6.7l0,0   c0-6.5,5.3-11.8,11.8-11.8C172.1,789.4,177.4,794.7,177.4,801.2L177.4,801.2L177.4,801.2z" />
+	
+		<ellipse
+   id="_155699520_2_"
+   sodipodi:cx="210.722"
+   sodipodi:cy="298.47101"
+   sodipodi:rx="4.8969898"
+   sodipodi:ry="4.8970098"
+   class="st22"
+   cx="165.7"
+   cy="797.4"
+   rx="5.2"
+   ry="5.2">
+	</ellipse>
+	
+		<ellipse
+   id="_155699448_2_"
+   sodipodi:cx="217.229"
+   sodipodi:cy="305.642"
+   sodipodi:rx="1.53303"
+   sodipodi:ry="1.53303"
+   class="st22"
+   cx="172.7"
+   cy="805"
+   rx="1.6"
+   ry="1.6">
+	</ellipse>
+	<path
+   id="_155699088_2_"
+   inkscape:connector-curvature="0"
+   class="st19"
+   d="M131.1,802.6h9.1c1.9,0,3.6,1.3,4.1,3.1H127   C127.5,803.9,129.1,802.6,131.1,802.6L131.1,802.6z M136.8,806.1h7.6h5.8l4.6,4.5h22.4l4.6-4.5h3.9c2.9,0,5.4,2.4,5.4,5.3v5.1   h-59.5v-5.1c0-0.2,0-0.3,0-0.5h-0.3c-2.3,0-4.2-1.9-4.2-4.1l0,0c0-0.2,0-0.5,0.1-0.7H136.8L136.8,806.1z" />
+</g>
+<polygon
+   id="rect393_25_3_"
+   class="st2"
+   points="116.9,780.6 288.6,780.6 288.6,754.4 116.9,754.4 " />
+<path
+   id="path575_9_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M116.9,877.7h171.7V754.4H116.9V877.7L116.9,877.7z   M115.9,878.7V753.4h173.7v125.3H115.9L115.9,878.7z" />
+<polygon
+   id="polygon577_9_"
+   class="st6"
+   points="116.9,780.6 288.6,780.6 288.6,781.6 116.9,781.6 " />
+<text
+   id="text423_2_"
+   transform="matrix(1.0013 0 0 1 123.9211 773.1035)"
+   class="st3 st4 st26">#1入炉_量热仪</text>
+
+
+
+
+
+<text
+   id="text423_5_"
+   transform="matrix(1.0013 0 0 1 505.3203 271.9507)"
+   class="st3 st4 st26">#3入厂_量热仪</text>
+
+
+
+
+
+<text
+   id="text423_4_"
+   transform="matrix(1.0013 0 0 1 314.5474 271.9507)"
+   class="st3 st4 st26">#2入厂_量热仪</text>
+
+
+
+
+
+<text
+   id="text423_7_"
+   transform="matrix(1.0013 0 0 1 123.9209 271.9507)"
+   class="st3 st4 st26">#1入厂_量热仪</text>
+
+
+
+
+
+<text
+   id="text423_1_"
+   transform="matrix(1.0013 0 0 1 123.9209 471.5113)"
+   class="st3 st4 st26">#4入厂_量热仪</text>
+
+
+
+
+
+<path
+   id="path229-3"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="m 1206.5,536.50005 h 82.3 v -82.2 h -82.3 v 82.2 z m 84.4,4.3 h -86.7 -2.2 v -2.2 -86.6 -2.1 h 2.2 86.7 2.2 v 2.2 86.6 2.2 l -2.2,-0.1 0,0 z"
+   style="fill:#6d6e70" /><path
+   id="path231-3"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M 412.09996,536.60005 H 494.4 v -82.2 h -82.30004 v 82.2 l 0,0 z m 84.40004,4.3 h -86.70004 -2.2 v -2.2001 -86.5999 -2.2 h 2.2 86.70004 2.2 v 2.2 86.5999 2.2001 h -2.2 z"
+   style="fill:#6d6e70" /><path
+   id="path235-4"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="m 885.2,677.70005 h 82.3 v -82.2 h -82.3 v 82.2 z m 84.5,4.4 H 883 880.8 v -2.2 -86.6 -2.1 h 2.2 86.7 2.2 v 2.2 86.6 2.2 l -2.2,-0.1 0,0 z"
+   style="fill:#6d6e70" /><text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="489.6828"
+   x="1226.4478"
+   id="text225-3"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="1226.4478"
+     y="489.6828"
+     class="st17 st4 st20"
+     id="tspan46"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入炉</tspan><tspan
+     x="1216.2412"
+     y="514.09869"
+     class="st17 st4 st20"
+     id="tspan48"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">水分室</tspan></text>
+
+<text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="631.01031"
+   x="905.47577"
+   id="text229-8"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="905.47577"
+     y="631.01031"
+     class="st17 st4 st20"
+     id="tspan51"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入厂</tspan><tspan
+     x="895.26923"
+     y="655.42609"
+     class="st17 st4 st20"
+     id="tspan53"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">测硫室</tspan></text>
+
+<text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="489.68317"
+   x="432.57672"
+   id="text231-7"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="432.57672"
+     y="489.68317"
+     class="st17 st4 st20"
+     id="tspan56"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入厂</tspan><tspan
+     x="422.37012"
+     y="514.09906"
+     class="st17 st4 st20"
+     id="tspan58"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">量热室</tspan></text>
+
+<path
+   id="path231_1_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="M 412.09996,677.80005 H 494.4 v -82.2 h -82.30004 v 82.2 l 0,0 z m 84.40004,4.4 h -86.70004 -2.2 v -2.2 -86.6 -2.2 h 2.2 86.70004 2.2 v 2.2 86.6 2.2 h -2.2 z"
+   style="fill:#6d6e70" /><text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="631.01019"
+   x="432.57672"
+   id="text231_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="432.57672"
+     y="631.01019"
+     class="st17 st4 st20"
+     id="tspan62"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入炉</tspan><tspan
+     x="422.37012"
+     y="655.42596"
+     class="st17 st4 st20"
+     id="tspan64"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">量热室</tspan></text>
+
+<polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon243-4"
+   class="st16"
+   points="816,648.1 816,644 1588.7,644 1588.7,648.1 "
+   style="fill:#00b7ee;fill-opacity:1" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon245-2"
+   class="st16"
+   points="459.3,648.1 459.3,644 683.3,644 683.3,648.1 "
+   style="fill:#00b7ee;fill-opacity:1" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_2_-7"
+   class="st3"
+   points="1251.6,456.6 1253.6,456.6 1253.6,529.8 1251.6,529.8 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon349-7"
+   class="st16"
+   points="748.9,704.6 752.9,704.6 752.9,736.2 748.9,736.2 "
+   style="fill:#00b7ee;fill-opacity:1" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon243_2_-9"
+   class="st16"
+   points="748.9,559.8 748.9,555.8 886.1,555.8 886.1,559.8 "
+   style="fill:#00b7ee;fill-opacity:1" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon243_3_-3"
+   class="st16"
+   points="748.9,736.2 748.9,732.2 886.1,732.2 886.1,736.2 "
+   style="fill:#00b7ee;fill-opacity:1" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon349_1_-1"
+   class="st16"
+   points="752.9,587.4 748.9,587.4 748.9,555.8 752.9,555.8 "
+   style="fill:#00b7ee;fill-opacity:1" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon395_1_-2"
+   class="st3"
+   points="828.1,495.8 828.1,493.8 1021.6,493.8 1021.6,495.8 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_22_-4"
+   class="st3"
+   points="1589.3,761.1 1591.3,761.1 1591.3,834.8 1589.3,834.8 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_11_-8"
+   class="st3"
+   points="457.2,494.6 459.2,494.6 459.2,530.3 457.2,530.3 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon395_7_"
+   class="st3"
+   points="976.8,717.7 976.8,715.7 1280.3,715.7 1280.3,717.7 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon395_8_"
+   class="st3"
+   points="976.8,576.4 976.8,574.4 1207.3,574.4 1207.3,576.4 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon395_5_-6"
+   class="st3"
+   points="298.7,782.5 298.7,780.4 459.2,780.4 459.2,782.5 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_6_-5"
+   class="st3"
+   points="932.4,797.5 930.4,797.5 930.4,762.2 932.4,762.2 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon395_2_-0"
+   class="st3"
+   points="656.5,798.2 656.5,796.2 1031.6,796.2 1031.6,798.2 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_15_-9"
+   class="st3"
+   points="300.7,797.5 298.7,797.5 298.7,782.2 300.7,782.2 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_23_"
+   class="st3"
+   points="459.2,781.5 457.2,781.5 457.2,762.2 459.2,762.2 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_18_-0"
+   class="st3"
+   points="459.2,671.1 457.2,671.1 457.2,620.8 459.2,620.8 "
+   style="fill:#ffffff" /><text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="620.30524"
+   x="985.59857"
+   id="text432-0"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂测硫室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="663.13971"
+   x="985.59857"
+   id="text434-6"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂测硫室温度">温度0°C</text>
+
+<path
+   id="path235_1_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="m 1279.4,677.70005 h 82.3 v -82.2 h -82.3 v 82.2 z m 84.5,4.4 h -86.7 -2.2 v -2.2 -86.6 -2.1 h 2.2 86.7 2.2 v 2.2 86.6 2.2 l -2.2,-0.1 0,0 z"
+   style="fill:#6d6e70" /><text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="631.01031"
+   x="1299.4264"
+   id="text229_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="1299.4264"
+     y="631.01031"
+     class="st17 st4 st20"
+     id="tspan430"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入炉</tspan><tspan
+     x="1289.2197"
+     y="655.42609"
+     class="st17 st4 st20"
+     id="tspan432"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">测硫室</tspan></text>
+
+<polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_3_-1"
+   class="st3"
+   points="1326.6,834.5 1324.6,834.5 1324.6,762.2 1326.6,762.2 "
+   style="fill:#ffffff" /><text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="620.30524"
+   x="1379.3425"
+   id="text432_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉测硫室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="663.13971"
+   x="1379.3425"
+   id="text434_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉测硫室温度">温度0°C</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="477.14972"
+   x="1306.3904"
+   id="text436-3"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉水分室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="519.98431"
+   x="1306.3904"
+   id="text438-8"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉水分室温度">温度0°C</text>
+
+<path
+   id="path229_1_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="m 885.3,536.50005 h 82.3 v -82.2 h -82.3 v 82.2 z m 84.4,4.3 H 883 880.8 v -2.2 -86.6 -2.1 h 2.2 86.7 2.2 v 2.2 86.6 2.2 l -2.2,-0.1 0,0 z"
+   style="fill:#6d6e70" /><text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="489.6828"
+   x="905.47577"
+   id="text225_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="905.47577"
+     y="489.6828"
+     class="st17 st4 st20"
+     id="tspan441"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入厂</tspan><tspan
+     x="895.26923"
+     y="514.09869"
+     class="st17 st4 st20"
+     id="tspan443"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">水分室</tspan></text>
+
+<polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_24_"
+   class="st3"
+   points="930.4,494.6 932.4,494.6 932.4,529.8 930.4,529.8 "
+   style="fill:#ffffff" /><text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="477.14972"
+   x="985.59894"
+   id="text436_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂水分室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="519.98431"
+   x="985.59894"
+   id="text438_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂水分室温度">温度0°C</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="478.69183"
+   x="508.21326"
+   id="text440-9"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂量热室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="521.52631"
+   x="508.21326"
+   id="text442-3"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂量热室温度">温度0°C</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="624.78668"
+   x="508.21326"
+   id="text440_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉量热室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="667.62115"
+   x="508.21326"
+   id="text442_1_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉量热室温度">温度0°C</text>
+
+<path
+   id="path231_3_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="m 1544.1,536.60005 h 82.3 v -82.2 h -82.3 v 82.2 l 0,0 z m 84.4,4.3 h -86.7 -2.2 v -2.2001 -86.5999 -2.2 h 2.2 86.7 2.2 v 2.2 86.5999 2.2001 h -2.2 z"
+   style="fill:#6d6e70" /><text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="489.68317"
+   x="1563.8416"
+   id="text231_3_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="1563.8416"
+     y="489.68317"
+     class="st17 st4 st20"
+     id="tspan454"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入厂</tspan><tspan
+     x="1553.6349"
+     y="514.09906"
+     class="st17 st4 st20"
+     id="tspan456"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">工分室</tspan></text>
+
+<path
+   id="path231_2_"
+   inkscape:connector-curvature="0"
+   class="st6"
+   d="m 1544.1,677.80005 h 82.3 v -82.2 h -82.3 v 82.2 l 0,0 z m 84.4,4.4 h -86.7 -2.2 v -2.2 -86.6 -2.2 h 2.2 86.7 2.2 v 2.2 86.6 2.2 h -2.2 z"
+   style="fill:#6d6e70" /><text
+   style="font-size:12.00779724px;fill:#0099cc"
+   y="631.01019"
+   x="1563.8416"
+   id="text231_2_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st19"><tspan
+     x="1563.8416"
+     y="631.01019"
+     class="st17 st4 st20"
+     id="tspan460"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">入炉</tspan><tspan
+     x="1553.6349"
+     y="655.42596"
+     class="st17 st4 st20"
+     id="tspan462"
+     style="font-size:17.97800064px;fill:#cccccc;font-family:MicrosoftYaHei">工分室</tspan></text>
+
+<polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_25_"
+   class="st3"
+   points="1589.2,494.6 1591.2,494.6 1591.2,530.3 1589.2,530.3 "
+   style="fill:#ffffff" /><polygon
+   transform="translate(-5.000038,-79.99999)"
+   id="polygon345_5_-4"
+   class="st3"
+   points="1591.2,671.1 1589.2,671.1 1589.2,620.8 1591.2,620.8 "
+   style="fill:#ffffff" /><text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="478.69183"
+   x="1639.4781"
+   id="text440_3_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂工分室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="521.52631"
+   x="1639.4781"
+   id="text442_3_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入厂工分室温度">温度0°C</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="624.78668"
+   x="1639.4781"
+   id="text440_2_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉工分室湿度">湿度0%</text>
+
+<text
+   style="font-size:12.00779724px;fill:#00c000;enable-background:new;font-family:MicrosoftYaHei"
+   y="667.62115"
+   x="1639.4781"
+   id="text442_2_"
+   transform="scale(1.0006498,0.99935063)"
+   class="st1 st4 st13"
+   inkscape:label="入炉工分室温度">温度0°C</text>
+
+</svg>
