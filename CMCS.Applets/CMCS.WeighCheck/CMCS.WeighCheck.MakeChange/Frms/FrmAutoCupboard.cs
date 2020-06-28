@@ -112,17 +112,26 @@ namespace CMCS.WeighCheck.MakeChange.Frms
                 InfCYGSam entity = btn.EditorCell.GridRow.DataItem as InfCYGSam;
                 if (entity != null)
                 {
-                    if (entity.MachineCode == GlobalVars.MachineCode_CYG1 && slightCYG.LightColor != EquipmentStatusColors.BeReady)
+                    InfCYGSam rulst = commonDAO.SelfDber.Get<InfCYGSam>(entity.Id);
+                    if (rulst != null)
                     {
-                        MessageBoxEx.Show(string.Format("{0}未就绪!", entity.MachineCode), "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        if (entity.MachineCode == GlobalVars.MachineCode_CYG1 && slightCYG.LightColor != EquipmentStatusColors.BeReady)
+                        {
+                            MessageBoxEx.Show(string.Format("{0}未就绪!", entity.MachineCode), "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+                        if (entity.MachineCode == GlobalVars.MachineCode_CYG2 && slightCYG2.LightColor != EquipmentStatusColors.BeReady)
+                        {
+                            MessageBoxEx.Show(string.Format("{0}未就绪!", entity.MachineCode), "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+                        SendCYGCmd(entity.Code, entity.MachineCode, eCZPLX.取样_气动口, SelfVars.LoginUser.UserName);
+                    }
+                    else
+                    {
+                        MessageBoxEx.Show("该样品已经不在存样柜,请核实!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
-                    if (entity.MachineCode == GlobalVars.MachineCode_CYG2 && slightCYG2.LightColor != EquipmentStatusColors.BeReady)
-                    {
-                        MessageBoxEx.Show(string.Format("{0}未就绪!", entity.MachineCode), "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        return;
-                    }
-                    SendCYGCmd(entity.Code, entity.MachineCode, eCZPLX.取样_气动口, SelfVars.LoginUser.UserName);
                 }
             }
         }
@@ -141,7 +150,27 @@ namespace CMCS.WeighCheck.MakeChange.Frms
                 InfCYGSam entity = btn.EditorCell.GridRow.DataItem as InfCYGSam;
                 if (entity != null)
                 {
-                    SendCYGCmd(entity.Code, entity.MachineCode, eCZPLX.弃样, SelfVars.LoginUser.UserName);
+                    InfCYGSam rulst = commonDAO.SelfDber.Get<InfCYGSam>(entity.Id);
+                    if (rulst != null)
+                    {
+                        if (entity.MachineCode == GlobalVars.MachineCode_CYG1 && slightCYG.LightColor != EquipmentStatusColors.BeReady)
+                        {
+                            MessageBoxEx.Show(string.Format("{0}未就绪!", entity.MachineCode), "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+                        if (entity.MachineCode == GlobalVars.MachineCode_CYG2 && slightCYG2.LightColor != EquipmentStatusColors.BeReady)
+                        {
+                            MessageBoxEx.Show(string.Format("{0}未就绪!", entity.MachineCode), "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+
+                        SendCYGCmd(entity.Code, entity.MachineCode, eCZPLX.弃样, SelfVars.LoginUser.UserName);
+                    }
+                    else
+                    {
+                        MessageBoxEx.Show("该样品已经不在存样柜,请核实!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
                 }
             }
         }
@@ -243,6 +272,7 @@ namespace CMCS.WeighCheck.MakeChange.Frms
         /// <param name="e"></param>
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            sqlWhere = "where 1=1 ";
             if (!string.IsNullOrEmpty(txtMakeCode.Text))
                 sqlWhere += " and Code like '%" + txtMakeCode.Text + "%'";
             if (dtpStartTime.Value.Year > 2000)
@@ -266,7 +296,8 @@ namespace CMCS.WeighCheck.MakeChange.Frms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            btnSearch_Click(null, null);
+            //sqlWhere = "where 1=1 ";
+            //btnSearch_Click(null, null);
             RefreshEquStatus();
         }
 

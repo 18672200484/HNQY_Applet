@@ -91,7 +91,7 @@ namespace CMCS.DumblyConcealer.Win.DumblyTasks
                 int Hour = CommonDAO.GetInstance().GetCommonAppletConfigInt32("存样柜样品弃养时间");
                 if (DateTime.Now.Hour == Hour)
                     autoCupboard_NCGM_DAO.SynCYGPut(this.rTxtOutputer2.Output);
-            }, 3600000, OutputError);
+            }, 600000, OutputError);
         }
 
         /// <summary>

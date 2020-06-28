@@ -34,7 +34,7 @@ namespace CMCS.DumblyConcealer.Tasks.WeightBridger
         public int SyncLwCarsInfo2(Action<string, eOutputType> output)
         {
             int res = 0;
-            DateTime tm = DateTime.Now.AddDays(-CommonDAO.GetInstance().GetAppletConfigInt32("轨道衡数据读取天数")).Date;
+            string tm = DateTime.Now.AddDays(-CommonDAO.GetInstance().GetAppletConfigInt32("轨道衡数据读取天数")).Date.ToString("yyyy-MM-dd");
             string sql = "select 总序号,车号,车型,[重量(kg)],[速度(km/h)],计量时间,皮重 from TR_1 Where 计量时间>='" + tm + "' and [重量(kg)]>10 order by 计量时间 asc";
             DataTable tb = DcDbers.GetInstance().WeightBridger_Dber.ExecuteDataTable(sql);
 

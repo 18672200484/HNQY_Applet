@@ -128,7 +128,7 @@ namespace CMCS.DumblyConcealer.Tasks.PneumaticTransfer_XMJS
         public int CheckCYGCmd(Action<string, eOutputType> output)
         {
             int res = 0;
-            foreach (InfCYGControlCMD item in Dbers.GetInstance().SelfDber.Entities<InfCYGControlCMD>("where OperType!=:OperType and DataFlag=3 and trunc(CreateDate)=trunc(sysdate) order by CreateDate desc", new { OperType = eCZPLX.存样.ToString(), ResultCode = eEquInfCmdResultCode.成功.ToString() }))
+            foreach (InfCYGControlCMD item in Dbers.GetInstance().SelfDber.Entities<InfCYGControlCMD>("where OperType!=:OperType and DataFlag=3 and ResultCode=:ResultCode and  trunc(CreateDate)=trunc(sysdate) order by CreateDate desc", new { OperType = eCZPLX.存样.ToString(), ResultCode = "存样柜执行成功" }))
             {
                 if (item.OperType == eCZPLX.取样_气动口.ToString())
                 {
@@ -137,6 +137,7 @@ namespace CMCS.DumblyConcealer.Tasks.PneumaticTransfer_XMJS
                         output("检测到取样命令，但气动系统不处于就绪状态 等待中...", eOutputType.Important);
                         Thread.Sleep(2000);
                     }
+                    int nub = 0;
                     while (!autoCupboardDAO.CheckTPIsReady(item.MachineCode))
                     {
                         if (autoCupboardDAO.CheckCYGIsError(item.MachineCode))
@@ -146,6 +147,16 @@ namespace CMCS.DumblyConcealer.Tasks.PneumaticTransfer_XMJS
                         }
                         output("等待托盘到位...", eOutputType.Important);
                         Thread.Sleep(10000);
+
+                        nub += 10000;
+                        if (autoCupboardDAO.CheckFree(item.MachineCode))
+                        {
+                            if (nub > 60000)
+                            {
+                                output("存样柜已被人工恢复就绪,本次命令取消", eOutputType.Important);
+                                goto Stop;
+                            }
+                        }
                     }
                     if (SendQDCmd(GetLisIndexByMachineCode(item.MachineCode), (int)eDevices.化验室取样站, item.CodeNumber))
                     {
@@ -162,6 +173,7 @@ namespace CMCS.DumblyConcealer.Tasks.PneumaticTransfer_XMJS
                         output("检测到弃样命令，但气动系统不处于就绪状态 等待中...", eOutputType.Important);
                         Thread.Sleep(2000);
                     }
+                    int nub = 0;
                     while (!autoCupboardDAO.CheckTPIsReady(item.MachineCode))
                     {
                         if (autoCupboardDAO.CheckCYGIsError(item.MachineCode))
@@ -171,6 +183,15 @@ namespace CMCS.DumblyConcealer.Tasks.PneumaticTransfer_XMJS
                         }
                         output("等待托盘到位...", eOutputType.Important);
                         Thread.Sleep(2000);
+                        nub += 2000;
+                        if (autoCupboardDAO.CheckFree(item.MachineCode))
+                        {
+                            if (nub > 60000)
+                            {
+                                output("存样柜已被人工恢复就绪,本次命令取消", eOutputType.Important);
+                                goto Stop;
+                            }
+                        }
                     }
                     if (SendQDCmd(GetLisIndexByMachineCode(item.MachineCode), (int)eDevices.弃样站, item.CodeNumber))
                     {
