@@ -134,8 +134,8 @@
    guidetolerance="10"
    id="namedview1946"
    inkscape:current-layer="svg2"
-   inkscape:cx="824.14837"
-   inkscape:cy="514.50458"
+   inkscape:cx="475.43257"
+   inkscape:cy="442.54035"
    inkscape:guide-bbox="true"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
@@ -144,7 +144,7 @@
    inkscape:window-width="1920"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
-   inkscape:zoom="0.70710678"
+   inkscape:zoom="1"
    objecttolerance="10"
    pagecolor="#ffffff"
    showgrid="false"
@@ -165,14 +165,10 @@
 
 
 
-
-
 <text
    transform="matrix(1 0 0 1 1850.0302 366.7805)"
    class="st0 st1 st2"
    id="text9"> </text>
-
-
 
 
 
@@ -183,14 +179,10 @@
 
 
 
-
-
 <text
    transform="matrix(1 0 0 1 1768.9158 367.1764)"
    class="st0 st1 st2"
    id="text13"> </text>
-
-
 
 
 
@@ -201,22 +193,10 @@
 
 
 
-
-
 <text
+   transform="matrix(1 0 0 1 707.7337 54.2112)"
    class="st0 st1 st3"
-   id="text17"
-   inkscape:label="当前全自动制样机"
-   style="font-size:33.15950012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
-   sodipodi:linespacing="125%"
-   x="607.7337"
-   y="54.211201"><tspan
-     sodipodi:role="line"
-     id="tspan3773"
-     x="607.7337"
-     y="54.211201">环保型无人值守煤炭联合制样系统-#1全自动制样机</tspan></text>
-
-
+   id="text17">环保型无人值守煤炭联合制样系统</text>
 
 
 
@@ -306,15 +286,11 @@
 
 
 
-
-
 <text
    id="_123974408"
    transform="matrix(1 0 0 1 505.7894 752.3391)"
    class="st0 st1 st6"
    inkscape:label="出样时间1">17:16:15</text>
-
-
 
 
 
@@ -326,14 +302,10 @@
 
 
 
-
-
 <text
    id="_123974168"
    transform="matrix(1 0 0 1 646.6948 713.2768)"
    class="st0 st1 st6">样品类型</text>
-
-
 
 
 
@@ -346,8 +318,6 @@
 
 
 
-
-
 <text
    id="_123973928"
    transform="matrix(1 0 0 1 632.1279 752.3391)"
@@ -356,15 +326,11 @@
 
 
 
-
-
 <text
    id="_123973808"
    transform="matrix(1 0 0 1 632.1279 791.3393)"
    class="st0 st1 st6"
    inkscape:label="样品类型2">6mm全水样</text>
-
-
 
 
 
@@ -378,8 +344,6 @@
 
 
 
-
-
 <text
    id="_123973568"
    class="st0 st1 st6"
@@ -387,8 +351,6 @@
    x="764.85571"
    y="791.33929"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565614</text>
-
-
 
 
 
@@ -400,15 +362,11 @@
 
 
 
-
-
 <text
    id="_123973328"
    transform="matrix(1 0 0 1 632.1279 869.3393)"
    class="st0 st1 st6"
    inkscape:label="样品类型4">6mm全水样</text>
-
-
 
 
 
@@ -419,8 +377,6 @@
    x="764.85571"
    y="869.33929"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565608</text>
-
-
 
 
 
@@ -445,8 +401,6 @@
 
 
 
-
-
 <text
    id="_123972824"
    class="st0 st1 st6"
@@ -454,8 +408,6 @@
    x="946.60217"
    y="752.33911"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
-
-
 
 
 
@@ -469,15 +421,11 @@
 
 
 
-
-
 <text
    id="_123972584"
    transform="matrix(1 0 0 1 946.3519 869.3393)"
    class="st0 st1 st6"
    inkscape:label="样重4">2.8</text>
-
-
 
 
 
@@ -499,15 +447,11 @@
 
 
 
-
-
 <text
    id="_124329616"
    transform="matrix(1 0 0 1 1033.507 752.3391)"
    class="st0 st1 st6"
    inkscape:label="传输状态1">等待传输</text>
-
-
 
 
 
@@ -519,8 +463,6 @@
 
 
 
-
-
 <text
    id="_123974288_1_"
    transform="matrix(1 0 0 1 505.7894 830.5063)"
@@ -529,15 +471,11 @@
 
 
 
-
-
 <text
    id="_123973808_1_"
    transform="matrix(1 0 0 1 632.1279 830.5063)"
    class="st0 st1 st6"
    inkscape:label="样品类型3">6mm全水样</text>
-
-
 
 
 
@@ -551,8 +489,6 @@
 
 
 
-
-
 <text
    id="_123972704_1_"
    class="st0 st1 st6"
@@ -560,8 +496,6 @@
    x="946.60217"
    y="830.50629"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
-
-
 
 
 
@@ -573,8 +507,6 @@
 
 
 
-
-
 <text
    id="_124329376"
    class="st0 st1 st6"
@@ -582,8 +514,6 @@
    x="1033.4811"
    y="869.33929"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">已传输</text>
-
-
 
 
 
@@ -652,15 +582,11 @@
 
 
 
-
-
 <text
    id="_123974408_2_"
    transform="matrix(1 0 0 1 1191.5846 752.3391)"
    class="st0 st1 st6"
    inkscape:label="出样时间5">17:16:15</text>
-
-
 
 
 
@@ -672,14 +598,10 @@
 
 
 
-
-
 <text
    id="_123974168_2_"
    transform="matrix(1 0 0 1 1332.49 713.2768)"
    class="st0 st1 st6">样品类型</text>
-
-
 
 
 
@@ -692,8 +614,6 @@
 
 
 
-
-
 <text
    id="_123973928_2_"
    transform="matrix(1 0 0 1 1317.9231 752.3391)"
@@ -702,15 +622,11 @@
 
 
 
-
-
 <text
    id="_123973808_5_"
    transform="matrix(1 0 0 1 1317.9231 791.3393)"
    class="st0 st1 st6"
    inkscape:label="样品类型6">6mm全水样</text>
-
-
 
 
 
@@ -724,8 +640,6 @@
 
 
 
-
-
 <text
    id="_123973568_5_"
    class="st0 st1 st6"
@@ -733,8 +647,6 @@
    x="1450.6509"
    y="791.33929"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565614</text>
-
-
 
 
 
@@ -746,14 +658,10 @@
 
 
 
-
-
 <text
    id="_123973328_2_"
    transform="matrix(1 0 0 1 1317.9231 869.3393)"
    class="st0 st1 st6">6mm全水样</text>
-
-
 
 
 
@@ -764,8 +672,6 @@
    x="1450.6509"
    y="869.33929"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565608</text>
-
-
 
 
 
@@ -790,8 +696,6 @@
 
 
 
-
-
 <text
    id="_123972824_2_"
    class="st0 st1 st6"
@@ -799,8 +703,6 @@
    x="1632.3975"
    y="752.33911"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
-
-
 
 
 
@@ -814,15 +716,11 @@
 
 
 
-
-
 <text
    id="_123972584_2_"
    transform="matrix(1 0 0 1 1632.1472 869.3393)"
    class="st0 st1 st6"
    inkscape:label="样重7">2.8</text>
-
-
 
 
 
@@ -844,14 +742,10 @@
 
 
 
-
-
 <text
    id="_124329616_2_"
    transform="matrix(1 0 0 1 1719.3022 752.3391)"
    class="st0 st1 st6">等待传输</text>
-
-
 
 
 
@@ -863,8 +757,6 @@
 
 
 
-
-
 <text
    id="_123974288_4_"
    transform="matrix(1 0 0 1 1191.5846 830.5063)"
@@ -873,15 +765,11 @@
 
 
 
-
-
 <text
    id="_123973808_4_"
    transform="matrix(1 0 0 1 1317.9231 830.5063)"
    class="st0 st1 st6"
    inkscape:label="样品类型7">6mm全水样</text>
-
-
 
 
 
@@ -895,8 +783,6 @@
 
 
 
-
-
 <text
    id="_123972704_4_"
    class="st0 st1 st6"
@@ -904,8 +790,6 @@
    x="1632.3975"
    y="830.50629"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
-
-
 
 
 
@@ -917,8 +801,6 @@
 
 
 
-
-
 <text
    id="_124329376_2_"
    class="st0 st1 st6"
@@ -926,8 +808,6 @@
    x="1719.2764"
    y="869.33929"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">已传输</text>
-
-
 
 
 
@@ -992,8 +872,6 @@
 
 
 
-
-
 <rect
    id="_124326952"
    x="348.3"
@@ -1008,8 +886,6 @@
    x="375.29681"
    y="864.52643"
    style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">10</text>
-
-
 
 
 
@@ -1032,14 +908,10 @@
 
 
 
-
-
 <text
    id="_124326376"
    transform="matrix(1 0 0 1 381.0466 815.9355)"
    class="st0 st1 st6">粒度</text>
-
-
 
 
 
@@ -1050,14 +922,10 @@
 
 
 
-
-
 <text
    id="_124326256_1_"
    transform="matrix(1 0 0 1 116.4997 744.4951)"
    class="st0 st1 st7">当前制样</text>
-
-
 
 
 
@@ -1068,14 +936,10 @@
 
 
 
-
-
 <text
    id="_124326112"
    transform="matrix(1 0 0 1 172.7771 815.8564)"
    class="st0 st1 st6">煤种</text>
-
-
 
 
 
@@ -1084,8 +948,6 @@
    transform="matrix(1 0 0 1 172.7771 864.8115)"
    class="st0 st1 st6"
    inkscape:label="煤种">烟煤</text>
-
-
 
 
 
@@ -1099,15 +961,11 @@
 
 
 
-
-
 <text
    id="_124325776"
    transform="matrix(1 0 0 1 335.064 766.9941)"
    class="st0 st1 st6"
    inkscape:label="制样开始时间">17:16:15</text>
-
-
 
 
 
@@ -1567,8 +1425,6 @@
 
 
 
-
-
 <text
    id="text831"
    transform="matrix(1 0 0 1 1684.9043 370.8535)"
@@ -1581,14 +1437,10 @@
 
 
 
-
-
 <text
    id="text833"
    transform="matrix(1 0 0 1 1725.3643 370.8535)"
    class="st24 st1 st25">°</text>
-
-
 
 
 
@@ -1599,14 +1451,10 @@
 
 
 
-
-
 <text
    id="text837"
    transform="matrix(1 0 0 1 123.4404 427.0937)"
    class="st1 st26">扫码</text>
-
-
 
 
 
@@ -1618,8 +1466,6 @@
    id="text841"
    transform="matrix(1 0 0 1 315.3418 122.2099)"
    class="st0 st1 st28">破碎</text>
-
-
 
 
 
@@ -1700,8 +1546,6 @@
 
 
 
-
-
 <rect
    id="rect865"
    x="295.9"
@@ -1779,8 +1623,6 @@
 
 
 
-
-
 <text
    id="text887"
    transform="matrix(1 0 0 1 503.5752 151.8486)"
@@ -1788,14 +1630,10 @@
 
 
 
-
-
 <text
    id="text889"
    transform="matrix(1 0 0 1 506.7134 250.9668)"
    class="st1 st23">缩分</text>
-
-
 
 
 
@@ -1843,14 +1681,10 @@
 
 
 
-
-
 <text
    id="text911"
    transform="matrix(1 0 0 1 660.7271 122.2187)"
    class="st1 st28">缩分</text>
-
-
 
 
 
@@ -1861,14 +1695,10 @@
 
 
 
-
-
 <text
    id="text915"
    transform="matrix(1 0 0 1 663.3711 250.9668)"
    class="st1 st23">缩分</text>
-
-
 
 
 
@@ -1879,14 +1709,10 @@
 
 
 
-
-
 <text
    id="text919"
    transform="matrix(1 0 0 1 829.4956 250.959)"
    class="st0 st1 st23">破碎</text>
-
-
 
 
 
@@ -1897,14 +1723,10 @@
 
 
 
-
-
 <text
    id="text923"
    transform="matrix(1 0 0 1 978.9531 151.8486)"
    class="st1 st23">3mm</text>
-
-
 
 
 
@@ -1915,14 +1737,10 @@
 
 
 
-
-
 <text
    id="text927"
    transform="matrix(1 0 0 1 979.4443 122.2187)"
    class="st1 st28">缩分</text>
-
-
 
 
 
@@ -1933,14 +1751,10 @@
 
 
 
-
-
 <text
    id="text931"
    transform="matrix(1 0 0 1 1129.9785 122.2187)"
    class="st1 st28">缩分</text>
-
-
 
 
 
@@ -1951,14 +1765,10 @@
 
 
 
-
-
 <text
    id="text935"
    transform="matrix(1 0 0 1 1284.1572 122.1279)"
    class="st0 st1 st28">干燥</text>
-
-
 
 
 
@@ -1969,14 +1779,10 @@
 
 
 
-
-
 <text
    id="text939"
    transform="matrix(1 0 0 1 1450.041 151.8486)"
    class="st1 st23">3mm</text>
-
-
 
 
 
@@ -1987,14 +1793,10 @@
 
 
 
-
-
 <text
    id="text943"
    transform="matrix(1 0 0 1 1450.5381 122.2187)"
    class="st1 st28">缩分</text>
-
-
 
 
 
@@ -2005,14 +1807,10 @@
 
 
 
-
-
 <text
    id="text947"
    transform="matrix(1 0 0 1 1611.7744 151.8486)"
    class="st0 st1 st23">2mm</text>
-
-
 
 
 
@@ -2023,14 +1821,10 @@
 
 
 
-
-
 <text
    id="text951"
    transform="matrix(1 0 0 1 1608.3916 251.0444)"
    class="st0 st1 st23">粉碎</text>
-
-
 
 
 
@@ -2041,14 +1835,10 @@
 
 
 
-
-
 <text
    id="text955"
    transform="matrix(1 0 0 1 1769.8066 151.8486)"
    class="st1 st23">0</text>
-
-
 
 
 
@@ -2059,14 +1849,10 @@
 
 
 
-
-
 <text
    id="text959"
    transform="matrix(1 0 0 1 1779.1387 151.8486)"
    class="st1 st23">.</text>
-
-
 
 
 
@@ -2077,14 +1863,10 @@
 
 
 
-
-
 <text
    id="text963"
    transform="matrix(1 0 0 1 1776.8916 122.2187)"
    class="st1 st28">缩分</text>
-
-
 
 
 
@@ -2134,14 +1916,10 @@
 
 
 
-
-
 <text
    id="text993"
    transform="matrix(1 0 0 1 1276.8682 414.6538)"
    class="st1 st23">清洗样</text>
-
-
 
 
 
@@ -2159,14 +1937,10 @@
 
 
 
-
-
 <text
    id="text999"
    transform="matrix(1 0 0 1 123.4404 218.3096)"
    class="st1 st26">称重</text>
-
-
 
 
 
@@ -2439,14 +2213,10 @@
 
 
 
-
-
 <text
    id="text1048"
    transform="matrix(1 0 0 1 242.7095 358.3047)"
    class="st1 st23">料</text>
-
-
 
 
 
@@ -2457,14 +2227,10 @@
 
 
 
-
-
 <text
    id="text1052"
    transform="matrix(1 0 0 1 242.7095 396.5117)"
    class="st1 st23">阀</text>
-
-
 
 
 
@@ -2475,14 +2241,10 @@
 
 
 
-
-
 <text
    id="text1056"
    transform="matrix(1 0 0 1 295.5386 358.311)"
    class="st1 st23">破</text>
-
-
 
 
 
@@ -2493,14 +2255,10 @@
 
 
 
-
-
 <text
    id="text1060"
    transform="matrix(1 0 0 1 295.5386 396.5195)"
    class="st1 st23">阀</text>
-
-
 
 
 
@@ -2511,14 +2269,10 @@
 
 
 
-
-
 <text
    id="text1064"
    transform="matrix(1 0 0 1 347.9541 358.3799)"
    class="st1 st23">分</text>
-
-
 
 
 
@@ -2529,14 +2283,10 @@
 
 
 
-
-
 <text
    id="text1068"
    transform="matrix(1 0 0 1 347.9541 396.5869)"
    class="st1 st23">阀</text>
-
-
 
 
 
@@ -2547,14 +2297,10 @@
 
 
 
-
-
 <text
    id="text1072"
    transform="matrix(1 0 0 1 403.7334 358.2817)"
    class="st1 st23">辊</text>
-
-
 
 
 
@@ -2565,14 +2311,10 @@
 
 
 
-
-
 <text
    id="text1076"
    transform="matrix(1 0 0 1 403.7334 396.4902)"
    class="st1 st23">阀</text>
-
-
 
 
 
@@ -2583,14 +2325,10 @@
 
 
 
-
-
 <text
    id="text1080"
    transform="matrix(1 0 0 1 453.2383 357.8603)"
    class="st1 st23">磨</text>
-
-
 
 
 
@@ -2601,14 +2339,10 @@
 
 
 
-
-
 <text
    id="text1084"
    transform="matrix(1 0 0 1 453.2383 396.0683)"
    class="st1 st23">阀</text>
-
-
 
 
 
@@ -3751,8 +3485,6 @@
 
 
 
-
-
 <text
    id="text1181"
    transform="matrix(1 0 0 1 574.8545 518.9336)"
@@ -3760,14 +3492,10 @@
 
 
 
-
-
 <text
    id="text1181_4_"
    transform="matrix(1 0 0 1 847.0192 518.9336)"
    class="st1 st23">3mm</text>
-
-
 
 
 
@@ -3790,8 +3518,6 @@
 
 
 
-
-
 <text
    id="text1181_2_"
    transform="matrix(1 0 0 1 1262.7133 534.9336)"
@@ -3811,14 +3537,10 @@
 
 
 
-
-
 <text
    id="text1187"
    transform="matrix(1 0 0 1 1236.5452 518.9336)"
    class="st1 st23">0.2mm</text>
-
-
 
 
 
@@ -3841,14 +3563,10 @@
 
 
 
-
-
 <text
    id="text1221_1_"
    transform="matrix(1 0 0 1 570.3558 634.0996)"
    class="st0 st1 st23">进瓶口</text>
-
-
 
 
 
@@ -4627,8 +4345,6 @@
 
 
 
-
-
 <linearGradient
    id="polygon975_1_"
    gradientUnits="userSpaceOnUse"
@@ -4675,14 +4391,10 @@
 
 
 
-
-
 <text
    id="text983"
    transform="matrix(1 0 0 1 663.408 414.6538)"
    class="st1 st23">弃料</text>
-
-
 
 
 
@@ -4709,68 +4421,4 @@
 
 
 
-<text
-   id="_125279112"
-   class="st5 st2 st7"
-   style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
-   sodipodi:linespacing="125%"
-   inkscape:label="1号全自动制样机选中"
-   x="238.39211"
-   y="53.453979"><tspan
-     sodipodi:role="line"
-     id="tspan3769"
-     x="238.39211"
-     y="53.453979">#1全制动制样机</tspan></text>
-
-<ellipse
-   id="_125279040"
-   inkscape:label="1号全自动制样机_系统"
-   sodipodi:cx="393.39999"
-   sodipodi:cy="51"
-   sodipodi:rx="15"
-   sodipodi:ry="15"
-   class="st8"
-   cx="393.39999"
-   cy="51"
-   rx="15"
-   ry="15"
-   transform="translate(-183.63933,-9.074193)"
-   style="fill:#00a551" /><rect
-   style="opacity:0.01000001"
-   id="rect3765-1-0"
-   width="288.91321"
-   height="51.790276"
-   x="181.97841"
-   y="16.811968"
-   inkscape:label="1号全自动制样机点击域" /><text
-   id="_125279112-1"
-   class="st5 st2 st7"
-   style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
-   sodipodi:linespacing="125%"
-   inkscape:label="2号全自动制样机选中"
-   x="1532.3921"
-   y="51.453846"><tspan
-     sodipodi:role="line"
-     id="tspan3771">#2全自动制样机</tspan></text>
-
-<ellipse
-   id="_125279040-4"
-   inkscape:label="2号全自动制样机_系统"
-   sodipodi:cx="393.39999"
-   sodipodi:cy="51"
-   sodipodi:rx="15"
-   sodipodi:ry="15"
-   class="st8"
-   cx="393.39999"
-   cy="51"
-   rx="15"
-   ry="15"
-   transform="translate(1110.3607,-11.074324)"
-   style="fill:#00a551" /><rect
-   style="opacity:0.01000001"
-   id="rect3765-1-1"
-   width="294.57007"
-   height="51.790276"
-   x="1471.7358"
-   y="13.983405"
-   inkscape:label="2号全自动制样机点击域" /></svg>
+</svg>

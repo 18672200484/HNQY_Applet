@@ -55,5 +55,6 @@ namespace CMCS.DumblyConcealer.Tasks.AssayDevice.Entities
         /// 测试日期
         /// </summary>
         public DateTime CSRQ { get; set; }
-    }
+		
+	}
 }

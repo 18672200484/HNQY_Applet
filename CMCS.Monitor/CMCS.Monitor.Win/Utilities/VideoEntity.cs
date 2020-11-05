@@ -8,7 +8,7 @@ namespace CMCS.Monitor.Win.Utilities
     public class VideoEntity
     {
         public String Ip { get; set; }
-        public Int32 Channel { get; set; }
+        public String Channel { get; set; }
         public Int32 PortNumber { get; set; }
         public String UserName { get; set; }
         public String Password { get; set; }

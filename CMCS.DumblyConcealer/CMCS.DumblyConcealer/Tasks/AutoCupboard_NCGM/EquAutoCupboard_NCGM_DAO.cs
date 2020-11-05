@@ -280,7 +280,12 @@ namespace CMCS.DumblyConcealer.Tasks.AutoCupboard_NCGM
 			return res;
 		}
 
-		//光明传过来的样品类型转换成对应我们数据库样品类型
+		/// <summary>
+		/// 光明传过来的样品类型转换成对应我们数据库样品类型
+		/// </summary>
+		/// <param name="Code"></param>
+		/// <param name="type"></param>
+		/// <returns></returns>
 		public string GetYangpinTypeByCode(string Code, string type)
 		{
 			string yangPinType = "";
@@ -321,69 +326,69 @@ namespace CMCS.DumblyConcealer.Tasks.AutoCupboard_NCGM
 			return infcygsignals.Count > 0 && infcygsignals[0].TagValue == "3";
 		}
 
-        /// <summary>
-        /// 弃样处理
-        /// </summary>
-        /// <param name="output"></param>
-        /// <returns></returns>
-        public int SynCYGPut(Action<string, eOutputType> output)
-        {
-            int res = 0;
-            int day = 90;
-            try
-            {
-                day = commonDAO.GetCommonAppletConfigInt32("存样柜样品储存天数");
-            }
-            catch
-            {
-            }
-            IList<InfCYGSam> cygSam = commonDAO.SelfDber.Entities<InfCYGSam>("where IsNew=1 and UpdateTime<:UpdateTime order by UpdateTime", new { UpdateTime = DateTime.Now.AddDays(-day + 1).Date });
-            List<CodeContent> list = commonDAO.GetCodeContentByKind("化验样样品类型");
-            foreach (InfCYGSam item in cygSam)
-            {
-                CodeContent entity = list.Where(a => a.Code == item.SamType).FirstOrDefault();
+		/// <summary>
+		/// 弃样处理
+		/// </summary>
+		/// <param name="output"></param>
+		/// <returns></returns>
+		public int SynCYGPut(Action<string, eOutputType> output)
+		{
+			int res = 0;
+			int day = 90;
+			try
+			{
+				day = commonDAO.GetCommonAppletConfigInt32("存样柜样品储存天数");
+			}
+			catch
+			{
+			}
+			IList<InfCYGSam> cygSam = commonDAO.SelfDber.Entities<InfCYGSam>("where IsNew=1 and UpdateTime<:UpdateTime order by UpdateTime", new { UpdateTime = DateTime.Now.AddDays(-day + 1).Date });
+			List<CodeContent> list = commonDAO.GetCodeContentByKind("化验样样品类型");
+			foreach (InfCYGSam item in cygSam)
+			{
+				CodeContent entity = list.Where(a => a.Code == item.SamType).FirstOrDefault();
 
-                if (entity != null)
-                {
-                    if (item.UpdateTime.AddDays(string.IsNullOrEmpty(entity.Remark) ? 90 : int.Parse(entity.Remark)) < DateTime.Now)//根据不同类型配置的过期天数自动弃样
-                    {
-                        output("检测到超期样品，开始处理...", eOutputType.Normal);
-                        while (!CheckFree())
-                        {
-                            output("存样柜未就绪，等待中...", eOutputType.Normal);
-                            Thread.Sleep(10000);
-                        }
-                        while (!PneumaticTransfer_XMJS_DAO.GetInstance().CheckFree())
-                        {
-                            output("气动未就绪，等待中...", eOutputType.Normal);
-                            Thread.Sleep(10000);
-                        }
-                        AutoCupboardDAO.GetInstance().SaveAutoCupboardCmd(item.Code, item.MachineCode, eCZPLX.弃样);
-                        output("弃样命令已发送", eOutputType.Normal);
-                        eEquInfCYGCmdResultCode equInfCmdResultCode = eEquInfCYGCmdResultCode.默认;
-                        while (equInfCmdResultCode == eEquInfCYGCmdResultCode.气动执行成功)
-                        {
-                            Thread.Sleep(10000);
-                            output(equInfCmdResultCode.ToString().Replace("默认", "执行中"), eOutputType.Normal);
-                            // 获取卸样命令的执行结果
-                            equInfCmdResultCode = autoCupboardDAO.GetAutoCupboardResult(item.Code);
-                        }
-                        output(equInfCmdResultCode.ToString(), eOutputType.Important);
-                        res++;
-                        output("弃样处理成功", eOutputType.Important);
-                    }
-                }
-            }
-            return res;
-        }
+				if (entity != null)
+				{
+					if (item.UpdateTime.AddDays(string.IsNullOrEmpty(entity.Remark) ? 90 : int.Parse(entity.Remark)) < DateTime.Now)//根据不同类型配置的过期天数自动弃样
+					{
+						output("检测到超期样品，开始处理...", eOutputType.Normal);
+						while (!CheckFree())
+						{
+							output("存样柜未就绪，等待中...", eOutputType.Normal);
+							Thread.Sleep(10000);
+						}
+						while (!PneumaticTransfer_XMJS_DAO.GetInstance().CheckFree())
+						{
+							output("气动未就绪，等待中...", eOutputType.Normal);
+							Thread.Sleep(10000);
+						}
+						AutoCupboardDAO.GetInstance().SaveAutoCupboardCmd(item.Code, item.MachineCode, eCZPLX.弃样);
+						output("弃样命令已发送", eOutputType.Normal);
+						eEquInfCYGCmdResultCode equInfCmdResultCode = eEquInfCYGCmdResultCode.默认;
+						while (equInfCmdResultCode == eEquInfCYGCmdResultCode.气动执行成功)
+						{
+							Thread.Sleep(10000);
+							output(equInfCmdResultCode.ToString().Replace("默认", "执行中"), eOutputType.Normal);
+							// 获取卸样命令的执行结果
+							equInfCmdResultCode = autoCupboardDAO.GetAutoCupboardResult(item.Code);
+						}
+						output(equInfCmdResultCode.ToString(), eOutputType.Important);
+						res++;
+						output("弃样处理成功", eOutputType.Important);
+					}
+				}
+			}
+			return res;
+		}
 
 
-        /// <summary>
-        /// 同步制样 出样明细信息到集中管控
-        /// </summary>
-        /// <param name="output"></param>
-        /// <returns></returns>
-        public void SyncMakeDetail(Action<string, eOutputType> output)
+		/// <summary>
+		/// 同步制样 出样明细信息到集中管控
+		/// </summary>
+		/// <param name="output"></param>
+		/// <returns></returns>
+		public void SyncMakeDetail(Action<string, eOutputType> output)
 		{
 			int res = 0;
 

@@ -32,6 +32,7 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn2 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
 			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn3 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
 			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn4 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
+			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn5 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
 			this.superGridControl1 = new DevComponents.DotNetBar.SuperGrid.SuperGridControl();
 			this.btnPrevious = new DevComponents.DotNetBar.ButtonX();
 			this.btnFirst = new DevComponents.DotNetBar.ButtonX();
@@ -44,6 +45,8 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			this.splitContainer2 = new System.Windows.Forms.SplitContainer();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.cmbAppidentity = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+			this.labelX12 = new DevComponents.DotNetBar.LabelX();
 			this.dtpEndTime = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
 			this.dtpStartTime = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
 			this.BtnAdd = new DevComponents.DotNetBar.ButtonX();
@@ -86,27 +89,33 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			gridColumn1.Name = "clmShow";
 			gridColumn1.NullString = "查看";
 			gridColumn1.Width = 50;
-			gridColumn2.AutoSizeMode = DevComponents.DotNetBar.SuperGrid.ColumnAutoSizeMode.AllCells;
-			gridColumn2.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn2.DataPropertyName = "Title";
-			gridColumn2.HeaderText = "标题";
-			gridColumn2.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn2.MinimumWidth = 150;
+			gridColumn2.DataPropertyName = "AppIdentifier";
+			gridColumn2.HeaderText = "程序";
 			gridColumn2.Name = "";
-			gridColumn3.AutoSizeMode = DevComponents.DotNetBar.SuperGrid.ColumnAutoSizeMode.Fill;
+			gridColumn2.Width = 200;
+			gridColumn3.AutoSizeMode = DevComponents.DotNetBar.SuperGrid.ColumnAutoSizeMode.AllCells;
 			gridColumn3.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn3.DataPropertyName = "Content";
-			gridColumn3.HeaderText = "内容";
+			gridColumn3.DataPropertyName = "Title";
+			gridColumn3.HeaderText = "标题";
 			gridColumn3.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn3.Name = "clmContent";
-			gridColumn3.Width = 80;
-			gridColumn4.DataPropertyName = "Id";
-			gridColumn4.Name = "clmId";
-			gridColumn4.Visible = false;
+			gridColumn3.MinimumWidth = 150;
+			gridColumn3.Name = "";
+			gridColumn3.Width = 200;
+			gridColumn4.AutoSizeMode = DevComponents.DotNetBar.SuperGrid.ColumnAutoSizeMode.Fill;
+			gridColumn4.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
+			gridColumn4.DataPropertyName = "Content";
+			gridColumn4.HeaderText = "内容";
+			gridColumn4.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
+			gridColumn4.Name = "clmContent";
+			gridColumn4.Width = 80;
+			gridColumn5.DataPropertyName = "Id";
+			gridColumn5.Name = "clmId";
+			gridColumn5.Visible = false;
 			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn1);
 			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn2);
 			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn3);
 			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn4);
+			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn5);
 			this.superGridControl1.PrimaryGrid.DefaultRowHeight = 0;
 			this.superGridControl1.PrimaryGrid.InitialSelection = DevComponents.DotNetBar.SuperGrid.RelativeSelection.Row;
 			this.superGridControl1.PrimaryGrid.SelectionGranularity = DevComponents.DotNetBar.SuperGrid.SelectionGranularity.Row;
@@ -302,6 +311,8 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(82)))), ((int)(((byte)(89)))));
+			this.panel1.Controls.Add(this.cmbAppidentity);
+			this.panel1.Controls.Add(this.labelX12);
 			this.panel1.Controls.Add(this.dtpEndTime);
 			this.panel1.Controls.Add(this.dtpStartTime);
 			this.panel1.Controls.Add(this.BtnAdd);
@@ -314,6 +325,39 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(1369, 40);
 			this.panel1.TabIndex = 12;
+			// 
+			// cmbAppidentity
+			// 
+			this.cmbAppidentity.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.cmbAppidentity.DisplayMember = "Text";
+			this.cmbAppidentity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+			this.cmbAppidentity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.cmbAppidentity.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+			this.cmbAppidentity.ForeColor = System.Drawing.Color.White;
+			this.cmbAppidentity.FormattingEnabled = true;
+			this.cmbAppidentity.ItemHeight = 21;
+			this.cmbAppidentity.Location = new System.Drawing.Point(617, 7);
+			this.cmbAppidentity.Name = "cmbAppidentity";
+			this.cmbAppidentity.Size = new System.Drawing.Size(208, 27);
+			this.cmbAppidentity.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+			this.cmbAppidentity.TabIndex = 274;
+			// 
+			// labelX12
+			// 
+			this.labelX12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.labelX12.AutoSize = true;
+			this.labelX12.BackColor = System.Drawing.Color.Transparent;
+			// 
+			// 
+			// 
+			this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+			this.labelX12.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+			this.labelX12.ForeColor = System.Drawing.Color.White;
+			this.labelX12.Location = new System.Drawing.Point(569, 8);
+			this.labelX12.Name = "labelX12";
+			this.labelX12.Size = new System.Drawing.Size(40, 24);
+			this.labelX12.TabIndex = 275;
+			this.labelX12.Text = "程序";
 			// 
 			// dtpEndTime
 			// 
@@ -472,6 +516,7 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
 			this.splitContainer1.ResumeLayout(false);
 			this.panel1.ResumeLayout(false);
+			this.panel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtpEndTime)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.dtpStartTime)).EndInit();
 			this.ResumeLayout(false);
@@ -496,5 +541,7 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
         private DevComponents.DotNetBar.Controls.TextBoxX txtContent;
         private DevComponents.Editors.DateTimeAdv.DateTimeInput dtpEndTime;
         private DevComponents.Editors.DateTimeAdv.DateTimeInput dtpStartTime;
-    }
+		private DevComponents.DotNetBar.Controls.ComboBoxEx cmbAppidentity;
+		private DevComponents.DotNetBar.LabelX labelX12;
+	}
 }

@@ -78,7 +78,7 @@
         }
 
         // 请求数据 - 后台调用
-        function requestData(datas) {
+		function requestData(datas) {
             for (var i = 0; i < datas.length; i++) {
                 dataHandler(datas[i]);
             }
@@ -94,7 +94,7 @@
 
             }
             // svg_text
-            else if (data.Type == 2) {
+			else if (data.Type == 2) {
                 canvas1.find("*[inkscape\\:label=" + data.Key + "]").html(data.Value);
             }
             // svg_color
@@ -105,7 +105,7 @@
 
         // 测试
         function test1() {
-            
+			alert(canvas1.find("*[inkscape\\:label=火车_#2已翻车数]"));
         } 
      
     </script>

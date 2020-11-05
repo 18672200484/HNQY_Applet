@@ -51,8 +51,20 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			InitializeComponent();
 		}
 
+		private void BindAppidentity()
+		{
+			DataTable data = CommonDAO.GetInstance().SelfDber.ExecuteDataTable("select appidentifier from cmcstbappletlog t group by appidentifier");
+			foreach (DataRow item in data.Rows)
+			{
+				cmbAppidentity.Items.Add(item["appidentifier"]);
+			}
+			cmbAppidentity.Items.Insert(0, "全部");
+			cmbAppidentity.SelectedIndex = 0;
+		}
+
 		private void FrmAppletLog_List_Load(object sender, EventArgs e)
 		{
+			BindAppidentity();
 			superGridControl1.PrimaryGrid.AutoGenerateColumns = false;
 			dtpStartTime.Value = DateTime.Now;
 			dtpEndTime.Value = DateTime.Now.AddDays(1);
@@ -77,6 +89,7 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 			if (dtpStartTime.Value != DateTime.MinValue) this.SqlWhere += " and trunc(CreateDate) >= '" + dtpStartTime.Value.ToString("yyyy-MM-dd") + "'";
 			if (dtpEndTime.Value != DateTime.MinValue) this.SqlWhere += " and trunc(CreateDate) < '" + dtpEndTime.Value.AddDays(1).ToString("yyyy-MM-dd") + "'";
 			if (!string.IsNullOrEmpty(txtContent.Text)) this.SqlWhere += " and Content like '%" + txtContent.Text + "%'";
+			if (cmbAppidentity.Text != "全部") this.SqlWhere += " and AppIdentifier = '" + cmbAppidentity.Text + "'";
 
 			CurrentIndex = 0;
 			BindData();
@@ -157,7 +170,7 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.AppletLog
 
 		private void GetTotalCount(string sqlWhere)
 		{
-			TotalCount = Dbers.GetInstance().SelfDber.Count<CmcsAutotruck>(sqlWhere);
+			TotalCount = Dbers.GetInstance().SelfDber.Count<CmcsAppletLog>(sqlWhere);
 			if (TotalCount % PageSize != 0)
 				PageCount = TotalCount / PageSize + 1;
 			else

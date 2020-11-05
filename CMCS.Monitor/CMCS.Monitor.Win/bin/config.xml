@@ -3,8 +3,15 @@
   <!--视频-->
   <PicPath>F:\君正\Pic\</PicPath>
   <VideoManage>
-    <VideoItem Ip="192.168.12.11" Channel="62" PortNumber="8000" UserName="admin" Password="admin123" DeviceFactory="海康" PicPlace="#1重车后" IsPreview="true" Order="0" />
-    <VideoItem Ip="192.168.12.11" Channel="63" PortNumber="8000" UserName="admin" Password="admin123" DeviceFactory="海康" PicPlace="#1重车后" IsPreview="true" Order="1" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="0" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="1" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="3" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="4" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="5" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="6" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="7" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="8" />
+    <VideoItem Ip="192.168.91.2" Channel="1000002$1$0$38" PortNumber="9000" UserName="admin" Password="admin123" DeviceFactory="视频窗口一" PicPlace="#1重车后" IsPreview="true" Order="9" />
     <!--<VideoItem Ip="192.168.12.100" Channel="2" PortNumber="37777" UserName="admin" Password="admin" DeviceFactory="大华" PicPlace="#1重车后" IsPreview="true" Order="2"/>-->
     <!--<VideoItem Ip="192.168.12.100" Channel="3" PortNumber="37777" UserName="admin" Password="admin" DeviceFactory="大华" PicPlace="#1重车后" IsPreview="true" Order="3"/>
     <VideoItem Ip="192.168.12.100" Channel="4" PortNumber="37777" UserName="admin" Password="admin" DeviceFactory="大华" PicPlace="#1重车后" IsPreview="true" Order="4"/>

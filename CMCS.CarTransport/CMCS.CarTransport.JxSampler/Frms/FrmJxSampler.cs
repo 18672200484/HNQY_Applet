@@ -221,11 +221,11 @@ namespace CMCS.CarTransport.JxSampler.Frms
 					//txtMineName.Text = value.MineName;
 					txtMineName.Text = "****";
 					txtTicketWeight.Text = value.TicketWeight.ToString();
-                    //txtTransportCompanyName.Text = value.TransportCompanyName;
-                    txtTransportCompanyName.Text = "****";
-                    //txtFuelKindName.Text = value.FuelKindName;
-                    txtFuelKindName.Text = "****";
-                    txtSamplingType.Text = value.SamplingType;
+					//txtTransportCompanyName.Text = value.TransportCompanyName;
+					txtTransportCompanyName.Text = "****";
+					//txtFuelKindName.Text = value.FuelKindName;
+					txtFuelKindName.Text = "****";
+					txtSamplingType.Text = value.SamplingType;
 				}
 				else
 				{
@@ -777,18 +777,18 @@ namespace CMCS.CarTransport.JxSampler.Frms
 				{
 					#region 大华视频
 
-					string strIP = commonDAO.GetAppletConfigString("公共配置", "视频服务器IP地址");
-					string strPort = commonDAO.GetAppletConfigString("公共配置", "视频服务器端口号");
+					string strIP = commonDAO.GetCommonAppletConfigString("视频服务器IP地址");
+					string strPort = commonDAO.GetCommonAppletConfigString("视频服务器端口号");
 					string strID1 = commonDAO.GetAppletConfigString("1号视频通道ID");
 					string strID2 = commonDAO.GetAppletConfigString("2号视频通道ID");
-
+					string username = commonDAO.GetCommonAppletConfigString("视频服务器用户名");
+					string password = commonDAO.GetCommonAppletConfigString("视频服务器密码");
 					IntPtr nPDLLHandle = (IntPtr)0;
 					IntPtr result1 = DHSDK.DPSDK_Create(DHSDK.dpsdk_sdk_type_e.DPSDK_CORE_SDK_SERVER, ref nPDLLHandle);//初始化数据交互接口
 					IntPtr result2 = DHSDK.DPSDK_InitExt();//初始化解码播放接口
 					if (result1 == (IntPtr)0 && result2 == (IntPtr)0)
 					{
-
-						if (DHSDK.Logion(strIP, int.Parse(strPort), "system", "admin123", nPDLLHandle))
+						if (DHSDK.Logion(strIP, int.Parse(strPort), username, password, nPDLLHandle))
 						{
 							#region 1号视频
 							IntPtr realseq = default(IntPtr);
@@ -798,6 +798,7 @@ namespace CMCS.CarTransport.JxSampler.Frms
 								panelEx3.Refresh();
 							}
 							#endregion
+
 							#region 2号视频
 							string szCameraId2 = strID2;
 							if (DHSDK.StartPreview(panelEx4.Handle, szCameraId2, nPDLLHandle, realseq))
@@ -806,7 +807,6 @@ namespace CMCS.CarTransport.JxSampler.Frms
 							}
 							#endregion
 						}
-
 					}
 					else
 					{
@@ -814,15 +814,9 @@ namespace CMCS.CarTransport.JxSampler.Frms
 						MessageBox.Show("初始化失败");
 					}
 				}
-				catch
+				catch (Exception ex)
 				{
-
-
 				}
-
-
-
-
 				#endregion
 
 				timer1.Enabled = true;
@@ -890,7 +884,11 @@ namespace CMCS.CarTransport.JxSampler.Frms
 		/// <param name="e"></param>
 		private void btnGate1Up_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null) this.iocControler.Gate1Up();
+			if (this.iocControler != null)
+			{
+				this.iocControler.Gate1Up();
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + "手动升杆1", GlobalVars.LoginUser.UserName + "手动升杆1", GlobalVars.LoginUser.UserName);
+			}
 		}
 
 		/// <summary>
@@ -900,7 +898,11 @@ namespace CMCS.CarTransport.JxSampler.Frms
 		/// <param name="e"></param>
 		private void btnGate1Down_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null && !this.InductorCoil1) this.iocControler.Gate1Down();
+			if (this.iocControler != null && !this.InductorCoil1)
+			{
+				this.iocControler.Gate1Down();
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + "手动降杆1", GlobalVars.LoginUser.UserName + "手动降杆1", GlobalVars.LoginUser.UserName);
+			}
 		}
 
 		/// <summary>
@@ -910,7 +912,11 @@ namespace CMCS.CarTransport.JxSampler.Frms
 		/// <param name="e"></param>
 		private void btnGate2Up_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null) FrontGateUp();
+			if (this.iocControler != null)
+			{
+				FrontGateUp();
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + "手动升杆2", GlobalVars.LoginUser.UserName + "手动升杆2", GlobalVars.LoginUser.UserName);
+			}
 		}
 
 		/// <summary>
@@ -920,7 +926,11 @@ namespace CMCS.CarTransport.JxSampler.Frms
 		/// <param name="e"></param>
 		private void btnGate2Down_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null && !this.InductorCoil2) FrontGateDown();
+			if (this.iocControler != null && !this.InductorCoil2)
+			{
+				FrontGateDown();
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + "手动降杆2", GlobalVars.LoginUser.UserName + "手动降杆2", GlobalVars.LoginUser.UserName);
+			}
 		}
 
 		#endregion
@@ -1445,6 +1455,8 @@ namespace CMCS.CarTransport.JxSampler.Frms
 		private void btnSendSamplingPlan_Click(object sender, EventArgs e)
 		{
 			if (SendSamplingPlan()) MessageBoxEx.Show("发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+			else
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + "手动发送采样计划", GlobalVars.LoginUser.UserName + "手动发送采样计划");
 		}
 
 		/// <summary>
@@ -1496,6 +1508,7 @@ namespace CMCS.CarTransport.JxSampler.Frms
 		/// <param name="e"></param>
 		private void btnReset_Click(object sender, EventArgs e)
 		{
+			commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动重置", GlobalVars.LoginUser.UserName + " 手动重置");
 			ResetBuyFuel();
 		}
 
@@ -1615,9 +1628,9 @@ namespace CMCS.CarTransport.JxSampler.Frms
 				if (entity == null) return;
 				gridRow.Cells["clmSupplierName"].Value = "****";
 				gridRow.Cells["clmMineName"].Value = "****";
-                gridRow.Cells["clmTransportCompanyName"].Value = "****";
-                gridRow.Cells["clmFuelKindName"].Value = "****";
-            }
+				gridRow.Cells["clmTransportCompanyName"].Value = "****";
+				gridRow.Cells["clmFuelKindName"].Value = "****";
+			}
 		}
 
 		/// <summary>

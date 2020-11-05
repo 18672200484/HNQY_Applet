@@ -58,6 +58,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
 			this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
 			this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
+			this.rTxTMessageInfo = new System.Windows.Forms.RichTextBox();
 			this.panelEx6 = new DevComponents.DotNetBar.PanelEx();
 			this.btnStartSampler = new DevComponents.DotNetBar.ButtonX();
 			this.lblGatherType = new System.Windows.Forms.Label();
@@ -145,8 +146,8 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.splitContainer1.Panel2.Controls.Add(this.panelEx4);
 			this.splitContainer1.Panel2.Controls.Add(this.panelEx3);
 			this.splitContainer1.Panel2.ForeColor = System.Drawing.Color.White;
-			this.splitContainer1.Size = new System.Drawing.Size(1420, 695);
-			this.splitContainer1.SplitterDistance = 1000;
+			this.splitContainer1.Size = new System.Drawing.Size(1891, 695);
+			this.splitContainer1.SplitterDistance = 1400;
 			this.splitContainer1.SplitterWidth = 1;
 			this.splitContainer1.TabIndex = 2;
 			// 
@@ -167,7 +168,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(1000, 695);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(1400, 695);
 			this.tableLayoutPanel1.TabIndex = 0;
 			// 
 			// panelEx2
@@ -178,7 +179,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.panelEx2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panelEx2.Location = new System.Drawing.Point(3, 38);
 			this.panelEx2.Name = "panelEx2";
-			this.panelEx2.Size = new System.Drawing.Size(994, 74);
+			this.panelEx2.Size = new System.Drawing.Size(1394, 74);
 			this.panelEx2.Style.Alignment = System.Drawing.StringAlignment.Center;
 			this.panelEx2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
 			this.panelEx2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -190,7 +191,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			// tableLayoutPanel2
 			// 
 			this.tableLayoutPanel2.ColumnCount = 1;
-			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 994F));
+			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1244F));
 			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
 			this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
 			this.tableLayoutPanel2.Controls.Add(this.panCurrentCarNumber, 0, 0);
@@ -200,7 +201,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.tableLayoutPanel2.Name = "tableLayoutPanel2";
 			this.tableLayoutPanel2.RowCount = 1;
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel2.Size = new System.Drawing.Size(994, 74);
+			this.tableLayoutPanel2.Size = new System.Drawing.Size(1394, 74);
 			this.tableLayoutPanel2.TabIndex = 0;
 			// 
 			// panCurrentCarNumber
@@ -211,7 +212,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.panCurrentCarNumber.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.panCurrentCarNumber.Location = new System.Drawing.Point(3, 3);
 			this.panCurrentCarNumber.Name = "panCurrentCarNumber";
-			this.panCurrentCarNumber.Size = new System.Drawing.Size(988, 68);
+			this.panCurrentCarNumber.Size = new System.Drawing.Size(1388, 68);
 			this.panCurrentCarNumber.Style.Alignment = System.Drawing.StringAlignment.Center;
 			this.panCurrentCarNumber.Style.BackColor1.Color = System.Drawing.Color.Black;
 			this.panCurrentCarNumber.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -228,7 +229,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.flpanEquState.Location = new System.Drawing.Point(0, 0);
 			this.flpanEquState.Margin = new System.Windows.Forms.Padding(0);
 			this.flpanEquState.Name = "flpanEquState";
-			this.flpanEquState.Size = new System.Drawing.Size(1000, 35);
+			this.flpanEquState.Size = new System.Drawing.Size(1400, 35);
 			this.flpanEquState.TabIndex = 4;
 			// 
 			// superTabControl2
@@ -261,7 +262,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControl2.ReorderTabsEnabled = true;
 			this.superTabControl2.SelectedTabFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.superTabControl2.SelectedTabIndex = 0;
-			this.superTabControl2.Size = new System.Drawing.Size(994, 574);
+			this.superTabControl2.Size = new System.Drawing.Size(1394, 574);
 			this.superTabControl2.TabFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.superTabControl2.TabIndex = 5;
 			this.superTabControl2.TabLayoutType = DevComponents.DotNetBar.eSuperTabLayoutType.SingleLineFit;
@@ -277,7 +278,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.superTabControlPanel3.Location = new System.Drawing.Point(0, 31);
 			this.superTabControlPanel3.Name = "superTabControlPanel3";
-			this.superTabControlPanel3.Size = new System.Drawing.Size(994, 543);
+			this.superTabControlPanel3.Size = new System.Drawing.Size(1394, 543);
 			this.superTabControlPanel3.TabIndex = 1;
 			this.superTabControlPanel3.TabItem = this.superTabItem_BuyFuel;
 			// 
@@ -295,7 +296,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.tableLayoutPanel3.RowCount = 2;
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 320F));
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel3.Size = new System.Drawing.Size(994, 543);
+			this.tableLayoutPanel3.Size = new System.Drawing.Size(1394, 543);
 			this.tableLayoutPanel3.TabIndex = 0;
 			// 
 			// superTabControl1
@@ -328,7 +329,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControl1.ReorderTabsEnabled = true;
 			this.superTabControl1.SelectedTabFont = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.superTabControl1.SelectedTabIndex = 0;
-			this.superTabControl1.Size = new System.Drawing.Size(988, 217);
+			this.superTabControl1.Size = new System.Drawing.Size(1388, 217);
 			this.superTabControl1.TabFont = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.superTabControl1.TabIndex = 1;
 			this.superTabControl1.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -341,7 +342,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.superTabControlPanel1.Location = new System.Drawing.Point(0, 34);
 			this.superTabControlPanel1.Name = "superTabControlPanel1";
-			this.superTabControlPanel1.Size = new System.Drawing.Size(988, 183);
+			this.superTabControlPanel1.Size = new System.Drawing.Size(1388, 183);
 			this.superTabControlPanel1.TabIndex = 1;
 			this.superTabControlPanel1.TabItem = this.superTabItem1;
 			// 
@@ -407,7 +408,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superGridControl2.PrimaryGrid.InitialSelection = DevComponents.DotNetBar.SuperGrid.RelativeSelection.Row;
 			this.superGridControl2.PrimaryGrid.MultiSelect = false;
 			this.superGridControl2.PrimaryGrid.ShowRowGridIndex = true;
-			this.superGridControl2.Size = new System.Drawing.Size(988, 183);
+			this.superGridControl2.Size = new System.Drawing.Size(1388, 183);
 			this.superGridControl2.TabIndex = 1;
 			this.superGridControl2.Text = "superGridControl1";
 			this.superGridControl2.BeginEdit += new System.EventHandler<DevComponents.DotNetBar.SuperGrid.GridEditEventArgs>(this.superGridControl_BeginEdit);
@@ -425,13 +426,14 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
 			this.superTabControlPanel2.Name = "superTabControlPanel2";
-			this.superTabControlPanel2.Size = new System.Drawing.Size(988, 217);
+			this.superTabControlPanel2.Size = new System.Drawing.Size(1388, 217);
 			this.superTabControlPanel2.TabIndex = 0;
 			// 
 			// panelEx1
 			// 
 			this.panelEx1.CanvasColor = System.Drawing.SystemColors.Control;
 			this.panelEx1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+			this.panelEx1.Controls.Add(this.rTxTMessageInfo);
 			this.panelEx1.Controls.Add(this.panelEx6);
 			this.panelEx1.Controls.Add(this.panelEx5);
 			this.panelEx1.Controls.Add(this.superGridControl1);
@@ -439,13 +441,24 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.panelEx1.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.panelEx1.Location = new System.Drawing.Point(3, 3);
 			this.panelEx1.Name = "panelEx1";
-			this.panelEx1.Size = new System.Drawing.Size(988, 314);
+			this.panelEx1.Size = new System.Drawing.Size(1388, 314);
 			this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
 			this.panelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
 			this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
 			this.panelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
 			this.panelEx1.Style.GradientAngle = 90;
 			this.panelEx1.TabIndex = 2;
+			// 
+			// rTxTMessageInfo
+			// 
+			this.rTxTMessageInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(47)))), ((int)(((byte)(51)))));
+			this.rTxTMessageInfo.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+			this.rTxTMessageInfo.ForeColor = System.Drawing.Color.White;
+			this.rTxTMessageInfo.Location = new System.Drawing.Point(964, 48);
+			this.rTxTMessageInfo.Name = "rTxTMessageInfo";
+			this.rTxTMessageInfo.Size = new System.Drawing.Size(421, 257);
+			this.rTxTMessageInfo.TabIndex = 39;
+			this.rTxTMessageInfo.Text = "";
 			// 
 			// panelEx6
 			// 
@@ -461,7 +474,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.panelEx6.Controls.Add(this.label14);
 			this.panelEx6.Controls.Add(this.btnSendSamplingPlan);
 			this.panelEx6.Controls.Add(this.btnStopSampler);
-			this.panelEx6.Location = new System.Drawing.Point(714, 48);
+			this.panelEx6.Location = new System.Drawing.Point(688, 48);
 			this.panelEx6.Name = "panelEx6";
 			this.panelEx6.Size = new System.Drawing.Size(269, 257);
 			this.panelEx6.Style.Alignment = System.Drawing.StringAlignment.Center;
@@ -600,7 +613,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.panelEx5.Controls.Add(this.label112);
 			this.panelEx5.Controls.Add(this.lblFactarriveDate);
 			this.panelEx5.Controls.Add(this.lblBatch);
-			this.panelEx5.Location = new System.Drawing.Point(427, 48);
+			this.panelEx5.Location = new System.Drawing.Point(401, 48);
 			this.panelEx5.Name = "panelEx5";
 			this.panelEx5.Size = new System.Drawing.Size(282, 257);
 			this.panelEx5.Style.Alignment = System.Drawing.StringAlignment.Center;
@@ -754,7 +767,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			gridColumn10.AutoSizeMode = DevComponents.DotNetBar.SuperGrid.ColumnAutoSizeMode.AllCells;
 			gridColumn10.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
 			gridColumn10.DataPropertyName = "SampleCode";
-			gridColumn10.HeaderText = "采样副码";
+			gridColumn10.HeaderText = "采样码";
 			gridColumn10.MinimumWidth = 100;
 			gridColumn10.Name = "";
 			gridColumn10.Width = 120;
@@ -776,7 +789,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn12);
 			this.superGridControl1.PrimaryGrid.DefaultVisualStyles.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
 			this.superGridControl1.PrimaryGrid.ShowRowGridIndex = true;
-			this.superGridControl1.Size = new System.Drawing.Size(419, 257);
+			this.superGridControl1.Size = new System.Drawing.Size(392, 257);
 			this.superGridControl1.TabIndex = 36;
 			this.superGridControl1.Text = "superGridControl2";
 			this.superGridControl1.BeginEdit += new System.EventHandler<DevComponents.DotNetBar.SuperGrid.GridEditEventArgs>(this.superGridControl_BeginEdit);
@@ -790,7 +803,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.lypanSamplerButton.ForeColor = System.Drawing.Color.White;
 			this.lypanSamplerButton.Location = new System.Drawing.Point(0, 0);
 			this.lypanSamplerButton.Name = "lypanSamplerButton";
-			this.lypanSamplerButton.Size = new System.Drawing.Size(988, 40);
+			this.lypanSamplerButton.Size = new System.Drawing.Size(1388, 40);
 			this.lypanSamplerButton.TabIndex = 35;
 			// 
 			// superTabItem_BuyFuel
@@ -805,7 +818,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.superTabControlPanel6.Location = new System.Drawing.Point(0, 0);
 			this.superTabControlPanel6.Name = "superTabControlPanel6";
-			this.superTabControlPanel6.Size = new System.Drawing.Size(994, 574);
+			this.superTabControlPanel6.Size = new System.Drawing.Size(1394, 574);
 			this.superTabControlPanel6.TabIndex = 0;
 			// 
 			// superTabControlPanel5
@@ -813,7 +826,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.superTabControlPanel5.Location = new System.Drawing.Point(0, 0);
 			this.superTabControlPanel5.Name = "superTabControlPanel5";
-			this.superTabControlPanel5.Size = new System.Drawing.Size(994, 574);
+			this.superTabControlPanel5.Size = new System.Drawing.Size(1394, 574);
 			this.superTabControlPanel5.TabIndex = 0;
 			// 
 			// superTabControlPanel4
@@ -821,7 +834,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
 			this.superTabControlPanel4.Name = "superTabControlPanel4";
-			this.superTabControlPanel4.Size = new System.Drawing.Size(994, 574);
+			this.superTabControlPanel4.Size = new System.Drawing.Size(1394, 574);
 			this.superTabControlPanel4.TabIndex = 0;
 			// 
 			// panelEx4
@@ -873,7 +886,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1420, 695);
+			this.ClientSize = new System.Drawing.Size(1891, 695);
 			this.Controls.Add(this.splitContainer1);
 			this.Controls.Add(this.buttonX2);
 			this.DoubleBuffered = true;
@@ -959,5 +972,6 @@ namespace CMCS.CarTransport.BeltSampler.Frms
         private System.Windows.Forms.Label lblGatherType;
         private System.Windows.Forms.Label label5;
         private DevComponents.DotNetBar.ButtonX btnStartSampler;
-    }
+		private System.Windows.Forms.RichTextBox rTxTMessageInfo;
+	}
 }

@@ -32,10 +32,35 @@ namespace CMCS.Common.Entities.Fuel
         /// </summary>
         public decimal SampleWeight { get; set; }
 
-        /// <summary>
-        /// 弹桶热值
-        /// </summary>
-        public decimal Qbad { get; set; }
+		/// <summary>
+		/// 热容量
+		/// </summary>
+		public decimal RRL { get; set; }
+
+		/// <summary>
+		/// 点火热
+		/// </summary>
+		public decimal DHR { get; set; }
+
+		/// <summary>
+		/// 其它附加热
+		/// </summary>
+		public decimal QTFJR { get; set; }
+
+		/// <summary>
+		/// 冷却校正热
+		/// </summary>
+		public decimal LQJZR { get; set; }
+
+		/// <summary>
+		/// 主期温升
+		/// </summary>
+		public decimal ZQWS { get; set; }
+
+		/// <summary>
+		/// 弹桶热值
+		/// </summary>
+		public decimal Qbad { get; set; }
 
         /// <summary>
         /// 化验用户

@@ -1,35 +1,24 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.IO;
-using System.IO.Ports;
 using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Windows.Forms;
+//
 using CMCS.CarTransport.BeltSampler.Core;
 using CMCS.CarTransport.BeltSampler.Enums;
-using CMCS.CarTransport.BeltSampler.Frms.Sys;
+using CMCS.CarTransport.BeltSampler.Utilities;
 using CMCS.CarTransport.DAO;
 using CMCS.Common;
 using CMCS.Common.DAO;
-using CMCS.Common.Entities;
-using CMCS.Common.Entities.AutoMaker;
 using CMCS.Common.Entities.BaseInfo;
 using CMCS.Common.Entities.BeltSampler;
-using CMCS.Common.Entities.CarTransport;
-using CMCS.Common.Entities.Fuel;
 using CMCS.Common.Entities.Inf;
-using CMCS.Common.Entities.Sys;
 using CMCS.Common.Enums;
 using CMCS.Common.Utilities;
 using CMCS.Common.Views;
 using CMCS.Forms.UserControls;
 using DevComponents.DotNetBar;
 using DevComponents.DotNetBar.SuperGrid;
-using LED.YB14;
 
 namespace CMCS.CarTransport.BeltSampler.Frms
 {
@@ -174,6 +163,9 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 				lblSampleState.Text = value.ToString();
 			}
 		}
+
+		RTxtOutputer rTxtOutputer;
+
 		#endregion
 
 		/// <summary>
@@ -181,6 +173,8 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 		/// </summary>
 		private void InitForm()
 		{
+			rTxtOutputer = new RTxtOutputer(rTxTMessageInfo);
+
 			superGridControl1.PrimaryGrid.AutoGenerateColumns = false;
 			superGridControl2.PrimaryGrid.AutoGenerateColumns = false;
 			//绑定SuperGridControl事件 gclmSetSampler
@@ -292,8 +286,9 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			if (!SendSamplingPlan()) { MessageBoxEx.Show("采样计划发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
 
 			if (!SendSamplingCMD(true)) { MessageBoxEx.Show("采样命令发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
-
-			MessageBoxEx.Show("发送成功，等待采样");
+			commonDAO.SaveAppletLog(eAppletLogLevel.Info, GlobalVars.LoginUser.UserName + " 发送采样计划", GlobalVars.LoginUser.UserName + " 发送采样计划");
+			//MessageBoxEx.Show("发送成功，等待采样");
+			rTxtOutputer.Output("发送采样计划成功，当前采样码:" + this.CurrentRCSampling.SampleCode, eOutputType.Normal);
 			timer1.Enabled = true;
 			this.CurrentFlowFlag = eFlowFlag.等待执行;
 		}
@@ -310,8 +305,9 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			if (CurrentRCSampling == null) { MessageBoxEx.Show("请先设置当前采样单"); return; }
 
 			if (!SendSamplingCMD(true)) { MessageBoxEx.Show("采样命令发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
-
-			MessageBoxEx.Show("命令发送成功，等待执行");
+			commonDAO.SaveAppletLog(eAppletLogLevel.Info, GlobalVars.LoginUser.UserName + " 发送开始采样命令", GlobalVars.LoginUser.UserName + " 发送开始采样命令");
+			//MessageBoxEx.Show("命令发送成功，等待执行");
+			rTxtOutputer.Output("发送开始采样命令成功，当前采样码:" + this.CurrentRCSampling.SampleCode, eOutputType.Normal);
 			timer1.Enabled = true;
 			this.CurrentFlowFlag = eFlowFlag.等待执行;
 		}
@@ -326,8 +322,9 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			if (CurrentRCSampling == null) { MessageBoxEx.Show("请先设置当前采样单"); return; }
 
 			if (!SendSamplingCMD(false)) { MessageBoxEx.Show("采样命令发送失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning); return; }
-
-			MessageBoxEx.Show("命令发送成功，等待执行");
+			commonDAO.SaveAppletLog(eAppletLogLevel.Info, GlobalVars.LoginUser.UserName + " 发送停止采样命令", GlobalVars.LoginUser.UserName + " 发送停止采样命令");
+			//MessageBoxEx.Show("命令发送成功，等待执行");
+			rTxtOutputer.Output("发送停止采样命令成功，当前采样码:" + this.CurrentRCSampling.SampleCode, eOutputType.Normal);
 			timer1.Enabled = true;
 			this.CurrentFlowFlag = eFlowFlag.等待执行;
 		}
@@ -343,7 +340,11 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 			if (gridRow == null) return;
 
 			if (MessageBoxEx.Show("是否设置该记录为当前采样单", "操作提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk) == DialogResult.OK)
+			{
 				CurrentRCSampling = gridRow.DataItem as View_RCSampling;
+				rTxtOutputer.Output(this.CurrentSampleMachine.EquipmentName + "当前采样单:" + this.CurrentRCSampling.SampleCode, eOutputType.Normal);
+				commonDAO.SaveAppletLog(eAppletLogLevel.Info, GlobalVars.LoginUser.UserName + " 设置当前采样单", GlobalVars.LoginUser.UserName + " 设置当前采样单 采样码:" + CurrentRCSampling.SampleCode);
+			}
 		}
 		#endregion
 

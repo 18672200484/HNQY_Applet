@@ -1167,7 +1167,11 @@ namespace CMCS.CarTransport.Weighter.Frms
 		/// <param name="e"></param>
 		private void btnGate1Up_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null) this.iocControler.Gate1Up();
+			if (this.iocControler != null)
+			{
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动升杆1", GlobalVars.LoginUser.UserName + " 手动升杆1");
+				this.iocControler.Gate1Up();
+			}
 		}
 
 		/// <summary>
@@ -1177,7 +1181,11 @@ namespace CMCS.CarTransport.Weighter.Frms
 		/// <param name="e"></param>
 		private void btnGate1Down_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null && !this.InductorCoil2) this.iocControler.Gate1Down();
+			if (this.iocControler != null && !this.InductorCoil2)
+			{
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动降杆1", GlobalVars.LoginUser.UserName + " 手动降杆1");
+				this.iocControler.Gate1Down();
+			}
 		}
 
 		/// <summary>
@@ -1187,7 +1195,11 @@ namespace CMCS.CarTransport.Weighter.Frms
 		/// <param name="e"></param>
 		private void btnGate2Up_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null) this.iocControler.Gate2Up();
+			if (this.iocControler != null)
+			{
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动升杆2", GlobalVars.LoginUser.UserName + " 手动升杆2");
+				this.iocControler.Gate2Up();
+			}
 		}
 
 		/// <summary>
@@ -1197,7 +1209,11 @@ namespace CMCS.CarTransport.Weighter.Frms
 		/// <param name="e"></param>
 		private void btnGate2Down_Click(object sender, EventArgs e)
 		{
-			if (this.iocControler != null && !this.InductorCoil3) this.iocControler.Gate2Down();
+			if (this.iocControler != null && !this.InductorCoil3)
+			{
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动降杆2", GlobalVars.LoginUser.UserName + " 手动降杆2");
+				this.iocControler.Gate2Down();
+			}
 		}
 
 		#endregion
@@ -1521,6 +1537,7 @@ namespace CMCS.CarTransport.Weighter.Frms
 			FrmUnFinishTransport_Select frm = new FrmUnFinishTransport_Select("where CarType='" + eCarType.入厂煤.ToString() + "' and (select ISFINISH from cmcstbbuyfueltransport where id=transportid)=0 order by CreateDate desc");
 			if (frm.ShowDialog() == DialogResult.OK)
 			{
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动选择车辆", GlobalVars.LoginUser.UserName + " 车牌号:" + frm.Output.CarNumber);
 				passCarQueuer.Enqueue(eDirection.Way1, frm.Output.TagId);
 
 				this.CurrentFlowFlag = eFlowFlag.识别车辆;
@@ -1542,6 +1559,8 @@ namespace CMCS.CarTransport.Weighter.Frms
 		private void btnSaveTransport_BuyFuel_Click(object sender, EventArgs e)
 		{
 			if (!SaveBuyFuelTransport()) MessageBoxEx.Show("保存失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+			else
+				commonDAO.SaveAppletLog(eAppletLogLevel.Warn, GlobalVars.LoginUser.UserName + " 手动手动保存重量", GlobalVars.LoginUser.UserName + " 手动保存重量，车号:" + this.CurrentAutotruck.CarNumber + " 重量:" + Hardwarer.Wber.Weight);
 		}
 
 		/// <summary>
@@ -1551,7 +1570,12 @@ namespace CMCS.CarTransport.Weighter.Frms
 		bool SaveBuyFuelTransport()
 		{
 			if (this.CurrentBuyFuelTransport == null) return false;
-
+			if (this.CurrentBuyFuelTransport.GrossWeight > 0 && (double)this.CurrentBuyFuelTransport.GrossWeight - Hardwarer.Wber.Weight < commonDAO.GetCommonAppletConfigDouble("毛皮重差"))
+			{
+				UpdateLedShow(this.CurrentAutotruck.CarNumber, "毛皮重差太小");
+				this.voiceSpeaker.Speak(this.CurrentAutotruck.CarNumber + " 毛皮重差太小", 2, false);
+				return false;
+			}
 			try
 			{
 				if (weighterDAO.SaveBuyFuelTransport(this.CurrentBuyFuelTransport.Id, (decimal)Hardwarer.Wber.Weight, DateTime.Now, commonAppConfig.AppIdentifier))

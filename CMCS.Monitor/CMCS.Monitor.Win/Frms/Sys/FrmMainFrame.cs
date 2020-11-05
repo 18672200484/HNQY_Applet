@@ -188,8 +188,8 @@ namespace CMCS.Monitor.Win.Frms.Sys
 
                 if (FrmMainFrame.superTabControlManager.GetTab(uniqueKey) == null)
                 {
-                    SelfVars.MakeForm  = new FrmAutoMaker();
-                    FrmMainFrame.superTabControlManager.CreateTab(SelfVars.MakeForm.Text, uniqueKey, SelfVars.MakeForm, false);
+                    FrmAutoMaker frm = new FrmAutoMaker();
+                    FrmMainFrame.superTabControlManager.CreateTab(frm.Text, uniqueKey, frm, false);
                 }
                 else
                     FrmMainFrame.superTabControlManager.ChangeToTab(uniqueKey);
@@ -458,13 +458,12 @@ namespace CMCS.Monitor.Win.Frms.Sys
         {
             OpenTrainBeltSampler();
         }
-
-        /// <summary>
-        /// 打开火车桥式采样机监控
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnOpenTrainBridgeSampler_Click(object sender, EventArgs e)
+		/// <summary>
+		/// 打开火车桥式采样机监控
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void btnOpenTrainBridgeSampler_Click(object sender, EventArgs e)
         {
 
         }
@@ -578,6 +577,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
             list.AddRange(commonDAO.GetChildrenMachinesByCode("全自动制样机"));
             list.AddRange(commonDAO.GetChildrenMachinesByCode("智能存样柜"));
             list.AddRange(commonDAO.GetChildrenMachinesByCode("气动传输"));
+            list.AddRange(commonDAO.GetChildrenMachinesByCode("入炉皮带采样机"));
             CreateEquipmentStatus(list);
 
             // 更新设备状态
@@ -805,22 +805,6 @@ namespace CMCS.Monitor.Win.Frms.Sys
                     FrmMainFrame.superTabControlManager.ChangeToTab(uniqueKey);
             });
         }
-        /// <summary>
-        /// 打开皮带采样机监控
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void buttonX2_Click(object sender, EventArgs e)
-        {
-            string uniqueKey = FrmInfGuardInfo.UniqueKey;
 
-            if (FrmMainFrame.superTabControlManager.GetTab(uniqueKey) == null)
-            {
-                FrmTrainBeltSampler item = new FrmTrainBeltSampler();
-                FrmMainFrame.superTabControlManager.CreateTab(item.Text, uniqueKey, item, true);
-            }
-            else
-                FrmMainFrame.superTabControlManager.ChangeToTab(uniqueKey);
-        }
-    }
+	}
 }

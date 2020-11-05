@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="图层_1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="HomePage.svg"
    x="0px"
    y="0px"
@@ -105,8 +105,8 @@
    guidetolerance="10"
    id="namedview2899"
    inkscape:current-layer="图层_1"
-   inkscape:cx="1020.0633"
-   inkscape:cy="461.68128"
+   inkscape:cx="810.70453"
+   inkscape:cy="119.79405"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-height="1017"
@@ -114,7 +114,7 @@
    inkscape:window-width="1920"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
-   inkscape:zoom="0.77277488"
+   inkscape:zoom="1.0928687"
    objecttolerance="10"
    pagecolor="#ffffff"
    showgrid="false">
@@ -5639,7 +5639,9 @@
    id="text1028"
    x="72.000046"
    y="154.75"
-   style="font-size:24px;letter-spacing:5;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽车入厂煤</text>
+   style="font-size:24px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:5;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:10;enable-background:new">汽车入厂煤</text>
+
+
 
 
 
@@ -5650,7 +5652,9 @@
    id="text1030"
    x="72.000046"
    y="836.12451"
-   style="font-size:24px;letter-spacing:5;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">火车入厂煤</text>
+   style="font-size:24px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:5;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:10;enable-background:new">火车入厂煤</text>
+
+
 
 
 
@@ -5661,7 +5665,9 @@
    id="text1032"
    x="85.929733"
    y="511.22461"
-   style="font-size:24px;letter-spacing:5;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">采制化存</text>
+   style="font-size:24px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:5;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:10;enable-background:new">采制化存</text>
+
+
 
 
 
@@ -5672,7 +5678,9 @@
    id="text1034"
    x="277.25015"
    y="89.833008"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽车入口</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">汽车入口</text>
+
+
 
 
 
@@ -5681,9 +5689,11 @@
 <text
    class="st8 st9 st12"
    id="text1036"
-   x="506.58414"
+   x="510.58411"
    y="887.5"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">轨道衡</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">轨道衡</text>
+
+
 
 
 
@@ -5694,7 +5704,9 @@
    id="text1038"
    x="1402.5841"
    y="570.83301"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">煤场存煤</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">煤场存煤</text>
+
+
 
 
 
@@ -5705,7 +5717,9 @@
    id="text1040"
    x="1228.6837"
    y="489.09961"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">入场输煤</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">入场输煤</text>
+
+
 
 
 
@@ -5716,7 +5730,9 @@
    id="text1042"
    x="915.48456"
    y="489.09961"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">自动卸样</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">自动卸样</text>
+
+
 
 
 
@@ -5727,7 +5743,9 @@
    id="text1044"
    x="616.15057"
    y="343.7666"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">自动卸样</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">自动卸样</text>
+
+
 
 
 
@@ -5738,7 +5756,9 @@
    id="text1046"
    x="1046.1505"
    y="569.09961"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">火车皮采</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">火车皮采</text>
+
+
 
 
 
@@ -5749,7 +5769,9 @@
    id="text1048"
    x="788.15057"
    y="569.09961"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">煤样制取</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">煤样制取</text>
+
+
 
 
 
@@ -5760,7 +5782,9 @@
    id="text1050"
    x="251.31657"
    y="570.73291"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">煤粉化验</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">煤粉化验</text>
+
+
 
 
 
@@ -5771,7 +5795,9 @@
    id="text1052"
    x="508.81656"
    y="588.31543"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">#2存样柜</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">#2存样柜</text>
+
+
 
 
 
@@ -5782,7 +5808,9 @@
    id="text1054"
    x="565.42206"
    y="437.23096"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">#1存样柜</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">#1存样柜</text>
+
+
 
 
 
@@ -5793,7 +5821,9 @@
    id="text1056"
    x="670.68378"
    y="489.09961"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">气动传输</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">气动传输</text>
+
+
 
 
 
@@ -5804,7 +5834,9 @@
    id="text1058"
    x="372.68375"
    y="489.09961"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">气动传输</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">气动传输</text>
+
+
 
 
 
@@ -5815,7 +5847,9 @@
    id="text1060"
    x="412.15054"
    y="372.43311"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">煤样制取</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">煤样制取</text>
+
+
 
 
 
@@ -5826,7 +5860,9 @@
    id="text1062"
    x="277.25015"
    y="45"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">入厂排队</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">入厂排队</text>
+
+
 
 
 
@@ -5837,7 +5873,9 @@
    id="text1064"
    x="254.25017"
    y="234.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">入厂车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">入厂车数：</text>
+
+
 
 
 
@@ -5848,7 +5886,9 @@
    id="text1066"
    x="237.25017"
    y="887.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">入厂车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">入厂车数：</text>
+
+
 
 
 
@@ -5859,7 +5899,9 @@
    id="text1068"
    x="1205.0509"
    y="887.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">出厂车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">出厂车数：</text>
+
+
 
 
 
@@ -5870,7 +5912,9 @@
    id="text1070"
    x="768.25018"
    y="887.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">已翻车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">已翻车数：</text>
+
+
 
 
 
@@ -5881,7 +5925,9 @@
    id="text1072"
    x="482.58414"
    y="267.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">待采车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">待采车数：</text>
+
+
 
 
 
@@ -5892,7 +5938,9 @@
    id="text1074"
    x="789.98456"
    y="267.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">过重车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">过重车数：</text>
+
+
 
 
 
@@ -5903,7 +5951,9 @@
    id="text1076"
    x="1024.0841"
    y="232.8667"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">待卸车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">待卸车数：</text>
+
+
 
 
 
@@ -5914,7 +5964,9 @@
    id="text1078"
    x="506.25015"
    y="44"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽车机采</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">汽车机采</text>
+
+
 
 
 
@@ -5925,7 +5977,9 @@
    id="text1080"
    x="785.08417"
    y="44"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">重车计量</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">重车计量</text>
+
+
 
 
 
@@ -5936,7 +5990,9 @@
    id="text1082"
    x="1041.0841"
    y="82.799805"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽煤监卸</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">汽煤监卸</text>
+
+
 
 
 
@@ -5947,7 +6003,9 @@
    id="text1084"
    x="476.72476"
    y="87.541504"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">#4 采样机</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">#4 采样机</text>
+
+
 
 
 
@@ -5958,7 +6016,9 @@
    id="text1086"
    x="563.72479"
    y="87.541504"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">#2 采样机</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">#2 采样机</text>
+
+
 
 
 
@@ -5969,7 +6029,9 @@
    id="text1088"
    x="793.39276"
    y="86.875"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">1号</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">1号</text>
+
+
 
 
 
@@ -5980,8 +6042,10 @@
    id="text1090"
    x="826.05878"
    y="86.875"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="#1重车衡当前车号">豫 FY2201</text>
+
+
 
 
 
@@ -5992,7 +6056,9 @@
    id="text1092"
    x="793.39276"
    y="224.10791"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">2号</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">2号</text>
+
+
 
 
 
@@ -6003,8 +6069,10 @@
    id="text1094"
    x="826.05878"
    y="224.10791"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="#2重车衡当前车号">豫 FY2201</text>
+
+
 
 
 
@@ -6015,7 +6083,9 @@
    id="text1096"
    x="1256.4845"
    y="267.6665"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">过轻车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">过轻车数：</text>
+
+
 
 
 
@@ -6026,7 +6096,9 @@
    id="text1098"
    x="1416.2833"
    y="234.3667"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">出厂车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">出厂车数：</text>
+
+
 
 
 
@@ -6037,7 +6109,9 @@
    id="text1100"
    x="1438.0665"
    y="85.366699"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽车出厂</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">汽车出厂</text>
+
+
 
 
 
@@ -6048,7 +6122,9 @@
    id="text1102"
    x="1251.5841"
    y="44"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">轻车计量</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">轻车计量</text>
+
+
 
 
 
@@ -6059,7 +6135,9 @@
    id="text1104"
    x="1259.8927"
    y="86.875"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">1号</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">1号</text>
+
+
 
 
 
@@ -6070,8 +6148,10 @@
    id="text1106"
    x="1292.5587"
    y="86.875"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="#1轻车衡当前车号">豫 FY2201</text>
+
+
 
 
 
@@ -6082,7 +6162,9 @@
    id="text1108"
    x="1259.8927"
    y="224.10791"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">2号</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">2号</text>
+
+
 
 
 
@@ -6093,8 +6175,10 @@
    id="text1110"
    x="1292.5587"
    y="224.10791"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="#2轻车衡当前车号">豫 FY2201</text>
+
+
 
 
 
@@ -6150,7 +6234,9 @@
    id="text1120"
    x="1666.3986"
    y="90.199707"
-   style="font-size:19px;letter-spacing:3;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">入厂指标</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:3;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">入厂指标</text>
+
+
 
 
 
@@ -6161,7 +6247,9 @@
    id="text1122"
    x="1578.2247"
    y="123.7749"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽车车数 (辆)</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">汽车车数 (辆)</text>
+
+
 
 
 
@@ -6172,8 +6260,10 @@
    id="text1124"
    x="1768.1779"
    y="123.7749"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="总体信息_出厂车数">20</text>
+
+
 
 
 
@@ -6184,7 +6274,9 @@
    id="text1126"
    x="1578.2247"
    y="159.0249"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">汽车煤量 (吨)</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">汽车煤量 (吨)</text>
+
+
 
 
 
@@ -6195,7 +6287,9 @@
    id="text1128"
    x="1578.2247"
    y="230.69141"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">火车煤量 (吨)</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">火车煤量 (吨)</text>
+
+
 
 
 
@@ -6206,7 +6300,9 @@
    id="text1130"
    x="1578.2247"
    y="197.22461"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">火车车数 (节)</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">火车车数 (节)</text>
+
+
 
 
 
@@ -6217,8 +6313,10 @@
    id="text1132"
    x="1763.0314"
    y="159.0249"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="总体信息_汽车来煤量">100</text>
+
+
 
 
 
@@ -6229,8 +6327,10 @@
    id="text1134"
    x="1763.0314"
    y="230.69141"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="总体信息_火车煤量">100</text>
+
+
 
 
 
@@ -6241,8 +6341,10 @@
    id="text1136"
    x="1768.1798"
    y="197.22461"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="总体信息_火车车数">20</text>
+
+
 
 
 
@@ -6250,7 +6352,7 @@
 
 <g
    id="g2727_1_"
-   transform="translate(1e-4,-1.3e-4)"><rect
+   transform="translate(1e-4,-132.00013)"><rect
      id="rect2729_1_"
      x="1569.6"
      y="408.60001"
@@ -6297,8 +6399,10 @@
    class="st8 st9 st12 st15"
    id="text1146"
    x="1666.3986"
-   y="430.09961"
-   style="font-size:19px;letter-spacing:3;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">煤场指标</text>
+   y="298.09961"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:3;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">煤场指标</text>
+
+
 
 
 
@@ -6308,8 +6412,10 @@
    class="st8 st9 st13 st16"
    id="text1148"
    x="1578.2247"
-   y="463.6748"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">煤量 (吨)</text>
+   y="331.6748"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">煤量 (吨)</text>
+
+
 
 
 
@@ -6319,9 +6425,11 @@
    class="st8 st9 st13 st16"
    id="text1150"
    x="1763.0314"
-   y="463.6748"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   y="331.6748"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="煤场指标_煤场煤量">100</text>
+
+
 
 
 
@@ -6331,8 +6439,10 @@
    class="st8 st9 st13 st16"
    id="text1152"
    x="1578.2247"
-   y="498.9248"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">热值 (MJ/Kg)</text>
+   y="366.9248"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">热值 (MJ/Kg)</text>
+
+
 
 
 
@@ -6342,8 +6452,10 @@
    class="st8 st9 st13 st16"
    id="text1154"
    x="1578.2247"
-   y="570.59131"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">挥发分 (%)</text>
+   y="438.59131"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">挥发分 (%)</text>
+
+
 
 
 
@@ -6353,8 +6465,10 @@
    class="st8 st9 st13 st16"
    id="text1156"
    x="1578.2247"
-   y="537.125"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">硫分 (%)</text>
+   y="405.125"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">硫分 (%)</text>
+
+
 
 
 
@@ -6364,9 +6478,11 @@
    class="st8 st9 st13 st16"
    id="text1158"
    x="1760.4747"
-   y="498.9248"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   y="366.9248"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="煤场指标_热值">21.5</text>
+
+
 
 
 
@@ -6376,9 +6492,11 @@
    class="st8 st9 st13 st16"
    id="text1160"
    x="1768.1798"
-   y="570.59131"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   y="438.59131"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="煤场指标_挥发分">20</text>
+
+
 
 
 
@@ -6388,9 +6506,11 @@
    class="st8 st9 st13 st16"
    id="text1162"
    x="1765.6232"
-   y="537.125"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   y="405.125"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="煤场指标_硫分">1.5</text>
+
+
 
 
 
@@ -6398,7 +6518,7 @@
 
 <g
    id="g2727_2_"
-   transform="translate(1e-4,-1.3e-4)"><rect
+   transform="translate(1.830146,-227.99865)"><rect
      id="rect2729_2_"
      x="1569.6"
      y="713.79999"
@@ -6444,9 +6564,11 @@
        style="fill:none;stroke:#0099ff;stroke-miterlimit:10" /></g></g><text
    class="st8 st9 st12 st15"
    id="text1172"
-   x="1640.9513"
-   y="735.2998"
-   style="font-size:19px;letter-spacing:3;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">采制化存指标</text>
+   x="1642.7814"
+   y="507.30127"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:3;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">采制化存指标</text>
+
+
 
 
 
@@ -6455,9 +6577,11 @@
 <text
    class="st8 st9 st13 st16"
    id="text1174"
-   x="1578.2247"
-   y="768.875"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">采样数 (个)</text>
+   x="1580.0548"
+   y="540.87646"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">采样数 (个)</text>
+
+
 
 
 
@@ -6466,10 +6590,12 @@
 <text
    class="st8 st9 st13 st16"
    id="text1176"
-   x="1773.3263"
-   y="768.875"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   x="1775.1564"
+   y="540.87646"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="采制化存指标_采样数">9</text>
+
+
 
 
 
@@ -6478,9 +6604,11 @@
 <text
    class="st8 st9 st13 st16"
    id="text1178"
-   x="1578.2247"
-   y="804.125"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">制样数 (个)</text>
+   x="1580.0548"
+   y="576.12646"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">制样数 (个)</text>
+
+
 
 
 
@@ -6489,9 +6617,11 @@
 <text
    class="st8 st9 st13 st16"
    id="text1180"
-   x="1578.2247"
-   y="875.7915"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">存样数 (个)</text>
+   x="1580.0548"
+   y="647.79297"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">存样数 (个)</text>
+
+
 
 
 
@@ -6500,9 +6630,11 @@
 <text
    class="st8 st9 st13 st16"
    id="text1182"
-   x="1578.2247"
-   y="842.32471"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">化验数 (个)</text>
+   x="1580.0548"
+   y="614.32617"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">化验数 (个)</text>
+
+
 
 
 
@@ -6511,10 +6643,12 @@
 <text
    class="st8 st9 st13 st16"
    id="text1184"
-   x="1773.3263"
-   y="804.125"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   x="1775.1564"
+   y="576.12646"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="采制化存指标_制样数">4</text>
+
+
 
 
 
@@ -6523,10 +6657,12 @@
 <text
    class="st8 st9 st13 st16"
    id="text1186"
-   x="1738.4845"
-   y="875.7915"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   x="1740.3146"
+   y="647.79297"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="采制化存指标_存样数">100/1000</text>
+
+
 
 
 
@@ -6535,10 +6671,12 @@
 <text
    class="st8 st9 st13 st16"
    id="text1188"
-   x="1773.3263"
-   y="842.32471"
-   style="font-size:15px;letter-spacing:1;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   x="1775.1564"
+   y="614.32617"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
    inkscape:label="采制化存指标_化验数">5</text>
+
+
 
 
 
@@ -6549,7 +6687,9 @@
    id="text1190"
    x="476.72476"
    y="219.5415"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">#3 采样机</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">#3 采样机</text>
+
+
 
 
 
@@ -6560,7 +6700,9 @@
    id="text1192"
    x="563.72479"
    y="219.5415"
-   style="font-size:15px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">#1 采样机</text>
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new">#1 采样机</text>
+
+
 
 
 
@@ -6571,7 +6713,9 @@
    id="text1194"
    x="482.58414"
    y="291.5332"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">已采车数：</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new">已采车数：</text>
+
+
 
 
 
@@ -6579,13 +6723,17 @@
 
 <text
    xml:space="preserve"
-   style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
    x="848.88885"
    y="305.332"
-   id="text4100"
-   sodipodi:linespacing="125%"><tspan
+   id="text4100"><tspan
      sodipodi:role="line"
-     id="tspan4102" /></text>
+     id="tspan4102"
+     x="848.88885"
+     y="305.332"
+     style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan></text>
+
+
 
 
 
@@ -6595,8 +6743,10 @@
    id="text1074-1"
    x="884.48132"
    y="268.51538"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_过重车数">20</text>
+
+
 
 
 
@@ -6606,8 +6756,10 @@
    id="text1074-1-4"
    x="1120.3481"
    y="233.74341"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_待卸车数">20</text>
+
+
 
 
 
@@ -6617,8 +6769,10 @@
    id="text1074-1-0"
    x="1353.1267"
    y="268.01538"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_过轻车数">20</text>
+
+
 
 
 
@@ -6628,8 +6782,10 @@
    id="text1074-1-9"
    x="1512.3665"
    y="235.21558"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_出厂车数">20</text>
+
+
 
 
 
@@ -6639,8 +6795,10 @@
    id="text1074-1-48"
    x="578.56226"
    y="292.44702"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_已采样车数">20</text>
+
+
 
 
 
@@ -6650,8 +6808,10 @@
    id="text1074-1-8"
    x="578.56226"
    y="268.58032"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_待采样车数">20</text>
+
+
 
 
 
@@ -6661,8 +6821,10 @@
    id="text1074-1-2"
    x="350.40982"
    y="235.51538"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei"
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
    inkscape:label="总体信息_汽车进厂车数">20</text>
+
+
 
 
 
@@ -6672,7 +6834,10 @@
    id="text1068-4"
    x="1300.9373"
    y="888.24414"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">50</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
+   inkscape:label="出厂车数">50</text>
+
+
 
 
 
@@ -6682,7 +6847,10 @@
    id="text1068-4-5"
    x="864.18549"
    y="888.51538"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">50</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
+   inkscape:label="火车_已翻车数">50</text>
+
+
 
 
 
@@ -6692,9 +6860,106 @@
    id="text1068-4-1"
    x="332.78589"
    y="888.51538"
-   style="font-size:19px;fill:#ffffff;stroke:none;enable-background:new;font-family:MicrosoftYaHei">50</text>
+   style="font-size:19px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"
+   inkscape:label="入厂车数">50</text>
 
 
 
 
+
+
+<g
+   id="g2727_2_-0"
+   transform="translate(2.867441,-6.9231589)"><rect
+     id="rect2729_2_-3"
+     x="1569.6"
+     y="714.27173"
+     class="st14"
+     width="279.5"
+     height="139.37245"
+     style="fill:none;stroke:#0099ff;stroke-width:0.89575356;stroke-miterlimit:10" /><line
+     id="line2731_2_-3"
+     class="st14"
+     x1="1569.6"
+     y1="744.5"
+     x2="1848.8"
+     y2="744.5"
+     style="fill:none;stroke:#0099ff;stroke-miterlimit:10" /><line
+     id="line2733_2_-5"
+     class="st14"
+     x1="1569.6"
+     y1="779.90002"
+     x2="1848.8"
+     y2="779.90002"
+     style="fill:none;stroke:#0099ff;stroke-miterlimit:10" /><line
+     id="line2735_2_-4"
+     class="st14"
+     x1="1569.6"
+     y1="818.40002"
+     x2="1849.1"
+     y2="818.40002"
+     style="fill:none;stroke:#0099ff;stroke-miterlimit:10" /><g
+     id="g2739_2_-5"
+     transform="matrix(1,0,0,0.74440701,0,190.28898)"><line
+       id="line2741_2_-7"
+       class="st14"
+       x1="1707.2"
+       y1="744.5"
+       x2="1707.2"
+       y2="887.70001"
+       style="fill:none;stroke:#0099ff;stroke-miterlimit:10" /></g></g><text
+   class="st8 st9 st12 st15"
+   id="text1172-3"
+   x="1667.3999"
+   y="728.37677"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19px;line-height:0%;font-family:MicrosoftYaHei;-inkscape-font-specification:'MicrosoftYaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:3;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke:none;stroke-width:4;stroke-miterlimit:1;enable-background:new"><tspan
+     sodipodi:role="line"
+     id="tspan1209"
+     x="1667.3999"
+     y="728.37677">翻车信息</tspan></text>
+<text
+   class="st8 st9 st13 st16"
+   id="text1174-5"
+   x="1581.0922"
+   y="761.95197"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new;-inkscape-font-specification:'MicrosoftYaHei, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
+     sodipodi:role="line"
+     id="tspan1213">入厂车节数 </tspan></text>
+<text
+   class="st8 st9 st13 st16"
+   id="text1176-6"
+   x="1776.1937"
+   y="761.95197"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
+   inkscape:label="火车_入厂车数">9</text>
+<text
+   class="st8 st9 st13 st16"
+   id="text1178-2"
+   x="1581.0922"
+   y="797.20197"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new;-inkscape-font-specification:'MicrosoftYaHei, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
+     sodipodi:role="line"
+     id="tspan1215">#1已翻</tspan></text>
+<text
+   class="st8 st9 st13 st16"
+   id="text1182-9"
+   x="1581.0922"
+   y="835.40167"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new;-inkscape-font-specification:'MicrosoftYaHei, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"><tspan
+     sodipodi:role="line"
+     id="tspan1217">#2已翻</tspan></text>
+<text
+   class="st8 st9 st13 st16"
+   id="text1184-1"
+   x="1776.1937"
+   y="797.20197"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
+   inkscape:label="火车_#1已翻车数">4</text>
+<text
+   class="st8 st9 st13 st16"
+   id="text1188-6"
+   x="1776.1937"
+   y="835.40167"
+   style="font-size:15px;line-height:0%;font-family:MicrosoftYaHei;letter-spacing:1;fill:#ffffff;stroke:none;stroke-miterlimit:10;enable-background:new"
+   inkscape:label="火车_#2已翻车数">5</text>
 </svg>

@@ -30,12 +30,6 @@
       AutoMakerV8Cef.OpenZXQSRecord=function(){
       native function OpenZXQSRecord();
       OpenZXQSRecord();
-        };
-
-        //切换制样机选中
-      AutoMakerV8Cef.ChangeSelected = function (paramSampler) {
-         native function ChangeSelected(paramSampler);
-         return ChangeSelected(paramSampler);
       };
 
     })(); 

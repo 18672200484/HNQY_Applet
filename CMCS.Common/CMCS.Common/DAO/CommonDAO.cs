@@ -294,10 +294,12 @@ namespace CMCS.Common.DAO
 		/// <param name="title">日志标题</param>
 		/// <param name="content">日志内容</param>
 		/// <returns></returns>
-		public bool SaveAppletLog(eAppletLogLevel appletLogLevel, string title, string content)
+		public bool SaveAppletLog(eAppletLogLevel appletLogLevel, string title, string content, string UserName = "")
 		{
 			return SelfDber.Insert(new CmcsAppletLog()
 			{
+				CreateUser = !string.IsNullOrEmpty(UserName) ? UserName : "admin",
+				OperUser = !string.IsNullOrEmpty(UserName) ? UserName : "admin",
 				AppIdentifier = CommonAppConfig.GetInstance().AppIdentifier,
 				Title = title,
 				LogLevel = appletLogLevel.ToString(),
@@ -938,7 +940,6 @@ namespace CMCS.Common.DAO
 					InFactoryBatchId = inFactoryBatch.Id,
 					SamplingType = samplingType,
 					SamplingDate = DateTime.Now,
-					SamplingPle = "自动",
 					SampleCode = CreateNewSampleCode(inFactoryBatch.FactArriveDate),
 					Remark = remark,
 					SamplingCategory = Category == "入厂" ? "入厂采样" : "入炉采样"

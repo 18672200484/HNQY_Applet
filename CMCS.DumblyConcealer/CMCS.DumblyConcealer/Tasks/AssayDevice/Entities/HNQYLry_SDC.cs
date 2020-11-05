@@ -8,7 +8,7 @@ using CMCS.DapperDber.Attrs;
 namespace CMCS.DumblyConcealer.Tasks.AssayDevice.Entities
 {
     /// <summary>
-    /// .测硫仪 型号：5E-8SAII
+    /// .量热仪仪 型号：5E-8SAII
     /// </summary>
     [CMCS.DapperDber.Attrs.DapperBind("HNQYLry_SDC")]
     public class HNQYLry_SDC
@@ -156,10 +156,7 @@ namespace CMCS.DumblyConcealer.Tasks.AssayDevice.Entities
         /// Vn
         /// </summary>
         public decimal Vn { get; set; }
-        /// <summary>
-        /// C
-        /// </summary>
-        public decimal C { get; set; }
+      
         /// <summary>
         /// DeviceModel
         /// </summary>
@@ -261,5 +258,23 @@ namespace CMCS.DumblyConcealer.Tasks.AssayDevice.Entities
         /// </summary>
         public decimal EEValue_Cal { get; set; }
 
-    }
+		/// <summary>
+		/// 点火热
+		/// </summary>
+		public decimal Q1 { get; set; }
+		/// <summary>
+		/// 添加热
+		/// </summary>
+		public decimal Q2 { get; set; }
+
+		/// <summary>
+		/// 主期热容量
+		/// </summary>
+		public decimal PrimaryEE { get; set; }
+
+		/// <summary>
+		/// 冷却校正热
+		/// </summary>
+		public decimal C { get; set; }
+	}
 }

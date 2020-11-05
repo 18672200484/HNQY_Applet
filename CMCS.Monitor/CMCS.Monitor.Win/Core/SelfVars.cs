@@ -5,7 +5,6 @@ using System.Text;
 using CMCS.Common.Entities;
 using CMCS.Monitor.Win.Frms.Sys;
 using CMCS.Common.Entities.iEAA;
-using CMCS.Monitor.Win.Frms;
 
 namespace CMCS.Monitor.Win.Core
 {
@@ -23,11 +22,6 @@ namespace CMCS.Monitor.Win.Core
         /// 主窗体引用
         /// </summary>
         public static FrmMainFrame MainFrameForm;
-
-        /// <summary>
-        /// 全自动制样机窗体引用
-        /// </summary>
-        public static FrmAutoMaker MakeForm;
 
         /// <summary>
         /// 网页地址 - CefTester

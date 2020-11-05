@@ -13,6 +13,8 @@ using System.IO;
 using DHNetSDK;
 using DevComponents.DotNetBar.Metro;
 using System.Linq;
+using CMCS.Common.DAO;
+using CMCS.Common.Utilities;
 
 
 namespace CMCS.Monitor.Win.Frms
@@ -23,6 +25,7 @@ namespace CMCS.Monitor.Win.Frms
         /// 窗体唯一标识符
         /// </summary>
         public static string UniqueKey = "FrmVidioPreview";
+        CommonDAO commonDAO = CommonDAO.GetInstance();
         public FrmVidioPreview()
         {
             InitializeComponent();
@@ -38,11 +41,11 @@ namespace CMCS.Monitor.Win.Frms
             //加载视频实体
             LoadVideoEntity();
             //初始化海康视频
-            CHCNetSDKUtil.DVR_Init(ref refMessage);
+            //CHCNetSDKUtil.DVR_Init(ref refMessage);
             //初始化大华视频
-            CHCNetSDKUtil.DHDVR_Init(ref refMessage);
+            //CHCNetSDKUtil.DHDVR_Init(ref refMessage);
             //初始化视频窗体
-            InitializeVideo(4);
+            InitializeVideo(9);
             //加载视频
             LoginVideo();
             //预览视频
@@ -117,8 +120,8 @@ namespace CMCS.Monitor.Win.Frms
                 pVideo.Height = Height;
                 pVideo.Dock = DockStyle.Fill;
                 //pVideo.BackgroundImage = Resources.bg;
-                pVideo.MouseDown += new MouseEventHandler(Pic_MouseDown);
-                pVideo.MouseMove += new MouseEventHandler(Pic_MouseMove);
+                //pVideo.MouseDown += new MouseEventHandler(Pic_MouseDown);
+                //pVideo.MouseMove += new MouseEventHandler(Pic_MouseMove);
                 pVideo.BackgroundImageLayout = ImageLayout.Stretch;
                 //pVideo.Click += new EventHandler(pVideo_Click);
                 pVideo.DoubleClick += new EventHandler(pVideo_DoubleClick);
@@ -131,43 +134,43 @@ namespace CMCS.Monitor.Win.Frms
 
 
         #region 移动窗体 移动窗口
-        private Point _mousePoint;
-        private int topA(Control cc)
-        {
-            if (cc == null || cc == this) return 0;
-            if (cc.Parent == null || cc.Parent == this)
-                return cc.Top;
-            else
-                return topA(cc.Parent) + cc.Top;
-        }
+        //private Point _mousePoint;
+        //private int topA(Control cc)
+        //{
+        //    if (cc == null || cc == this) return 0;
+        //    if (cc.Parent == null || cc.Parent == this)
+        //        return cc.Top;
+        //    else
+        //        return topA(cc.Parent) + cc.Top;
+        //}
 
-        private int leftA(Control cc)
-        {
-            if (cc == null || cc == this) return 0;
-            if (cc.Parent == null || cc.Parent == this)
-                return cc.Left;
-            else
-                return leftA(cc.Parent) + cc.Left;
-        }
+        //private int leftA(Control cc)
+        //{
+        //    if (cc == null || cc == this) return 0;
+        //    if (cc.Parent == null || cc.Parent == this)
+        //        return cc.Left;
+        //    else
+        //        return leftA(cc.Parent) + cc.Left;
+        //}
 
-        private void Pic_MouseDown(object sender, MouseEventArgs e)
-        {
-            Control cc = (Control)sender;
-            if (e.Button == MouseButtons.Left)
-            {
-                _mousePoint.X = e.X + leftA(cc);
-                _mousePoint.Y = e.Y + topA(cc);
-            }
-        }
+        //private void Pic_MouseDown(object sender, MouseEventArgs e)
+        //{
+        //    Control cc = (Control)sender;
+        //    if (e.Button == MouseButtons.Left)
+        //    {
+        //        _mousePoint.X = e.X + leftA(cc);
+        //        _mousePoint.Y = e.Y + topA(cc);
+        //    }
+        //}
 
-        private void Pic_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Left)
-            {
-                Top = MousePosition.Y - _mousePoint.Y;
-                Left = MousePosition.X - _mousePoint.X;
-            }
-        }
+        //private void Pic_MouseMove(object sender, MouseEventArgs e)
+        //{
+        //    if (e.Button == MouseButtons.Left)
+        //    {
+        //        Top = MousePosition.Y - _mousePoint.Y;
+        //        Left = MousePosition.X - _mousePoint.X;
+        //    }
+        //}
         #endregion
 
         /// <summary>
@@ -204,50 +207,41 @@ namespace CMCS.Monitor.Win.Frms
         {
             //预览设备
             int i = 0;
-            foreach (VideoEntity item in listVideo.Where(a => a.DeviceFactory == "海康"))
-            {
-                if (item.IsPreview)
-                {
-                    if (item.UserId >= 0)
+     
+            string strIP = commonDAO.GetAppletConfigString("公共配置", "视频服务器IP地址");
+            string strPort = commonDAO.GetAppletConfigString("公共配置", "视频服务器端口号");
+               IntPtr nPDLLHandle = (IntPtr)0;
+                    IntPtr result1 = DHSDK.DPSDK_Create(DHSDK.dpsdk_sdk_type_e.DPSDK_CORE_SDK_SERVER, ref nPDLLHandle);//初始化数据交互接口
+                    IntPtr result2 = DHSDK.DPSDK_InitExt();//初始化解码播放接口
+                    if (result1 == (IntPtr)0 && result2 == (IntPtr)0)
                     {
-                        if (item.RealHandle < 0)
+                        if (DHSDK.Logion(strIP, int.Parse(strPort), "system", "admin123", nPDLLHandle))
                         {
-                            CHCNetSDK.NET_DVR_PREVIEWINFO lpPreviewInfo = new CHCNetSDK.NET_DVR_PREVIEWINFO();
-                            lpPreviewInfo.hPlayWnd = MainPanel.Controls["pVideo" + i.ToString()].Handle;//预览窗口
-                            lpPreviewInfo.lChannel = item.Channel;//预te览的设备通道
-                            lpPreviewInfo.dwStreamType = 0;//码流类型：0-主码流，1-子码流，2-码流3，3-码流4，以此类推
-                            lpPreviewInfo.dwLinkMode = 0;//连接方式：0- TCP方式，1- UDP方式，2- 多播方式，3- RTP方式，4-RTP/RTSP，5-RSTP/HTTP 
-                            lpPreviewInfo.bBlocked = true; //0- 非阻塞取流，1- 阻塞取流
-                            lpPreviewInfo.dwDisplayBufNum = 15; //播放库播放缓冲区最大缓冲帧数
-
-                            //CHCNetSDK.REALDATACALLBACK RealData = new CHCNetSDK.REALDATACALLBACK(RealDataCallBack);//预览实时流回调函数
-                            IntPtr pUser = new IntPtr();//用户数据
-
-                            //打开预览 Start live view 
-                            item.RealHandle = CHCNetSDK.NET_DVR_RealPlay_V40(item.UserId, ref lpPreviewInfo, null, pUser);
+                            foreach (VideoEntity item in listVideo.Where(a => a.DeviceFactory == "视频窗口一"))
+                            {
+                                if (item.IsPreview)
+                                {
+                                    //if (item.UserId > 0)
+                                    //{
+                                        if (item.RealHandle < 0)
+                                        {
+                                            IntPtr intPtr = MainPanel.Controls["pVideo" + i.ToString()].Handle;//预览窗口
+                                            ////预览
+                                            //item.RealHandle = NETClient.CLIENT_RealPlay(item.UserId, item.Channel, intPtr);
+                                            //bool result = NETClient.NetSetSecurityKey(item.RealHandle, "SPL17THALES00000");// Set Aes Security Key
+                                            IntPtr realseq = default(IntPtr);
+                                            string szCameraId1 = item.Channel;
+                                            if (DHSDK.StartPreview(intPtr, szCameraId1, nPDLLHandle, realseq))
+                                            {
+                                                MainPanel.Controls["pVideo" + i.ToString()].Refresh();
+                                            }
+                                        }
+                                    //}
+                                }
+                                i++;
+                            }
                         }
                     }
-                }
-                i++;
-            }
-
-            foreach (VideoEntity item in listVideo.Where(a => a.DeviceFactory == "大华"))
-            {
-                if (item.IsPreview)
-                {
-                    if (item.UserId > 0)
-                    {
-                        if (item.RealHandle < 0)
-                        {
-                            IntPtr intPtr = MainPanel.Controls["pVideo" + i.ToString()].Handle;//预览窗口
-                            //预览
-                            item.RealHandle = NETClient.CLIENT_RealPlay(item.UserId, item.Channel, intPtr);
-                            bool result = NETClient.NetSetSecurityKey(item.RealHandle, "SPL17THALES00000");// Set Aes Security Key
-                        }
-                    }
-                }
-                i++;
-            }
         }
 
 

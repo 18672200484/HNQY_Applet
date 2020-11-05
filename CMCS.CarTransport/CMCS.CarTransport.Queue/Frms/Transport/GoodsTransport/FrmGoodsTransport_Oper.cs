@@ -111,25 +111,25 @@ namespace CMCS.CarTransport.Queue.Frms.Transport.GoodsTransport
 			{
 				if (cmcsGoodsTransport.FirstWeight != (decimal)dbi_FirstWeight.Value) content += string.Format("一次称重由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.FirstWeight, (decimal)dbi_FirstWeight.Value);
 				cmcsGoodsTransport.FirstWeight = (decimal)dbi_FirstWeight.Value;
-				if (cmcsGoodsTransport.SecondWeight != (decimal)dbi_SecondWeight.Value) content += string.Format("一次称重由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.SecondWeight, (decimal)dbi_SecondWeight.Value);
+				if (cmcsGoodsTransport.SecondWeight != (decimal)dbi_SecondWeight.Value) content += string.Format("二次称重由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.SecondWeight, (decimal)dbi_SecondWeight.Value);
 				cmcsGoodsTransport.SecondWeight = (decimal)dbi_SecondWeight.Value;
-				cmcsGoodsTransport.SuttleWeight = Math.Abs(cmcsGoodsTransport.FirstWeight - cmcsGoodsTransport.SecondWeight);
+				cmcsGoodsTransport.SuttleWeight = (decimal)dbi_SuttleWeight.Value;
 				if (receiveUnit != null)
 				{
 					cmcsGoodsTransport.ReceiveUnitId = receiveUnit.Id;
-					if (cmcsGoodsTransport.ReceiveUnitName != receiveUnit.UnitName) content += string.Format("一次称重由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.ReceiveUnitName, receiveUnit.UnitName);
+					if (cmcsGoodsTransport.ReceiveUnitName != receiveUnit.UnitName) content += string.Format("收货单位由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.ReceiveUnitName, receiveUnit.UnitName);
 					cmcsGoodsTransport.ReceiveUnitName = receiveUnit.UnitName;
 				}
 				if (supplyUnit != null)
 				{
 					cmcsGoodsTransport.SupplyUnitId = supplyUnit.Id;
-					if (cmcsGoodsTransport.SupplyUnitName != supplyUnit.UnitName) content += string.Format("一次称重由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.SupplyUnitName, supplyUnit.UnitName);
+					if (cmcsGoodsTransport.SupplyUnitName != supplyUnit.UnitName) content += string.Format("发货单位由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.SupplyUnitName, supplyUnit.UnitName);
 					cmcsGoodsTransport.SupplyUnitName = supplyUnit.UnitName;
 				}
 				if (cmcsGoodsType != null)
 				{
 					cmcsGoodsTransport.GoodsTypeId = cmcsGoodsType.Id;
-					if (cmcsGoodsTransport.GoodsTypeName != cmcsGoodsType.GoodsName) content += string.Format("一次称重由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.GoodsTypeName, cmcsGoodsType.GoodsName);
+					if (cmcsGoodsTransport.GoodsTypeName != cmcsGoodsType.GoodsName) content += string.Format("物资类型由:{0}修改为:{1}" + Environment.NewLine, cmcsGoodsTransport.GoodsTypeName, cmcsGoodsType.GoodsName);
 					cmcsGoodsTransport.GoodsTypeName = cmcsGoodsType.GoodsName;
 				}
 				txt_Remark.Text = cmcsGoodsTransport.Remark;

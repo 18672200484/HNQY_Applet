@@ -40,16 +40,6 @@ namespace CMCS.Monitor.Win.Frms
             InitializeComponent();
         }
 
-        string currentMachineCode = GlobalVars.MachineCode_QZDZYJ_1;
-        /// <summary>
-        /// 当前选中的衡器
-        /// </summary>
-        public string CurrentMachineCode
-        {
-            get { return currentMachineCode; }
-            set { currentMachineCode = value; }
-        }
-
         /// <summary>
         /// 窗体初始化
         /// </summary>
@@ -99,8 +89,7 @@ namespace CMCS.Monitor.Win.Frms
             #region 全自动制样机
 
             datas.Clear();
-            machineCode = this.currentMachineCode;
-            datas.Add(new HtmlDataItem("当前全自动制样机", "环保型无人值守煤炭联合制样系统-"+ machineCode, eHtmlDataItemType.svg_text));
+            machineCode = GlobalVars.MachineCode_QZDZYJ_1;
             equInfSamplerSystemStatus = commonDAO.GetSignalDataValue(machineCode, eSignalDataName.系统.ToString());
 
             //value1 = commonDAO.GetSignalDataValue(machineCode, "一级加料输送机");

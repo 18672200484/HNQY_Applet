@@ -14,38 +14,9 @@
 
 
 
-        // 注册SVG元素脚本事件
-        function initSvgElementEvent() {
-            canvas1.find("*[inkscape\\:label=1号全自动制样机点击域],*[inkscape\\:label=2号全自动制样机点击域]").bind("click", function (evt) {
-       
-                // 选中制样机
-                AutoMakerV8Cef.ChangeSelected(evt.target.getAttribute("inkscape:label"));
-      
-                changeSelected(evt.target.getAttribute("inkscape:label"));
-            });
-
-            canvas1.find("*[inkscape\\:label=1号全自动制样机点击域],*[inkscape\\:label=2号全自动制样机点击域]").css("cursor", "pointer");
-        }
 
 
-        var list = ["1号全自动制样机", "2号全自动制样机"];
-
-        function changeSelected(selVal) {
-
-            for (var i = 0; i < list.length; i++) {
-                if (selVal.indexOf(list[i]) != -1) {
-                    changeColor1(canvas1.find("*[inkscape\\:label=" + list[i] + "选中]"), "#00A551");
-                }
-                else
-                    changeColor1(canvas1.find("*[inkscape\\:label=" + list[i] + "选中]"), "#FDFDFD");
-            }
-        }
-
-        var canvas1;
         window.onload = function () {
-            canvas1 = getCanvas1();
-            // 注册SVG元素脚本事件
-            initSvgElementEvent();
             getCanvas1().find("*[inkscape\\:label=故障信息]").css("cursor", "pointer");
             getCanvas1().find("*[inkscape\\:label=故障信息]").bind("click", function () {
                 // 打开火车入厂翻车机监控

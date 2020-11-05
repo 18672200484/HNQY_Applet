@@ -125,6 +125,12 @@
     <Compile Include="Frms\Sys\FrmDebugOutputer.Designer.cs">
       <DependentUpon>FrmDebugOutputer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frms\Sys\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\Sys\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frms\Sys\FrmMainFrame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frms\Sys\FrmDebugOutputer.resx">
       <DependentUpon>FrmDebugOutputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\Sys\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frms\Sys\FrmMainFrame.resx">
       <DependentUpon>FrmMainFrame.cs</DependentUpon>

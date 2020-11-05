@@ -482,6 +482,15 @@ namespace CMCS.UnloadSampler.Frms
 			RefreshEquStatus();
 		}
 
+		/// <summary>
+		/// 定时更新样罐 状态
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void timer2_Tick(object sender, EventArgs e)
+		{
+			LoadSampleBarrel(superGridControl1, this.currentSampler.EquipmentCode);
+		}
 		#endregion
 
 		#region 操作
@@ -942,5 +951,6 @@ namespace CMCS.UnloadSampler.Frms
 			if (ClearUnladCmd())
 				MessageBoxEx.Show("清理完成！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
+
 	}
 }

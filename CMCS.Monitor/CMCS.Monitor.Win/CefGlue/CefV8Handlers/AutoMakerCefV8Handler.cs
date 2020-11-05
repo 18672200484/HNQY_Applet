@@ -41,12 +41,6 @@ namespace CMCS.Monitor.Win.CefGlue
                     equInfHitchs = CommonDAO.GetInstance().GetEquInfHitchsByTime(machineCode, DateTime.Now);
                     returnValue = CefV8Value.CreateString(Newtonsoft.Json.JsonConvert.SerializeObject(equInfHitchs.Select(a => new { MachineCode = a.MachineCode, HitchTime = a.HitchTime.ToString("yyyy-MM-dd HH:mm"), HitchDescribe = a.HitchDescribe })));
                     break;
-                case "ChangeSelected":
-                    CefProcessMessage cefMsg = CefProcessMessage.Create("CarMakeChangeSelected");
-                    cefMsg.Arguments.SetSize(0);
-                    cefMsg.Arguments.SetString(0, paramSampler);
-                    CefV8Context.GetCurrentContext().GetBrowser().SendProcessMessage(CefProcessId.Browser, cefMsg);
-                    break;
                 default:
                     returnValue = null;
                     break;

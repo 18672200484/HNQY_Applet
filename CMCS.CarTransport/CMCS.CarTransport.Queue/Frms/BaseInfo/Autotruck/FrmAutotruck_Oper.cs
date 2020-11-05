@@ -237,7 +237,7 @@ namespace CMCS.CarTransport.Queue.Frms.BaseInfo.Autotruck
 				if (_CmcsBuyFuelTransport != null)
 				{
 					_CmcsBuyFuelTransport.CarNumber = cmcsAutotruck.CarNumber;
-
+					_CmcsBuyFuelTransport.OperUser = GlobalVars.LoginUser.UserName;
 					if (Dbers.GetInstance().SelfDber.Update(_CmcsBuyFuelTransport) > 0)
 					{
 						//更新运输记录到批次

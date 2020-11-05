@@ -140,18 +140,24 @@ namespace CMCS.CarTransport.DAO
 				transport.GrossWeight = weight;
 				transport.GrossPlace = place;
 				transport.GrossTime = dt;
-
+				transport.GrossUser = GlobalVars.LoginUser.UserName;
 				result = SelfDber.Update(transport);
 				if (result == 0)
 					Log4Neter.Error("更新数据失败", new Exception("更新数据失败"));
 			}
 			else if (transport.TareWeight == 0)
 			{
+				if (transport.GrossWeight - weight < commonDAO.GetCommonAppletConfigInt32("毛皮重差"))
+				{
+					Log4Neter.Error("保存运输记录", new Exception("重量异常,毛重与皮重相差太小"));
+					return false;
+				}
 				transport.StepName = eTruckInFactoryStep.轻车.ToString();
 				transport.TareWeight = weight;
 				transport.TarePlace = place;
 				transport.TareTime = dt;
-
+				transport.OutFactoryTime = dt;
+				transport.TareUser = GlobalVars.LoginUser.UserName;
 				#region 自动扣吨算法
 				//删除自动扣吨
 				commonDAO.SelfDber.DeleteBySQL<CmcsBuyFuelTransportDeduct>("where TransportId=:TransportId and (DeductType='自动' or OperUser='自动')", new { TransportId = transport.Id });
@@ -188,11 +194,7 @@ namespace CMCS.CarTransport.DAO
 
 				// 回皮即完结
 				transport.IsFinish = 1;
-				if (transport.GrossWeight == transport.TareWeight)
-				{
-					Log4Neter.Error("保存运输记录", new Exception("重量异常,毛重与皮重一致"));
-					return false;
-				}
+
 				result = SelfDber.Update(transport);
 				if (result == 0)
 					Log4Neter.Error("更新数据失败", new Exception("更新数据失败"));
