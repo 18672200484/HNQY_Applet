@@ -402,6 +402,7 @@ namespace CMCS.CarTransport.BeltSampler.Frms
 				SampleCode = this.CurrentRCSampling.SampleCode,
 				CmdCode = (isStart == true ? eEquInfSamplerCmd.开始采样.ToString() : eEquInfSamplerCmd.结束采样.ToString())
 			};
+			commonDAO.SetSignalDataValue(this.CurrentSampleMachine.EquipmentCode, "采样编码", isStart ? this.CurrentRCSampling.SampleCode : string.Empty);
 			return Dbers.GetInstance().SelfDber.Insert<InfBeltSampleCmd>(CurrentSampleCMD) > 0;
 		}
 

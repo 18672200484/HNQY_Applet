@@ -40,13 +40,14 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.lblLoginUserName = new DevComponents.DotNetBar.LabelItem();
 			this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
 			this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
-			this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+			this.btnMin = new DevComponents.DotNetBar.ButtonX();
 			this.lblCurrentTime = new System.Windows.Forms.Label();
 			this.btnApplicationExit = new DevComponents.DotNetBar.ButtonX();
 			this.lblSystemName = new System.Windows.Forms.Label();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-			this.panelEx2 = new DevComponents.DotNetBar.PanelEx();
+			this.panel_Buttons = new DevComponents.DotNetBar.PanelEx();
+			this.btnOpenTruckWeighter = new DevComponents.DotNetBar.ButtonX();
 			this.btnOpenTrainBeltSampler = new DevComponents.DotNetBar.ButtonX();
 			this.ShiPin = new DevComponents.DotNetBar.ButtonX();
 			this.btnOpenHomePage = new DevComponents.DotNetBar.ButtonX();
@@ -66,7 +67,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.panelEx1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.tableLayoutPanel1.SuspendLayout();
-			this.panelEx2.SuspendLayout();
+			this.panel_Buttons.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).BeginInit();
 			this.superTabControl1.SuspendLayout();
 			this.SuspendLayout();
@@ -91,9 +92,9 @@ namespace CMCS.Monitor.Win.Frms.Sys
             this.lblVersion,
             this.labelItem2,
             this.lblLoginUserName});
-			this.metroStatusBar1.Location = new System.Drawing.Point(0, 758);
+			this.metroStatusBar1.Location = new System.Drawing.Point(0, 894);
 			this.metroStatusBar1.Name = "metroStatusBar1";
-			this.metroStatusBar1.Size = new System.Drawing.Size(1376, 22);
+			this.metroStatusBar1.Size = new System.Drawing.Size(1886, 22);
 			this.metroStatusBar1.TabIndex = 5;
 			this.metroStatusBar1.Text = "metroStatusBar1";
 			// 
@@ -129,7 +130,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			// 
 			this.panelEx1.CanvasColor = System.Drawing.SystemColors.Control;
 			this.panelEx1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-			this.panelEx1.Controls.Add(this.buttonX1);
+			this.panelEx1.Controls.Add(this.btnMin);
 			this.panelEx1.Controls.Add(this.lblCurrentTime);
 			this.panelEx1.Controls.Add(this.btnApplicationExit);
 			this.panelEx1.Controls.Add(this.lblSystemName);
@@ -138,7 +139,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.panelEx1.Location = new System.Drawing.Point(0, 0);
 			this.panelEx1.Margin = new System.Windows.Forms.Padding(0);
 			this.panelEx1.Name = "panelEx1";
-			this.panelEx1.Size = new System.Drawing.Size(1376, 60);
+			this.panelEx1.Size = new System.Drawing.Size(1886, 60);
 			this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
 			this.panelEx1.Style.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(82)))), ((int)(((byte)(89)))));
 			this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
@@ -146,18 +147,18 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.panelEx1.Style.GradientAngle = 90;
 			this.panelEx1.TabIndex = 7;
 			// 
-			// buttonX1
+			// btnMin
 			// 
-			this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-			this.buttonX1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-			this.buttonX1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.buttonX1.Location = new System.Drawing.Point(1224, 14);
-			this.buttonX1.Name = "buttonX1";
-			this.buttonX1.Size = new System.Drawing.Size(63, 30);
-			this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-			this.buttonX1.TabIndex = 9;
-			this.buttonX1.Text = "最小化";
-			this.buttonX1.Click += new System.EventHandler(this.buttonX1_Click_1);
+			this.btnMin.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.btnMin.Anchor = System.Windows.Forms.AnchorStyles.Right;
+			this.btnMin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnMin.Location = new System.Drawing.Point(1734, 14);
+			this.btnMin.Name = "btnMin";
+			this.btnMin.Size = new System.Drawing.Size(63, 30);
+			this.btnMin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+			this.btnMin.TabIndex = 9;
+			this.btnMin.Text = "最小化";
+			this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
 			// 
 			// lblCurrentTime
 			// 
@@ -166,7 +167,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.lblCurrentTime.AutoSize = true;
 			this.lblCurrentTime.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblCurrentTime.ForeColor = System.Drawing.Color.White;
-			this.lblCurrentTime.Location = new System.Drawing.Point(973, 14);
+			this.lblCurrentTime.Location = new System.Drawing.Point(1483, 14);
 			this.lblCurrentTime.Name = "lblCurrentTime";
 			this.lblCurrentTime.Size = new System.Drawing.Size(239, 28);
 			this.lblCurrentTime.TabIndex = 2;
@@ -177,7 +178,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnApplicationExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
 			this.btnApplicationExit.Anchor = System.Windows.Forms.AnchorStyles.Right;
 			this.btnApplicationExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnApplicationExit.Location = new System.Drawing.Point(1293, 15);
+			this.btnApplicationExit.Location = new System.Drawing.Point(1803, 15);
 			this.btnApplicationExit.Name = "btnApplicationExit";
 			this.btnApplicationExit.Size = new System.Drawing.Size(63, 30);
 			this.btnApplicationExit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -191,7 +192,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.lblSystemName.AutoSize = true;
 			this.lblSystemName.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblSystemName.ForeColor = System.Drawing.Color.White;
-			this.lblSystemName.Location = new System.Drawing.Point(276, 5);
+			this.lblSystemName.Location = new System.Drawing.Point(531, 5);
 			this.lblSystemName.Name = "lblSystemName";
 			this.lblSystemName.Size = new System.Drawing.Size(848, 47);
 			this.lblSystemName.TabIndex = 1;
@@ -215,7 +216,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(82)))), ((int)(((byte)(89)))));
 			this.tableLayoutPanel1.ColumnCount = 1;
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.Controls.Add(this.panelEx2, 0, 1);
+			this.tableLayoutPanel1.Controls.Add(this.panel_Buttons, 0, 1);
 			this.tableLayoutPanel1.Controls.Add(this.panelEx1, 0, 0);
 			this.tableLayoutPanel1.Controls.Add(this.superTabControl1, 0, 2);
 			this.tableLayoutPanel1.Controls.Add(this.flpanEquipments, 0, 3);
@@ -229,31 +230,46 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(1376, 758);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(1886, 894);
 			this.tableLayoutPanel1.TabIndex = 10;
 			// 
-			// panelEx2
+			// panel_Buttons
 			// 
-			this.panelEx2.CanvasColor = System.Drawing.SystemColors.Control;
-			this.panelEx2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-			this.panelEx2.Controls.Add(this.btnOpenTrainBeltSampler);
-			this.panelEx2.Controls.Add(this.ShiPin);
-			this.panelEx2.Controls.Add(this.btnOpenHomePage);
-			this.panelEx2.Controls.Add(this.btnOpenCarSampler1);
-			this.panelEx2.Controls.Add(this.btnOpenCarSampler);
-			this.panelEx2.Controls.Add(this.btnOpenAutoMaker);
-			this.panelEx2.Controls.Add(this.btnOpenAssayManage);
-			this.panelEx2.Controls.Add(this.btnOpenAutoCupboard);
-			this.panelEx2.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.panelEx2.Location = new System.Drawing.Point(3, 63);
-			this.panelEx2.Name = "panelEx2";
-			this.panelEx2.Size = new System.Drawing.Size(1370, 34);
-			this.panelEx2.Style.Alignment = System.Drawing.StringAlignment.Center;
-			this.panelEx2.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-			this.panelEx2.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-			this.panelEx2.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-			this.panelEx2.Style.GradientAngle = 90;
-			this.panelEx2.TabIndex = 0;
+			this.panel_Buttons.CanvasColor = System.Drawing.SystemColors.Control;
+			this.panel_Buttons.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+			this.panel_Buttons.Controls.Add(this.btnOpenTruckWeighter);
+			this.panel_Buttons.Controls.Add(this.btnOpenTrainBeltSampler);
+			this.panel_Buttons.Controls.Add(this.ShiPin);
+			this.panel_Buttons.Controls.Add(this.btnOpenHomePage);
+			this.panel_Buttons.Controls.Add(this.btnOpenCarSampler1);
+			this.panel_Buttons.Controls.Add(this.btnOpenCarSampler);
+			this.panel_Buttons.Controls.Add(this.btnOpenAutoMaker);
+			this.panel_Buttons.Controls.Add(this.btnOpenAssayManage);
+			this.panel_Buttons.Controls.Add(this.btnOpenAutoCupboard);
+			this.panel_Buttons.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.panel_Buttons.Location = new System.Drawing.Point(3, 63);
+			this.panel_Buttons.Name = "panel_Buttons";
+			this.panel_Buttons.Size = new System.Drawing.Size(1880, 34);
+			this.panel_Buttons.Style.Alignment = System.Drawing.StringAlignment.Center;
+			this.panel_Buttons.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+			this.panel_Buttons.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+			this.panel_Buttons.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+			this.panel_Buttons.Style.GradientAngle = 90;
+			this.panel_Buttons.TabIndex = 0;
+			// 
+			// btnOpenTruckWeighter
+			// 
+			this.btnOpenTruckWeighter.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.btnOpenTruckWeighter.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.btnOpenTruckWeighter.AutoExpandOnClick = true;
+			this.btnOpenTruckWeighter.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnOpenTruckWeighter.Location = new System.Drawing.Point(120, 2);
+			this.btnOpenTruckWeighter.Name = "btnOpenTruckWeighter";
+			this.btnOpenTruckWeighter.Size = new System.Drawing.Size(115, 31);
+			this.btnOpenTruckWeighter.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+			this.btnOpenTruckWeighter.TabIndex = 29;
+			this.btnOpenTruckWeighter.Text = "过 衡 监 控";
+			this.btnOpenTruckWeighter.Click += new System.EventHandler(this.btnOpenTruckWeighter_Click);
 			// 
 			// btnOpenTrainBeltSampler
 			// 
@@ -261,7 +277,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnOpenTrainBeltSampler.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.btnOpenTrainBeltSampler.AutoExpandOnClick = true;
 			this.btnOpenTrainBeltSampler.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOpenTrainBeltSampler.Location = new System.Drawing.Point(527, 2);
+			this.btnOpenTrainBeltSampler.Location = new System.Drawing.Point(648, 2);
 			this.btnOpenTrainBeltSampler.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnOpenTrainBeltSampler.Name = "btnOpenTrainBeltSampler";
 			this.btnOpenTrainBeltSampler.Size = new System.Drawing.Size(144, 31);
@@ -276,12 +292,13 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.ShiPin.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.ShiPin.AutoExpandOnClick = true;
 			this.ShiPin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.ShiPin.Location = new System.Drawing.Point(1086, 2);
+			this.ShiPin.Location = new System.Drawing.Point(1207, 2);
 			this.ShiPin.Name = "ShiPin";
 			this.ShiPin.Size = new System.Drawing.Size(115, 31);
 			this.ShiPin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
 			this.ShiPin.TabIndex = 14;
 			this.ShiPin.Text = "视频监控";
+			this.ShiPin.Visible = false;
 			this.ShiPin.Click += new System.EventHandler(this.ShiPin_Click);
 			// 
 			// btnOpenHomePage
@@ -305,7 +322,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnOpenCarSampler1.AutoExpandOnClick = true;
 			this.btnOpenCarSampler1.CommandParameter = "2";
 			this.btnOpenCarSampler1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOpenCarSampler1.Location = new System.Drawing.Point(330, 2);
+			this.btnOpenCarSampler1.Location = new System.Drawing.Point(451, 2);
 			this.btnOpenCarSampler1.Name = "btnOpenCarSampler1";
 			this.btnOpenCarSampler1.Size = new System.Drawing.Size(191, 31);
 			this.btnOpenCarSampler1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -320,7 +337,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnOpenCarSampler.AutoExpandOnClick = true;
 			this.btnOpenCarSampler.CommandParameter = "1";
 			this.btnOpenCarSampler.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOpenCarSampler.Location = new System.Drawing.Point(120, 2);
+			this.btnOpenCarSampler.Location = new System.Drawing.Point(241, 2);
 			this.btnOpenCarSampler.Name = "btnOpenCarSampler";
 			this.btnOpenCarSampler.Size = new System.Drawing.Size(204, 31);
 			this.btnOpenCarSampler.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -334,7 +351,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnOpenAutoMaker.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.btnOpenAutoMaker.AutoExpandOnClick = true;
 			this.btnOpenAutoMaker.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOpenAutoMaker.Location = new System.Drawing.Point(677, 2);
+			this.btnOpenAutoMaker.Location = new System.Drawing.Point(798, 2);
 			this.btnOpenAutoMaker.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnOpenAutoMaker.Name = "btnOpenAutoMaker";
 			this.btnOpenAutoMaker.Size = new System.Drawing.Size(161, 31);
@@ -349,7 +366,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnOpenAssayManage.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.btnOpenAssayManage.AutoExpandOnClick = true;
 			this.btnOpenAssayManage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOpenAssayManage.Location = new System.Drawing.Point(965, 2);
+			this.btnOpenAssayManage.Location = new System.Drawing.Point(1086, 2);
 			this.btnOpenAssayManage.Name = "btnOpenAssayManage";
 			this.btnOpenAssayManage.Size = new System.Drawing.Size(115, 31);
 			this.btnOpenAssayManage.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -363,7 +380,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.btnOpenAutoCupboard.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.btnOpenAutoCupboard.AutoExpandOnClick = true;
 			this.btnOpenAutoCupboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnOpenAutoCupboard.Location = new System.Drawing.Point(844, 2);
+			this.btnOpenAutoCupboard.Location = new System.Drawing.Point(965, 2);
 			this.btnOpenAutoCupboard.Name = "btnOpenAutoCupboard";
 			this.btnOpenAutoCupboard.Size = new System.Drawing.Size(115, 31);
 			this.btnOpenAutoCupboard.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -399,7 +416,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.superTabControl1.ReorderTabsEnabled = true;
 			this.superTabControl1.SelectedTabFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
 			this.superTabControl1.SelectedTabIndex = 0;
-			this.superTabControl1.Size = new System.Drawing.Size(1376, 626);
+			this.superTabControl1.Size = new System.Drawing.Size(1886, 762);
 			this.superTabControl1.TabFont = new System.Drawing.Font("Segoe UI", 9F);
 			this.superTabControl1.TabIndex = 9;
 			this.superTabControl1.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -413,7 +430,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.superTabControlPanel1.Location = new System.Drawing.Point(0, 30);
 			this.superTabControlPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.superTabControlPanel1.Name = "superTabControlPanel1";
-			this.superTabControlPanel1.Size = new System.Drawing.Size(1376, 596);
+			this.superTabControlPanel1.Size = new System.Drawing.Size(1886, 732);
 			this.superTabControlPanel1.TabIndex = 1;
 			this.superTabControlPanel1.TabItem = this.superTabItem1;
 			// 
@@ -429,9 +446,9 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.flpanEquipments.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(82)))), ((int)(((byte)(89)))));
 			this.flpanEquipments.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flpanEquipments.ForeColor = System.Drawing.Color.White;
-			this.flpanEquipments.Location = new System.Drawing.Point(3, 729);
+			this.flpanEquipments.Location = new System.Drawing.Point(3, 865);
 			this.flpanEquipments.Name = "flpanEquipments";
-			this.flpanEquipments.Size = new System.Drawing.Size(1370, 26);
+			this.flpanEquipments.Size = new System.Drawing.Size(1880, 26);
 			this.flpanEquipments.TabIndex = 10;
 			// 
 			// timer_CurrentTime
@@ -455,10 +472,11 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1376, 780);
+			this.ClientSize = new System.Drawing.Size(1886, 916);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Controls.Add(this.metroStatusBar1);
 			this.DoubleBuffered = true;
+			this.ForeColor = System.Drawing.Color.White;
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MinimumSize = new System.Drawing.Size(1376, 780);
@@ -473,7 +491,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
 			this.panelEx1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.tableLayoutPanel1.ResumeLayout(false);
-			this.panelEx2.ResumeLayout(false);
+			this.panel_Buttons.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.superTabControl1)).EndInit();
 			this.superTabControl1.ResumeLayout(false);
 			this.ResumeLayout(false);
@@ -498,7 +516,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
         private DevComponents.DotNetBar.SuperTabControl superTabControl1;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel1;
         private DevComponents.DotNetBar.SuperTabItem superTabItem1;
-        private DevComponents.DotNetBar.PanelEx panelEx2;
+        private DevComponents.DotNetBar.PanelEx panel_Buttons;
         private System.Windows.Forms.Timer timer_CurrentTime;
         private DevComponents.DotNetBar.ButtonX btnOpenAutoCupboard;
         private System.Windows.Forms.FlowLayoutPanel flpanEquipments;
@@ -510,9 +528,10 @@ namespace CMCS.Monitor.Win.Frms.Sys
         private DevComponents.DotNetBar.ButtonX btnOpenCarSampler;
         private DevComponents.DotNetBar.ButtonX btnOpenCarSampler1;
         private DevComponents.DotNetBar.ButtonX btnOpenHomePage;
-        private DevComponents.DotNetBar.ButtonX buttonX1;
+        private DevComponents.DotNetBar.ButtonX btnMin;
         private DevComponents.DotNetBar.ButtonX ShiPin;
 		private DevComponents.DotNetBar.ButtonX btnOpenTrainBeltSampler;
+		private DevComponents.DotNetBar.ButtonX btnOpenTruckWeighter;
 	}
 }
 

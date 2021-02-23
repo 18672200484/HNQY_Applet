@@ -41,7 +41,7 @@ namespace CMCS.Monitor.Win.Frms.Sys
         private void FormInit()
         {
             // 加载用户
-            cmbUserAccount.DataSource = commonDao.GetAllSystemUser(eUserRoleCodes.采样员.ToString());
+            cmbUserAccount.DataSource = commonDao.GetAllSystemUser(eUserRoleCodes.汽车智能化.ToString());
             cmbUserAccount.DisplayMember = "UserName";
             cmbUserAccount.ValueMember = "UserAccount";
         }

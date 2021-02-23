@@ -393,3 +393,4 @@ D:\工作文档\Project\河南沁阳\HNQY_Applet\CMCS.Monitor\CMCS.Monitor.Win\o
 D:\工作文档\Project\河南沁阳\HNQY_Applet\CMCS.Monitor\CMCS.Monitor.Win\obj\x86\Debug\CMCS.Monitor.Win.exe
 D:\工作文档\Project\河南沁阳\HNQY_Applet\CMCS.Monitor\CMCS.Monitor.Win\obj\x86\Debug\CMCS.Monitor.Win.pdb
 D:\工作文档\Project\河南沁阳\HNQY_Applet\CMCS.Monitor\CMCS.Monitor.Win\bin\Oracle.ManagedDataAccess.dll
+D:\工作文档\Project\河南沁阳\HNQY_Applet\CMCS.Monitor\CMCS.Monitor.Win\obj\x86\Debug\CMCS.Monitor.Win.Frms.FrmTrainRecognition.resources

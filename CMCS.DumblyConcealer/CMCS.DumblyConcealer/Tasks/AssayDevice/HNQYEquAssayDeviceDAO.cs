@@ -104,7 +104,7 @@ namespace CMCS.DumblyConcealer.Tasks.AssayDevice
 					item.AssayTime = entity.TestDate;
 					item.IsEffective = 0;
 					item.PKID = entity.PKID;
-					item.RRL = entity.PrimaryEE;
+					item.RRL = entity.EEValue;
 					item.DHR = entity.Q1;
 					item.QTFJR = entity.Q2;
 					item.LQJZR = entity.C;
@@ -121,7 +121,7 @@ namespace CMCS.DumblyConcealer.Tasks.AssayDevice
 					item.Qbad = Convert.ToDecimal(entity.Qbad);
 					item.AssayUser = entity.Tester;
 					item.AssayTime = entity.TestDate;
-					item.RRL = entity.PrimaryEE;
+					item.RRL = entity.EEValue;
 					item.DHR = entity.Q1;
 					item.QTFJR = entity.Q2;
 					item.LQJZR = entity.C;

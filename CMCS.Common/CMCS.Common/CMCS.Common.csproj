@@ -90,6 +90,7 @@
     <Compile Include="Entities\BeltSampler\InfBeltSamplePlan.cs" />
     <Compile Include="Entities\BeltSampler\InfBeltSamplerUnloadResult.cs" />
     <Compile Include="Entities\BeltSampler\InfBeltSampleUnloadCmd.cs" />
+    <Compile Include="Entities\CarTransport\CmcsTrainRecognition.cs" />
     <Compile Include="Entities\CarTransport\CmcsAutotruck.cs" />
     <Compile Include="Entities\CarTransport\CmcsBuyFuelTransport.cs" />
     <Compile Include="Entities\CarTransport\CmcsBuyFuelTransportDeduct.cs" />

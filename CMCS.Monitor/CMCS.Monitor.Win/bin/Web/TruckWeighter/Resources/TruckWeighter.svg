@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 
 <svg
-   xmlns:i="&amp;#38;ns_ai;"
+   xmlns:i="&amp;"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -20,7 +20,7 @@
    viewBox="0 0 1150 725"
    enable-background="new 0 0 1600 725"
    xml:space="preserve"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="TruckWeighter.svg"><metadata
    id="metadata244"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -194,13 +194,13 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1600"
-   inkscape:window-height="838"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
    id="namedview240"
    showgrid="false"
    inkscape:zoom="1"
-   inkscape:cx="683.8628"
-   inkscape:cy="536.04697"
+   inkscape:cx="402.19514"
+   inkscape:cy="319.49307"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
@@ -472,10 +472,12 @@
 		</g><text
    font-size="15.7247"
    id="text138"
-   style="font-size:16px;fill:#d0d2d3;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d0d2d3"
    x="74.011703"
-   y="350.0112"
-   sodipodi:linespacing="125%">摄像机一</text>
+   y="350.0112">摄像机一</text>
+
+
+
 
 <g
    id="g142"
@@ -503,10 +505,12 @@
 		</g><text
    font-size="15.7247"
    id="text152"
-   style="font-size:16px;fill:#d0d2d3;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d0d2d3"
    x="1012.3555"
-   y="350.0112"
-   sodipodi:linespacing="125%">摄像机二</text>
+   y="350.0112">摄像机二</text>
+
+
+
 
 
 
@@ -526,15 +530,18 @@
    id="rect170" /><text
    font-size="53.9132"
    id="text172"
-   style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ec1c24;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.91320038px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ec1c24"
    x="442.44479"
    y="166.6001"
-   inkscape:label="地磅仪表_实时重量"
-   sodipodi:linespacing="125%"><tspan
+   inkscape:label="地磅仪表_实时重量"><tspan
      sodipodi:role="line"
      id="tspan3094"
      x="442.44479"
-     y="166.6001">0 吨</tspan></text>
+     y="166.6001"
+     style="font-size:64px;line-height:1.25">0 吨</tspan></text>
+
+
+
 
 <rect
    x="774.08203"
@@ -575,65 +582,80 @@
    style="fill:#000000;stroke:#404041;fill-opacity:1" /><text
    font-size="26.9566"
    id="text186"
-   style="font-size:24.56048012px;font-family:Microsoft YaHei;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.56048012px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
    x="809.74219"
-   y="109.73239"
-   sodipodi:linespacing="125%">车号</text>
+   y="109.73239">车号</text>
+
+
+
 
 <text
    font-size="26.9566"
    id="text188"
-   style="font-size:24.56048012px;font-family:Microsoft YaHei;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.56048012px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
    x="809.74219"
-   y="153.53708"
-   sodipodi:linespacing="125%">毛重</text>
+   y="153.53708">毛重</text>
+
+
+
 
 <text
    font-size="26.9566"
    id="text190"
-   style="font-size:24.56048012px;font-family:Microsoft YaHei;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.56048012px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
    x="809.74219"
-   y="201.08501"
-   sodipodi:linespacing="125%">皮重</text>
+   y="201.08501">皮重</text>
+
+
+
 
 <text
    font-size="26.9566"
    id="text192"
-   style="font-size:24.56048012000000100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;fill:#cdfc0f;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.95660019px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#cdfc0f;fill-opacity:1"
    x="909.52441"
    y="110.6362"
-   inkscape:label="当前过衡车号"
-   sodipodi:linespacing="125%"><tspan
+   inkscape:label="当前过衡车号"><tspan
      sodipodi:role="line"
      id="tspan3872"
      x="909.52441"
-     y="110.6362">暂无</tspan></text>
+     y="110.6362"
+     style="font-size:24.56048012px;line-height:1.25">暂无</tspan></text>
+
+
+
 
 <text
    font-size="26.9566"
    id="text194"
-   style="font-size:24.56048012000000100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;fill:#cdfc0f;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.95660019px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#cdfc0f;fill-opacity:1"
    x="915.98541"
    y="156.436"
-   inkscape:label="毛重"
-   sodipodi:linespacing="125%"><tspan
+   inkscape:label="毛重"><tspan
      sodipodi:role="line"
      id="tspan3868"
      x="915.98541"
-     y="156.436">0 吨</tspan></text>
+     y="156.436"
+     style="font-size:24.56048012px;line-height:1.25">0 吨</tspan></text>
+
+
+
 
 <text
    font-size="26.9566"
    id="text196"
-   style="font-size:24.56048012000000100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;fill:#cdfc0f;fill-opacity:1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.95660019px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#cdfc0f;fill-opacity:1"
    x="915.98541"
    y="199.8667"
-   inkscape:label="皮重"
-   sodipodi:linespacing="125%"><tspan
+   inkscape:label="皮重"><tspan
      sodipodi:role="line"
      id="tspan3870"
      x="915.98541"
-     y="199.8667">0 吨</tspan></text>
+     y="199.8667"
+     style="font-size:24.56048012px;line-height:1.25">0 吨</tspan></text>
+
+
+
 
 
 
@@ -676,58 +698,72 @@
    inkscape:label="LED屏_信号灯" /><text
    font-size="20.2175"
    id="text218"
-   style="font-size:16px;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="87.695297"
-   y="109.0654"
-   sodipodi:linespacing="125%">程序状态</text>
+   y="109.0654">程序状态</text>
+
+
+
 
 <text
    font-size="20.2175"
    id="text220"
-   style="font-size:16px;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="87.493698"
-   y="153.6143"
-   sodipodi:linespacing="125%">IO控制器</text>
+   y="153.6143">IO控制器</text>
+
+
+
 
 <text
    font-size="20.2175"
    id="text222"
-   style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.21750069px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="85.983398"
-   y="196.00391"
-   sodipodi:linespacing="125%"><tspan
+   y="196.00391"><tspan
      sodipodi:role="line"
      id="tspan3096"
      x="85.983398"
-     y="196.00391">读卡器1</tspan></text>
+     y="196.00391"
+     style="font-size:16px;line-height:1.25">读卡器1</tspan></text>
+
+
+
 
 <text
    font-size="20.2175"
    id="text224"
-   style="font-size:16px;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="252.93259"
-   y="109.06641"
-   sodipodi:linespacing="125%">地磅仪表</text>
+   y="109.06641">地磅仪表</text>
+
+
+
 
 <text
    font-size="20.2175"
    id="text226"
-   style="font-size:16px;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="254.69431"
-   y="153.6143"
-   sodipodi:linespacing="125%">LED屏</text>
+   y="153.6143">LED屏</text>
+
+
+
 
 <text
    font-size="20.2175"
    id="text228"
-   style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#ffffff;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.21750069px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="252.93259"
-   y="196.00391"
-   sodipodi:linespacing="125%"><tspan
+   y="196.00391"><tspan
      sodipodi:role="line"
      id="tspan3098"
      x="252.93259"
-     y="196.00391">读卡器2</tspan></text>
+     y="196.00391"
+     style="font-size:16px;line-height:1.25">读卡器2</tspan></text>
+
+
+
 
 <rect
    x="944.87"
@@ -10701,4 +10737,69 @@ HeptG1Uy1OjRedRs5BdTlMRFVMjXe/XRR41IaJfvRXXRUrcbbslAaagJFZ00ihsjHeruJ81hGdUc
    width="4.6459999"
    height="8.7969999"
    id="rect230-2"
-   style="fill:#f6921e" /></svg>
+   style="fill:#f6921e" /><path
+   d="m 225.08754,678.001 c 0,-6.628 -5.404,-12.033 -12.03,-12.033 -6.628,0 -12.034,5.405 -12.034,12.033 0,6.628 5.405,12.031 12.034,12.031 6.626,0 12.03,-5.403 12.03,-12.031 z"
+   id="path208-3"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#13f344;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1"
+   inkscape:label="汽车衡_1号衡选中" /><text
+   font-size="20.2175"
+   id="text218-2"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
+   x="237.21085"
+   y="684.57159"
+   inkscape:label="汽车衡_1号衡点击域"><tspan
+     y="684.57159"
+     x="237.21085"
+     sodipodi:role="line"
+     id="tspan991">#1汽车衡</tspan></text>
+
+
+<path
+   d="m 418.68649,678.001 c 0,-6.628 -5.404,-12.033 -12.03,-12.033 -6.628,0 -12.034,5.405 -12.034,12.033 0,6.628 5.405,12.031 12.034,12.031 6.626,0 12.03,-5.403 12.03,-12.031 z"
+   id="path208-3-5"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#13f344;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1"
+   inkscape:label="汽车衡_2号衡选中" /><text
+   font-size="20.2175"
+   id="text218-2-0"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#ffffff;"
+   x="430.80981"
+   y="684.57159"
+   inkscape:label="汽车衡_2号衡点击域"><tspan
+     sodipodi:role="line"
+     id="tspan995">#2汽车衡</tspan></text>
+
+<path
+   d="m 618.68649,678.001 c 0,-6.628 -5.404,-12.033 -12.03,-12.033 -6.628,0 -12.034,5.405 -12.034,12.033 0,6.628 5.405,12.031 12.034,12.031 6.626,0 12.03,-5.403 12.03,-12.031 z"
+   id="path208-3-2"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#13f344;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1"
+   inkscape:label="汽车衡_3号衡选中" /><text
+   font-size="20.2175"
+   id="text218-2-3"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
+   x="630.80981"
+   y="684.57159"
+   inkscape:label="汽车衡_3号衡点击域"><tspan
+     sodipodi:role="line"
+     id="tspan997"
+     x="630.80981"
+     y="684.57159">#3汽车衡</tspan></text>
+
+<path
+   d="m 806.68649,678.001 c 0,-6.628 -5.404,-12.033 -12.03,-12.033 -6.628,0 -12.034,5.405 -12.034,12.033 0,6.628 5.405,12.031 12.034,12.031 6.626,0 12.03,-5.403 12.03,-12.031 z"
+   id="path208-3-6"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#13f344;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1"
+   inkscape:label="汽车衡_4号衡选中" /><text
+   font-size="20.2175"
+   id="text218-2-1"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666667px;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start;fill:#ffffff;"
+   x="818.80981"
+   y="684.57159"
+   inkscape:label="汽车衡_4号衡点击域"><tspan
+     sodipodi:role="line"
+     id="tspan999">#4汽车衡</tspan></text>
+
+</svg>

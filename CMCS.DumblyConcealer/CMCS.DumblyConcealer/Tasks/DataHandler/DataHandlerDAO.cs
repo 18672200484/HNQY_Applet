@@ -59,13 +59,12 @@ namespace CMCS.DumblyConcealer.Tasks.CarSynchronous
 				{
 					case eEventCode.汽车智能化_同步入厂煤运输记录到批次:
 
-						//if (SyncToBatch(output, item.ObjectId))
-						//{
-						//    isSuccess = true;
+						if (SyncToBatch(output, item.ObjectId))
+						{
+							isSuccess = true;
 
-						//    output(string.Format("事件：{0}  ObjectId：{1}", eEventCode.汽车智能化_同步入厂煤运输记录到批次.ToString(), item.ObjectId), eOutputType.Normal);
-						//}
-						output(string.Format("事件：{0}  ObjectId：{1}", eEventCode.汽车智能化_同步入厂煤运输记录到批次.ToString(), item.ObjectId), eOutputType.Normal);
+							output(string.Format("事件：{0}  ObjectId：{1}", eEventCode.汽车智能化_同步入厂煤运输记录到批次.ToString(), item.ObjectId), eOutputType.Normal);
+						}
 						break;
 				}
 
@@ -231,6 +230,8 @@ namespace CMCS.DumblyConcealer.Tasks.CarSynchronous
 				CarCount_GZCH = int.Parse(dt.Rows[0][0].ToString() ?? "0");
 			}
 			CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_过重车数", CarCount_GZCH.ToString());
+			int Count_DGZCH = Dbers.GetInstance().SelfDber.Count<CmcsBuyFuelTransport>("where trunc(infactorytime)=trunc(sysdate) and (StepName='入厂' or StepName='采样')");
+			CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待过重车数", Count_DGZCH.ToString());
 			#endregion
 
 			#region 过轻车衡车数
@@ -241,10 +242,14 @@ namespace CMCS.DumblyConcealer.Tasks.CarSynchronous
 				CarCount_GQCH = int.Parse(dt.Rows[0][0].ToString() ?? "0");
 			}
 			CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_过轻车数", CarCount_GQCH.ToString());
+			int Count_DGQCH = Dbers.GetInstance().SelfDber.Count<CmcsBuyFuelTransport>("where trunc(infactorytime)=trunc(sysdate) and StepName=:StepName", new { StepName = "卸煤" });
+			CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待过轻车数", Count_DGQCH.ToString());
 			#endregion
 
 			#region 待卸车数
 			CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待卸车数", (CarCount_GZCH - CarCount_GQCH).ToString());
+			int Count_YXCS = Dbers.GetInstance().SelfDber.Count<CmcsBuyFuelTransport>("where trunc(infactorytime)=trunc(sysdate) and StepName=:StepName", new { StepName = "卸煤" });
+			CommonDAO.GetInstance().SetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_已卸车数", Count_YXCS.ToString());
 			#endregion
 
 			#region 出厂车数

@@ -16,37 +16,43 @@ using Xilium.CefGlue;
 
 namespace CMCS.Monitor.Win.CefGlue
 {
-    /// <summary>
-    /// 全自动制样机监控界面 CefV8Handler
-    /// </summary>
-    public class AutoMakerCefV8Handler : CefV8Handler
-    {
-        List<InfEquInfHitch> equInfHitchs = new List<InfEquInfHitch>();
-        protected override bool Execute(string name, CefV8Value obj, CefV8Value[] arguments, out CefV8Value returnValue, out string exception)
-        {
-            exception = null;
-            returnValue = null;
-            string paramSampler = arguments[0].GetStringValue();
+	/// <summary>
+	/// 全自动制样机监控界面 CefV8Handler
+	/// </summary>
+	public class AutoMakerCefV8Handler : CefV8Handler
+	{
+		List<InfEquInfHitch> equInfHitchs = new List<InfEquInfHitch>();
+		protected override bool Execute(string name, CefV8Value obj, CefV8Value[] arguments, out CefV8Value returnValue, out string exception)
+		{
+			exception = null;
+			returnValue = null;
+			string paramSampler = arguments[0].GetStringValue();
 
-            switch (name)
-            {
-                //获取异常信息
-                case "GetHitchs":
-                    //异常信息
-                    string machineCode = string.Empty;
-                    if (paramSampler == "#1")
-                        machineCode = GlobalVars.MachineCode_QZDZYJ_1;
-                    else if (paramSampler == "#2")
-                        machineCode = GlobalVars.MachineCode_QZDZYJ_2;
-                    equInfHitchs = CommonDAO.GetInstance().GetEquInfHitchsByTime(machineCode, DateTime.Now);
-                    returnValue = CefV8Value.CreateString(Newtonsoft.Json.JsonConvert.SerializeObject(equInfHitchs.Select(a => new { MachineCode = a.MachineCode, HitchTime = a.HitchTime.ToString("yyyy-MM-dd HH:mm"), HitchDescribe = a.HitchDescribe })));
-                    break;
-                default:
-                    returnValue = null;
-                    break;
-            }
+			switch (name)
+			{
+				//获取异常信息
+				case "GetHitchs":
+					//异常信息
+					string machineCode = string.Empty;
+					if (paramSampler == "#1")
+						machineCode = GlobalVars.MachineCode_QZDZYJ_1;
+					else if (paramSampler == "#2")
+						machineCode = GlobalVars.MachineCode_QZDZYJ_2;
+					equInfHitchs = CommonDAO.GetInstance().GetEquInfHitchsByTime(machineCode, DateTime.Now);
+					returnValue = CefV8Value.CreateString(Newtonsoft.Json.JsonConvert.SerializeObject(equInfHitchs.Select(a => new { MachineCode = a.MachineCode, HitchTime = a.HitchTime.ToString("yyyy-MM-dd HH:mm"), HitchDescribe = a.HitchDescribe })));
+					break;
+				case "ChangeSelected":
+					CefProcessMessage cefMsg = CefProcessMessage.Create("AutoMakerChangeSelected");
+					cefMsg.Arguments.SetSize(0);
+					cefMsg.Arguments.SetString(0, paramSampler);
+					CefV8Context.GetCurrentContext().GetBrowser().SendProcessMessage(CefProcessId.Browser, cefMsg);
+					break;
+				default:
+					returnValue = null;
+					break;
+			}
 
-            return true;
-        }
-    }
+			return true;
+		}
+	}
 }

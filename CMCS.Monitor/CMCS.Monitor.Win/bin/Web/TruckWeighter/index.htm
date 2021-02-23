@@ -22,8 +22,31 @@
         }
 
         // 注册SVG元素脚本事件
-        function initSvgElementEvent() { 
+		function initSvgElementEvent() {
+			canvas1.find("*[inkscape\\:label=汽车衡_1号衡点击域],*[inkscape\\:label=汽车衡_2号衡点击域],*[inkscape\\:label=汽车衡_3号衡点击域],*[inkscape\\:label=汽车衡_4号衡点击域]").bind("click", function (evt) {
+				// 选中汽车衡
+				TruckWeighterV8Cef.ChangeSelected(evt.target.getAttribute("inkscape:label"));
+				changeSelected(evt.target.getAttribute("inkscape:label"));
+			});
+
+			canvas1.find("*[inkscape\\:label=汽车衡_1号衡点击域],*[inkscape\\:label=汽车衡_2号衡点击域],*[inkscape\\:label=汽车衡_3号衡点击域],*[inkscape\\:label=汽车衡_4号衡点击域]").css("cursor", "pointer");
+
         }
+
+		var list = ["汽车衡_1号衡", "汽车衡_2号衡", "汽车衡_3号衡"];
+		var currentSelected = "汽车衡_1号衡点击域";
+
+		function changeSelected(selVal) {
+
+			for (var i = 0; i < list.length; i++) {
+				if (selVal.indexOf(list[i]) != -1) {
+					changeColor1(canvas1.find("*[inkscape\\:label=" + list[i] + "选中]"), "#00A551");
+					currentSelected = selVal;
+				}
+				else
+					changeColor1(canvas1.find("*[inkscape\\:label=" + list[i] + "选中]"), "#FDFDFD");
+			}
+		}
 
         // 请求数据 - 后台调用
         function requestData(datas) {

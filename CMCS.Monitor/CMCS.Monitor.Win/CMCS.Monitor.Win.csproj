@@ -112,6 +112,12 @@
     <Compile Include="Frms\FrmAutoCupboardRecord.designer.cs">
       <DependentUpon>FrmAutoCupboardRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frms\FrmTrainRecognition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frms\FrmTrainRecognition.Designer.cs">
+      <DependentUpon>FrmTrainRecognition.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frms\FrmEquInfHitch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,6 +296,9 @@
     <Compile Include="Utilities\WarningBoxUtil.cs" />
     <EmbeddedResource Include="Frms\FrmAutoCupboardRecord.resx">
       <DependentUpon>FrmAutoCupboardRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frms\FrmTrainRecognition.resx">
+      <DependentUpon>FrmTrainRecognition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frms\FrmEquInfHitch.resx">
       <DependentUpon>FrmEquInfHitch.cs</DependentUpon>

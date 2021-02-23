@@ -14,6 +14,7 @@ using CMCS.Monitor.Win.Html;
 using CMCS.Common.Enums;
 using Xilium.CefGlue;
 using CMCS.Monitor.Win.UserControls;
+using CMCS.Monitor.DAO;
 
 namespace CMCS.Monitor.Win.Frms
 {
@@ -95,12 +96,16 @@ namespace CMCS.Monitor.Win.Frms
 			datas.Add(new HtmlDataItem("总体信息_待采样车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待采样车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_已采样车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_已采样车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_过重车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_过重车数"), ""), eHtmlDataItemType.svg_text));
+			datas.Add(new HtmlDataItem("总体信息_待过重车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待过重车数"), ""), eHtmlDataItemType.svg_text));
+			datas.Add(new HtmlDataItem("总体信息_已卸车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_已卸车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_待卸车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待卸车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_过轻车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_过轻车数"), ""), eHtmlDataItemType.svg_text));
+			datas.Add(new HtmlDataItem("总体信息_待过轻车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_待过轻车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_出厂车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_出厂车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_汽车来煤量", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_汽车来煤量"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_火车车数", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_火车车数"), ""), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("总体信息_火车煤量", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_火车煤量"), ""), eHtmlDataItemType.svg_text));
+
 			datas.Add(new HtmlDataItem("入厂车数", commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_汽车进厂车数"), eHtmlDataItemType.svg_text));
 			datas.Add(new HtmlDataItem("出厂车数", commonDAO.GetSignalDataValue(GlobalVars.MachineCode_HomePage_1, "总体信息_汽车出厂车数"), eHtmlDataItemType.svg_text));
 
@@ -142,7 +147,6 @@ namespace CMCS.Monitor.Win.Frms
 
 			//datas.Add(new HtmlDataItem("#1皮带采样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_PDCYJ_1, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
 			//datas.Add(new HtmlDataItem("#2皮带采样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_PDCYJ_2, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
-			// string value_zch1=
 
 			datas.Add(new HtmlDataItem("#1重车衡", ConvertBooleanToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_QC_Weighter_3, "系统")), eHtmlDataItemType.svg_color));
 			datas.Add(new HtmlDataItem("#1重车衡当前车号", ConvertSignalValue(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_QC_Weighter_3, "当前车号")), eHtmlDataItemType.svg_text));
@@ -157,6 +161,8 @@ namespace CMCS.Monitor.Win.Frms
 			datas.Add(new HtmlDataItem("#3汽车机械采样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_QCJXCYJ_3, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
 			datas.Add(new HtmlDataItem("#4汽车机械采样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_QCJXCYJ_4, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
 
+			datas.Add(new HtmlDataItem("#1入厂皮带采样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_PDCYJ_1, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
+			datas.Add(new HtmlDataItem("#2入厂皮带采样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_PDCYJ_2, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
 
 			datas.Add(new HtmlDataItem("#1全自动制样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_QZDZYJ_1, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
 			datas.Add(new HtmlDataItem("#2全自动制样机", ConvertMachineStatusToColor(commonDAO.GetSignalDataValue(GlobalVars.MachineCode_QZDZYJ_2, eSignalDataName.系统.ToString())), eHtmlDataItemType.svg_color));
@@ -289,7 +295,12 @@ namespace CMCS.Monitor.Win.Frms
 				SelfVars.MainFrameForm.OpenCarSampler("1");
 			else if (message.Name == "OpenCarSampler2")
 				SelfVars.MainFrameForm.OpenCarSampler("2");
-
+			else if (message.Name == "AutoMakerChangeSelected")
+				SelfVars.AutoMakerForm.CurrentMachineCode = MonitorDAO.GetInstance().GetAutoMakerMachineCodeBySelected(message.Arguments.GetString(0));
+			else if (message.Name == "OpenTrainRecognition")
+				SelfVars.MainFrameForm.OpenTrainRecognition();
+			else if (message.Name == "TruckWeighterChangeSelected")
+				SelfVars.TruckWeighterForm.CurrentMachineCode = MonitorDAO.GetInstance().GetTruckWeighterMachineCodeBySelected(message.Arguments.GetString(0));
 			return true;
 			//return base.OnProcessMessageReceived(browser, sourceProcess, message);
 		}

@@ -17,7 +17,7 @@
    viewBox="0 0 1920 937.23773"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="CarSampler.svg"><metadata
    id="metadata2052"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -34,11 +34,11 @@
    inkscape:window-height="1017"
    id="namedview2050"
    showgrid="false"
-   inkscape:zoom="1.4142136"
-   inkscape:cx="671.57433"
-   inkscape:cy="657.25045"
-   inkscape:window-x="-4"
-   inkscape:window-y="-4"
+   inkscape:zoom="0.7071068"
+   inkscape:cx="765.82322"
+   inkscape:cy="660.87192"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg2" />
  <defs
@@ -4281,7 +4281,7 @@
    y="129.26552"
    x="261.39014"
    id="_125283744" /><text
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="13.6515"
    id="_125283624"
    x="64.076988"
@@ -4296,8 +4296,9 @@
 
 
 
+
 <text
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="13.6515"
    id="_125283504"
    x="145.41838"
@@ -4313,22 +4314,24 @@
 
 
 
+
 <polygon
    style="fill:#26a9e0;fill-opacity:0.12939998"
    points="200.235,240.945 134.706,240.945 134.706,203.696 200.235,203.696 "
    id="_125283432"
    transform="matrix(1.4027177,0,0,1.3113447,73.522689,-137.85014)" /><text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125283312"
    x="285.92441"
    y="150.3309"
-   sodipodi:linespacing="125%"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6043"
      x="285.92441"
-     y="150.3309">本车矿发量</tspan></text>
+     y="150.3309"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">本车矿发量</tspan></text>
+
 
 
 
@@ -4339,18 +4342,19 @@
 
 
 <text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125283192"
    x="392.1384"
    y="150.56561"
    inkscape:label="采样机1_矿发量"
-   sodipodi:linespacing="125%"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6045"
      x="392.1384"
-     y="150.56561">60</tspan></text>
+     y="150.56561"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">60</tspan></text>
+
 
 
 
@@ -4377,7 +4381,7 @@
    points="267.638,203.696 333.168,203.696 333.168,240.945 267.638,240.945 "
    id="_125282976"
    transform="matrix(1.1589135,0,0,1.3113447,106.36456,-137.85014)" /><text
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="13.6515"
    id="_125282856"
    x="450.37421"
@@ -4392,19 +4396,21 @@
 
 
 
+
 <text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125282736"
    x="525.6554"
    y="152.2282"
    inkscape:label="采样机1_采样人"
-   transform="scale(0.94008492,1.0637337)"
-   sodipodi:linespacing="125%"><tspan
+   transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan4483"
      x="525.6554"
-     y="152.2282">管理员</tspan></text>
+     y="152.2282"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">管理员</tspan></text>
+
 
 
 
@@ -4431,17 +4437,18 @@
    points="400.569,203.696 466.099,203.696 466.099,240.945 400.569,240.945 "
    id="_125282520"
    transform="matrix(1.1589135,0,0,1.3113447,106.36456,-137.85014)" /><text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125282400"
    x="621.16772"
    y="150.30563"
-   sodipodi:linespacing="125%"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6069"
      x="621.16772"
-     y="150.30563">车牌号</tspan></text>
+     y="150.30563"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">车牌号</tspan></text>
+
 
 
 
@@ -4452,18 +4459,19 @@
 
 
 <text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125282280"
    x="691.83191"
    y="150.84375"
    inkscape:label="采样机1_车牌号"
-   sodipodi:linespacing="125%"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6071"
      x="691.83191"
-     y="150.84375">鄂A12345</tspan></text>
+     y="150.84375"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">鄂A12345</tspan></text>
+
 
 
 
@@ -4486,7 +4494,7 @@
    y="129.26552"
    x="723.55902"
    id="_125282136" /><text
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="13.6515"
    id="_125281944"
    x="777.6496"
@@ -4501,14 +4509,16 @@
 
 
 
+
 <text
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="13.6515"
    id="_125281824"
    x="894.13531"
    y="149.97203"
    inkscape:label="采样机1_采样点数"
    transform="scale(0.94008492,1.0637337)">3</text>
+
 
 
 
@@ -4539,7 +4549,7 @@
    height="48.846275" /><text
    y="150.3898"
    x="1070.8108"
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125281320"
    font-size="13.6515"
    transform="scale(0.94008492,1.0637337)">采样编码</text>
@@ -4552,14 +4562,16 @@
 
 
 
+
 <text
    y="150.87378"
    x="1149.9867"
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125281200"
    font-size="13.6515"
    inkscape:label="采样机2_采样编码"
    transform="scale(0.94008492,1.0637337)">CY20180912123</text>
+
 
 
 
@@ -4576,15 +4588,16 @@
    style="fill:#26a9e0;fill-opacity:0.12939998" /><text
    id="_125281008"
    font-size="13.6515"
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
-   sodipodi:linespacing="125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="1293.8911"
    y="150.33089"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6047"
      x="1293.8911"
-     y="150.33089">本车矿发量</tspan></text>
+     y="150.33089"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">本车矿发量</tspan></text>
+
 
 
 
@@ -4597,8 +4610,7 @@
 <text
    id="_125280888"
    font-size="13.6515"
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
-   sodipodi:linespacing="125%"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    x="1400.0366"
    y="151.30966"
    inkscape:label="采样机2_矿发量"
@@ -4606,7 +4618,9 @@
      sodipodi:role="line"
      id="tspan6049"
      x="1400.0366"
-     y="151.30966">60</tspan></text>
+     y="151.30966"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">60</tspan></text>
+
 
 
 
@@ -4635,7 +4649,7 @@
    points="1194.843,141.22 1129.313,141.22 1129.313,103.971 1194.843,103.971 " /><text
    y="150.34889"
    x="1457.1062"
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125280552"
    font-size="13.6515"
    transform="scale(0.94008492,1.0637337)">采样人</text>
@@ -4648,19 +4662,21 @@
 
 
 
+
 <text
    y="150.19659"
    x="1530.8621"
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    id="_125280432"
    font-size="13.6515"
    inkscape:label="采样机2_采样人"
-   transform="scale(0.94008492,1.0637337)"
-   sodipodi:linespacing="125%"><tspan
+   transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan4481"
      x="1530.8621"
-     y="150.19659">管理员</tspan></text>
+     y="150.19659"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">管理员</tspan></text>
+
 
 
 
@@ -4705,10 +4721,11 @@
    points="1460.703,141.22 1395.173,141.22 1395.173,103.971 1460.703,103.971 " /><text
    y="150.25618"
    x="1784.3839"
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125279640"
    font-size="13.6515"
    transform="scale(0.94008492,1.0637337)">采样点数</text>
+
 
 
 
@@ -4724,8 +4741,9 @@
    inkscape:label="采样机2_采样点数"
    x="1898.1075"
    y="150.84372"
-   style="font-size:16.82923317px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:16.82923317px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    transform="scale(0.94008492,1.0637337)">3</text>
+
 
 
 
@@ -4742,7 +4760,7 @@
    y="129.26576"
    width="1.0870608"
    height="48.846275" /><text
-   style="font-size:38.46715164px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:38.46715164px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="31.2037"
    id="_125279304"
    x="409.05582"
@@ -4757,8 +4775,9 @@
 
 
 
+
 <text
-   style="font-size:38.46715164px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:38.46715164px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="31.2037"
    id="text357"
    x="456.1636"
@@ -4773,14 +4792,16 @@
 
 
 
+
 <text
-   style="font-size:38.46715164px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:38.46715164px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="31.2037"
    id="text359"
    x="433.60229"
    y="81.238274"
    transform="scale(0.94008492,1.0637337)"
    inkscape:label="一号采样机">1</text>
+
 
 
 
@@ -4804,7 +4825,7 @@
    id="_125279232"
    transform="matrix(1.1589135,0,0,1.3113447,106.36456,-137.85014)"
    inkscape:label="采样机1_系统" /><text
-   style="font-size:38.46715164px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:38.46715164px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="31.2037"
    id="_125279112"
    x="1424.4736"
@@ -4819,8 +4840,9 @@
 
 
 
+
 <text
-   style="font-size:38.46715164px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:38.46715164px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    font-size="31.2037"
    id="text364"
    x="1471.5913"
@@ -4835,19 +4857,21 @@
 
 
 
+
 <text
-   style="font-size:38.46715164px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.20369911px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="31.2037"
    id="text366"
    x="1449.0187"
    y="81.232239"
    transform="scale(0.94008492,1.0637337)"
-   sodipodi:linespacing="125%"
    inkscape:label="二号采样机"><tspan
      sodipodi:role="line"
      id="tspan5258"
      x="1449.0187"
-     y="81.232239">3</tspan></text>
+     y="81.232239"
+     style="font-size:38.46715164px;line-height:1.25;font-family:sans-serif">3</tspan></text>
+
 
 
 
@@ -4878,7 +4902,7 @@
    inkscape:label="采样机2_锤式破碎机1" /><text
    y="420.9545"
    x="1433.9026"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125277168-3"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">除铁给料皮带</text>
@@ -4891,10 +4915,11 @@
 
 
 
+
 <text
    y="586.42993"
    x="1632.4817"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125276232-1"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">锤式破碎机</text>
@@ -4907,10 +4932,11 @@
 
 
 
+
 <text
    y="642.15881"
    x="1797.498"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_124511608-1"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">缩分皮带</text>
@@ -4923,10 +4949,11 @@
 
 
 
+
 <text
    y="608.2262"
    x="1297.7544"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_159347800-8"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">溜煤管</text>
@@ -4939,10 +4966,11 @@
 
 
 
+
 <text
    y="420.13284"
    x="1298.1359"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_159350584-0"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">接料斗</text>
@@ -4955,13 +4983,15 @@
 
 
 
+
 <text
    y="263.08224"
    x="1103.3237"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_159350584-0_2_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">小车</text>
+
 
 
 
@@ -6077,7 +6107,6 @@
      width="57.5"
      height="3.1329999"
      id="rect842" /><circle
-     d="m 904.99701,248.089 c 0,1.79493 -1.45508,3.25 -3.25,3.25 -1.79493,0 -3.25,-1.45507 -3.25,-3.25 0,-1.79492 1.45507,-3.25 3.25,-3.25 1.79492,0 3.25,1.45508 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -6087,7 +6116,6 @@
      cy="248.089"
      r="3.25"
      id="circle844" /><circle
-     d="m 902.62201,248.089 c 0,0.48325 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39175 -0.875,-0.875 0,-0.48324 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39176 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -6097,7 +6125,6 @@
      cy="248.089"
      r="0.875"
      id="circle846" /><circle
-     d="m 912.50702,248.089 c 0,1.79493 -1.45508,3.25 -3.25,3.25 -1.79493,0 -3.25,-1.45507 -3.25,-3.25 0,-1.79492 1.45507,-3.25 3.25,-3.25 1.79492,0 3.25,1.45508 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -6107,7 +6134,6 @@
      cy="248.089"
      r="3.25"
      id="circle848" /><circle
-     d="m 910.13202,248.089 c 0,0.48325 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39175 -0.875,-0.875 0,-0.48324 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39176 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -6117,7 +6143,6 @@
      cy="248.089"
      r="0.875"
      id="circle850" /><circle
-     d="m 978.30902,248.089 c 0,1.79493 -1.45507,3.25 -3.25,3.25 -1.79492,0 -3.25,-1.45507 -3.25,-3.25 0,-1.79492 1.45508,-3.25 3.25,-3.25 1.79493,0 3.25,1.45508 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -6127,7 +6152,6 @@
      cy="248.089"
      r="3.25"
      id="circle852" /><circle
-     d="m 975.93402,248.089 c 0,0.48325 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39175 -0.875,-0.875 0,-0.48324 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39176 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -6137,7 +6161,6 @@
      cy="248.089"
      r="0.875"
      id="circle854" /><circle
-     d="m 985.81897,248.089 c 0,1.79493 -1.45507,3.25 -3.25,3.25 -1.79493,0 -3.25,-1.45507 -3.25,-3.25 0,-1.79492 1.45507,-3.25 3.25,-3.25 1.79493,0 3.25,1.45508 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -6147,7 +6170,6 @@
      cy="248.089"
      r="3.25"
      id="circle856" /><circle
-     d="m 983.44397,248.089 c 0,0.48325 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39175 -0.875,-0.875 0,-0.48324 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39176 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -6517,7 +6539,7 @@
    inkscape:label="采样机1_锤式破碎机1" /><text
    y="420.9364"
    x="448.72668"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125277168-3_1_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">除铁给料皮带</text>
@@ -6530,10 +6552,11 @@
 
 
 
+
 <text
    y="586.4118"
    x="647.30463"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_125276232-1_1_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">锤式破碎机</text>
@@ -6546,10 +6569,11 @@
 
 
 
+
 <text
    y="642.14081"
    x="812.32227"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_124511608-1_1_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">缩分皮带</text>
@@ -6562,10 +6586,11 @@
 
 
 
+
 <text
    y="608.20813"
    x="312.57846"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_159347800-8_1_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">溜煤管</text>
@@ -6578,10 +6603,11 @@
 
 
 
+
 <text
    y="420.11472"
    x="312.96002"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_159350584-0_3_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">接料斗</text>
@@ -6594,13 +6620,15 @@
 
 
 
+
 <text
    y="263.06409"
    x="118.14661"
-   style="font-size:21.6644249px;fill:#ffffff;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff"
    id="_159350584-0_1_"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">小车</text>
+
 
 
 
@@ -7717,7 +7745,6 @@
      width="57.5"
      height="3.1329999"
      id="rect1776" /><circle
-     d="m 105.845,248.07401 c 0,1.79492 -1.45507,3.25 -3.25,3.25 -1.79492,0 -3.249999,-1.45508 -3.249999,-3.25 0,-1.79493 1.455079,-3.25 3.249999,-3.25 1.79493,0 3.25,1.45507 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -7727,7 +7754,6 @@
      cy="248.07401"
      r="3.25"
      id="circle1778" /><circle
-     d="m 103.47,248.07401 c 0,0.48324 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39176 -0.875,-0.875 0,-0.48325 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39175 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -7737,7 +7763,6 @@
      cy="248.07401"
      r="0.875"
      id="circle1780" /><circle
-     d="m 113.355,248.07401 c 0,1.79492 -1.45507,3.25 -3.25,3.25 -1.79492,0 -3.25,-1.45508 -3.25,-3.25 0,-1.79493 1.45508,-3.25 3.25,-3.25 1.79493,0 3.25,1.45507 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -7747,7 +7772,6 @@
      cy="248.07401"
      r="3.25"
      id="circle1782" /><circle
-     d="m 110.98,248.07401 c 0,0.48324 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39176 -0.875,-0.875 0,-0.48325 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39175 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -7757,7 +7781,6 @@
      cy="248.07401"
      r="0.875"
      id="circle1784" /><circle
-     d="m 179.158,248.07401 c 0,1.79492 -1.45507,3.25 -3.25,3.25 -1.79492,0 -3.25,-1.45508 -3.25,-3.25 0,-1.79493 1.45508,-3.25 3.25,-3.25 1.79493,0 3.25,1.45507 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -7767,7 +7790,6 @@
      cy="248.07401"
      r="3.25"
      id="circle1786" /><circle
-     d="m 176.783,248.07401 c 0,0.48324 -0.39175,0.875 -0.875,0.875 -0.48324,0 -0.875,-0.39176 -0.875,-0.875 0,-0.48325 0.39176,-0.875 0.875,-0.875 0.48325,0 0.875,0.39175 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -7777,7 +7799,6 @@
      cy="248.07401"
      r="0.875"
      id="circle1788" /><circle
-     d="m 186.668,248.07401 c 0,1.79492 -1.45508,3.25 -3.25,3.25 -1.79493,0 -3.25,-1.45508 -3.25,-3.25 0,-1.79493 1.45507,-3.25 3.25,-3.25 1.79492,0 3.25,1.45507 3.25,3.25 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.5"
      sodipodi:ry="3.25"
      sodipodi:rx="3.25"
@@ -7787,7 +7808,6 @@
      cy="248.07401"
      r="3.25"
      id="circle1790" /><circle
-     d="m 184.293,248.07401 c 0,0.48324 -0.39175,0.875 -0.875,0.875 -0.48325,0 -0.875,-0.39176 -0.875,-0.875 0,-0.48325 0.39175,-0.875 0.875,-0.875 0.48325,0 0.875,0.39175 0.875,0.875 z"
      style="fill:#666666;stroke:#231f20;stroke-width:0.25"
      sodipodi:ry="0.875"
      sodipodi:rx="0.875"
@@ -8158,17 +8178,18 @@
    style="fill:#26a9e0;fill-opacity:0.12939998"
    id="_125280672-7"
    points="1194.843,103.971 1194.843,141.22 1129.313,141.22 1129.313,103.971 " /><text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125282400-4"
    x="1627.6342"
    y="150.79419"
-   sodipodi:linespacing="125%"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6069-0"
      x="1627.6342"
-     y="150.79419">车牌号</tspan></text>
+     y="150.79419"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">车牌号</tspan></text>
+
 
 
 
@@ -8179,18 +8200,19 @@
 
 
 <text
-   style="font-size:16.82923317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Sans;-inkscape-font-specification:Sans"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.65149975px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
    font-size="13.6515"
    id="_125282280-9"
    x="1698.2985"
    y="151.33226"
    inkscape:label="采样机2_车牌号"
-   sodipodi:linespacing="125%"
    transform="scale(0.94008492,1.0637337)"><tspan
      sodipodi:role="line"
      id="tspan6071-4"
      x="1698.2985"
-     y="151.33226">鄂A12345</tspan></text>
+     y="151.33226"
+     style="font-size:16.82923317px;line-height:1.25;font-family:sans-serif">鄂A12345</tspan></text>
+
 
 
 
@@ -8224,16 +8246,16 @@
    transform="scale(1,-1)"
    class="fil2" /><text
    xml:space="preserve"
-   style="font-size:39.73561478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
    x="41.713837"
    y="617.23187"
-   id="text5812-7"
-   sodipodi:linespacing="125%"><tspan
+   id="text5812-7"><tspan
      sodipodi:role="line"
      id="tspan5814-4"
      x="41.713837"
      y="617.23187"
-     style="font-size:12.9140749px;fill:#ffffff">设备就绪状态</tspan></text>
+     style="font-size:12.9140749px;line-height:1.25;fill:#ffffff">设备就绪状态</tspan></text>
+
 
 
 
@@ -8251,16 +8273,16 @@
    transform="scale(1,-1)"
    class="fil2" /><text
    xml:space="preserve"
-   style="font-size:39.73561478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
    x="41.713837"
    y="634.24329"
-   id="text5812-7-9"
-   sodipodi:linespacing="125%"><tspan
+   id="text5812-7-9"><tspan
      sodipodi:role="line"
      id="tspan5814-4-4"
      x="41.713837"
      y="634.24329"
-     style="font-size:12.9140749px;fill:#ffffff">设备运行状态</tspan></text>
+     style="font-size:12.9140749px;line-height:1.25;fill:#ffffff">设备运行状态</tspan></text>
+
 
 
 
@@ -8278,16 +8300,16 @@
    transform="scale(1,-1)"
    class="fil2" /><text
    xml:space="preserve"
-   style="font-size:39.73561478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
    x="41.713837"
    y="651.25464"
-   id="text5812-0-8-8"
-   sodipodi:linespacing="125%"><tspan
+   id="text5812-0-8-8"><tspan
      sodipodi:role="line"
      id="tspan5814-9-8-2"
      x="41.713837"
      y="651.25464"
-     style="font-size:12.9140749px;fill:#ffffff">设备故障状态</tspan></text>
+     style="font-size:12.9140749px;line-height:1.25;fill:#ffffff">设备故障状态</tspan></text>
+
 
 
 
@@ -8305,16 +8327,16 @@
    transform="scale(1,-1)"
    class="fil2" /><text
    xml:space="preserve"
-   style="font-size:39.73561478px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;font-family:Microsoft YaHei;-inkscape-font-specification:Microsoft YaHei"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Microsoft YaHei';-inkscape-font-specification:'Microsoft YaHei';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
    x="41.713837"
    y="668.26611"
-   id="text5812-0-8-8-5"
-   sodipodi:linespacing="125%"><tspan
+   id="text5812-0-8-8-5"><tspan
      sodipodi:role="line"
      id="tspan5814-9-8-2-1"
      x="41.713837"
      y="668.26611"
-     style="font-size:12.9140749px;fill:#ffffff">设备停止状态</tspan></text>
+     style="font-size:12.9140749px;line-height:1.25;fill:#ffffff">设备停止状态</tspan></text>
+
 
 
 
@@ -8435,10 +8457,11 @@
    inkscape:label="" /><text
    y="686.58069"
    x="1038.8875"
-   style="font-size:21.6644268px;fill:#ffffff;fill-rule:evenodd;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644268px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff;fill-rule:evenodd"
    id="_159350584-0-9"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">弃料斗</text>
+
 
 
 
@@ -8528,10 +8551,11 @@
    inkscape:label="" /><text
    y="686.52686"
    x="1976.1716"
-   style="font-size:21.6644249px;fill:#ffffff;fill-rule:evenodd;font-family:AdobeSongStd-Light-GBpc-EUC-H"
+   style="font-size:21.6644249px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;fill:#ffffff;fill-rule:evenodd"
    id="_159350584-0-9-2"
    font-size="17.5737"
    transform="scale(0.94008492,1.0637337)">弃料斗</text>
+
 
 
 

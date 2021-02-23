@@ -11,7 +11,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="AutoMaker.svg"
    x="0px"
    y="0px"
@@ -134,8 +134,8 @@
    guidetolerance="10"
    id="namedview1946"
    inkscape:current-layer="svg2"
-   inkscape:cx="475.43257"
-   inkscape:cy="442.54035"
+   inkscape:cx="696.91659"
+   inkscape:cy="618.23957"
    inkscape:guide-bbox="true"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
@@ -159,44 +159,62 @@
    height="920">
 </rect>
 <text
-   transform="matrix(1 0 0 1 1850.0302 318.8412)"
+   transform="translate(1850.0302,318.8412)"
    class="st0 st1 st2"
-   id="text7"> </text>
+   id="text7"
+   style="font-size:19.89550018px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff"> </text>
+
+
 
 
 
 <text
-   transform="matrix(1 0 0 1 1850.0302 366.7805)"
+   transform="translate(1850.0302,366.7805)"
    class="st0 st1 st2"
-   id="text9"> </text>
+   id="text9"
+   style="font-size:19.89550018px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff"> </text>
+
+
 
 
 
 <text
-   transform="matrix(1 0 0 1 1850.0302 415.8352)"
+   transform="translate(1850.0302,415.8352)"
    class="st0 st1 st2"
-   id="text11"> </text>
+   id="text11"
+   style="font-size:19.89550018px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff"> </text>
+
+
 
 
 
 <text
-   transform="matrix(1 0 0 1 1768.9158 367.1764)"
+   transform="translate(1768.9158,367.1764)"
    class="st0 st1 st2"
-   id="text13"> </text>
+   id="text13"
+   style="font-size:19.89550018px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff"> </text>
+
+
 
 
 
 <text
-   transform="matrix(1 0 0 1 1768.9158 414.8655)"
+   transform="translate(1768.9158,414.8655)"
    class="st0 st1 st2"
-   id="text15"> </text>
+   id="text15"
+   style="font-size:19.89550018px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff"> </text>
+
+
 
 
 
 <text
-   transform="matrix(1 0 0 1 707.7337 54.2112)"
+   transform="translate(707.7337,54.2112)"
    class="st0 st1 st3"
-   id="text17">环保型无人值守煤炭联合制样系统</text>
+   id="text17"
+   style="font-size:33.15950012px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">环保型无人值守煤炭联合制样系统</text>
+
+
 
 
 
@@ -281,31 +299,43 @@
    points="762.6,687.3 912.4,687.3 912.4,725.2 762.6,725.2 " />
 <text
    id="_123974528"
-   transform="matrix(1 0 0 1 505.7894 713.2768)"
-   class="st0 st1 st6">出样时间</text>
+   transform="translate(505.7894,713.2768)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">出样时间</text>
+
+
 
 
 
 <text
    id="_123974408"
-   transform="matrix(1 0 0 1 505.7894 752.3391)"
+   transform="translate(505.7894,752.3391)"
    class="st0 st1 st6"
-   inkscape:label="出样时间1">17:16:15</text>
+   inkscape:label="出样时间1"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:16:15</text>
+
+
 
 
 
 <text
    id="_123974288"
-   transform="matrix(1 0 0 1 505.7894 791.3393)"
+   transform="translate(505.7894,791.3393)"
    class="st0 st1 st6"
-   inkscape:label="出样时间2">17:16:10</text>
+   inkscape:label="出样时间2"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:16:10</text>
+
+
 
 
 
 <text
    id="_123974168"
-   transform="matrix(1 0 0 1 646.6948 713.2768)"
-   class="st0 st1 st6">样品类型</text>
+   transform="translate(646.6948,713.2768)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">样品类型</text>
+
+
 
 
 
@@ -314,23 +344,31 @@
    class="st0 st1 st6"
    x="803.60101"
    y="713.27679"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">样品编码</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">样品编码</text>
+
+
 
 
 
 <text
    id="_123973928"
-   transform="matrix(1 0 0 1 632.1279 752.3391)"
+   transform="translate(632.1279,752.3391)"
    class="st0 st1 st6"
-   inkscape:label="样品类型1">6mm全水样</text>
+   inkscape:label="样品类型1"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
 <text
    id="_123973808"
-   transform="matrix(1 0 0 1 632.1279 791.3393)"
+   transform="translate(632.1279,791.3393)"
    class="st0 st1 st6"
-   inkscape:label="样品类型2">6mm全水样</text>
+   inkscape:label="样品类型2"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
@@ -340,7 +378,9 @@
    inkscape:label="样品编码1"
    x="764.85571"
    y="752.33911"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565615</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565615</text>
+
+
 
 
 
@@ -350,23 +390,31 @@
    inkscape:label="样品编码2"
    x="764.85571"
    y="791.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565614</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565614</text>
+
+
 
 
 
 <text
    id="_123973448"
-   transform="matrix(1 0 0 1 505.7894 869.3393)"
+   transform="translate(505.7894,869.3393)"
    class="st0 st1 st6"
-   inkscape:label="出样时间4">17:15:15</text>
+   inkscape:label="出样时间4"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:15:15</text>
+
+
 
 
 
 <text
    id="_123973328"
-   transform="matrix(1 0 0 1 632.1279 869.3393)"
+   transform="translate(632.1279,869.3393)"
    class="st0 st1 st6"
-   inkscape:label="样品类型4">6mm全水样</text>
+   inkscape:label="样品类型4"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
@@ -376,7 +424,9 @@
    inkscape:label="样品编码4"
    x="764.85571"
    y="869.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565608</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565608</text>
+
+
 
 
 
@@ -397,7 +447,9 @@
    class="st0 st1 st6"
    x="935.46033"
    y="713.27679"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">样重(g)</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">样重(g)</text>
+
+
 
 
 
@@ -407,7 +459,9 @@
    inkscape:label="样重1"
    x="946.60217"
    y="752.33911"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3</text>
+
+
 
 
 
@@ -417,15 +471,20 @@
    inkscape:label="样重2"
    x="946.60217"
    y="791.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3</text>
+
+
 
 
 
 <text
    id="_123972584"
-   transform="matrix(1 0 0 1 946.3519 869.3393)"
+   transform="translate(946.3519,869.3393)"
    class="st0 st1 st6"
-   inkscape:label="样重4">2.8</text>
+   inkscape:label="样重4"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">2.8</text>
+
+
 
 
 
@@ -442,40 +501,55 @@
    points="1008.6,687.3 1138.3,687.3 1138.3,725.2 1008.6,725.2 " />
 <text
    id="_124329736"
-   transform="matrix(1 0 0 1 1053.4552 713.2768)"
-   class="st0 st1 st6">状态</text>
+   transform="translate(1053.4552,713.2768)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">状态</text>
+
+
 
 
 
 <text
    id="_124329616"
-   transform="matrix(1 0 0 1 1033.507 752.3391)"
+   transform="translate(1033.507,752.3391)"
    class="st0 st1 st6"
-   inkscape:label="传输状态1">等待传输</text>
+   inkscape:label="传输状态1"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">等待传输</text>
+
+
 
 
 
 <text
    id="_124329496"
-   transform="matrix(1 0 0 1 1033.507 791.3393)"
+   transform="translate(1033.507,791.3393)"
    class="st0 st1 st6"
-   inkscape:label="传输状态2">等待传输</text>
+   inkscape:label="传输状态2"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">等待传输</text>
+
+
 
 
 
 <text
    id="_123974288_1_"
-   transform="matrix(1 0 0 1 505.7894 830.5063)"
+   transform="translate(505.7894,830.5063)"
    class="st0 st1 st6"
-   inkscape:label="出样时间3">17:15:42</text>
+   inkscape:label="出样时间3"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:15:42</text>
+
+
 
 
 
 <text
    id="_123973808_1_"
-   transform="matrix(1 0 0 1 632.1279 830.5063)"
+   transform="translate(632.1279,830.5063)"
    class="st0 st1 st6"
-   inkscape:label="样品类型3">6mm全水样</text>
+   inkscape:label="样品类型3"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
@@ -485,7 +559,9 @@
    inkscape:label="样品编码3"
    x="764.85571"
    y="830.50629"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565610</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565610</text>
+
+
 
 
 
@@ -495,15 +571,20 @@
    inkscape:label="样重3"
    x="946.60217"
    y="830.50629"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3</text>
+
+
 
 
 
 <text
    id="_124329496_1_"
-   transform="matrix(1 0 0 1 1033.507 830.5063)"
+   transform="translate(1033.507,830.5063)"
    class="st0 st1 st6"
-   inkscape:label="传输状态3">等待传输</text>
+   inkscape:label="传输状态3"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">等待传输</text>
+
+
 
 
 
@@ -513,7 +594,9 @@
    inkscape:label="传输状态4"
    x="1033.4811"
    y="869.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">已传输</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">已传输</text>
+
+
 
 
 
@@ -577,31 +660,43 @@
    points="1448.4,687.3 1598.1,687.3 1598.1,725.2 1448.4,725.2 " />
 <text
    id="_123974528_2_"
-   transform="matrix(1 0 0 1 1191.5846 713.2768)"
-   class="st0 st1 st6">出样时间</text>
+   transform="translate(1191.5846,713.2768)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">出样时间</text>
+
+
 
 
 
 <text
    id="_123974408_2_"
-   transform="matrix(1 0 0 1 1191.5846 752.3391)"
+   transform="translate(1191.5846,752.3391)"
    class="st0 st1 st6"
-   inkscape:label="出样时间5">17:16:15</text>
+   inkscape:label="出样时间5"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:16:15</text>
+
+
 
 
 
 <text
    id="_123974288_5_"
-   transform="matrix(1 0 0 1 1191.5846 791.3393)"
+   transform="translate(1191.5846,791.3393)"
    class="st0 st1 st6"
-   inkscape:label="出样时间6">17:16:10</text>
+   inkscape:label="出样时间6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:16:10</text>
+
+
 
 
 
 <text
    id="_123974168_2_"
-   transform="matrix(1 0 0 1 1332.49 713.2768)"
-   class="st0 st1 st6">样品类型</text>
+   transform="translate(1332.49,713.2768)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">样品类型</text>
+
+
 
 
 
@@ -610,23 +705,31 @@
    class="st0 st1 st6"
    x="1489.3962"
    y="713.27679"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">样品编码</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">样品编码</text>
+
+
 
 
 
 <text
    id="_123973928_2_"
-   transform="matrix(1 0 0 1 1317.9231 752.3391)"
+   transform="translate(1317.9231,752.3391)"
    class="st0 st1 st6"
-   inkscape:label="样品类型5">6mm全水样</text>
+   inkscape:label="样品类型5"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
 <text
    id="_123973808_5_"
-   transform="matrix(1 0 0 1 1317.9231 791.3393)"
+   transform="translate(1317.9231,791.3393)"
    class="st0 st1 st6"
-   inkscape:label="样品类型6">6mm全水样</text>
+   inkscape:label="样品类型6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
@@ -636,7 +739,9 @@
    inkscape:label="样品编码5"
    x="1450.6509"
    y="752.33911"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565615</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565615</text>
+
+
 
 
 
@@ -646,22 +751,30 @@
    inkscape:label="样品编码6"
    x="1450.6509"
    y="791.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565614</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565614</text>
+
+
 
 
 
 <text
    id="_123973448_2_"
-   transform="matrix(1 0 0 1 1191.5846 869.3393)"
+   transform="translate(1191.5846,869.3393)"
    class="st0 st1 st6"
-   inkscape:label="出样时间8">17:15:15</text>
+   inkscape:label="出样时间8"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:15:15</text>
+
+
 
 
 
 <text
    id="_123973328_2_"
-   transform="matrix(1 0 0 1 1317.9231 869.3393)"
-   class="st0 st1 st6">6mm全水样</text>
+   transform="translate(1317.9231,869.3393)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
@@ -671,7 +784,9 @@
    inkscape:label="样品编码8"
    x="1450.6509"
    y="869.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565608</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565608</text>
+
+
 
 
 
@@ -692,7 +807,9 @@
    class="st0 st1 st6"
    x="1621.2556"
    y="713.27679"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">样重(g)</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">样重(g)</text>
+
+
 
 
 
@@ -702,7 +819,9 @@
    inkscape:label="样重4"
    x="1632.3975"
    y="752.33911"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3</text>
+
+
 
 
 
@@ -712,15 +831,20 @@
    inkscape:label="样重5"
    x="1632.3975"
    y="791.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3</text>
+
+
 
 
 
 <text
    id="_123972584_2_"
-   transform="matrix(1 0 0 1 1632.1472 869.3393)"
+   transform="translate(1632.1472,869.3393)"
    class="st0 st1 st6"
-   inkscape:label="样重7">2.8</text>
+   inkscape:label="样重7"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">2.8</text>
+
+
 
 
 
@@ -737,39 +861,54 @@
    points="1694.3,687.3 1824.1,687.3 1824.1,725.2 1694.3,725.2 " />
 <text
    id="_124329736_2_"
-   transform="matrix(1 0 0 1 1739.2505 713.2768)"
-   class="st0 st1 st6">状态</text>
+   transform="translate(1739.2505,713.2768)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">状态</text>
+
+
 
 
 
 <text
    id="_124329616_2_"
-   transform="matrix(1 0 0 1 1719.3022 752.3391)"
-   class="st0 st1 st6">等待传输</text>
+   transform="translate(1719.3022,752.3391)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">等待传输</text>
+
+
 
 
 
 <text
    id="_124329496_5_"
-   transform="matrix(1 0 0 1 1719.3022 791.3393)"
+   transform="translate(1719.3022,791.3393)"
    class="st0 st1 st6"
-   inkscape:label="传输状态6">等待传输</text>
+   inkscape:label="传输状态6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">等待传输</text>
+
+
 
 
 
 <text
    id="_123974288_4_"
-   transform="matrix(1 0 0 1 1191.5846 830.5063)"
+   transform="translate(1191.5846,830.5063)"
    class="st0 st1 st6"
-   inkscape:label="出样时间7">17:15:42</text>
+   inkscape:label="出样时间7"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:15:42</text>
+
+
 
 
 
 <text
    id="_123973808_4_"
-   transform="matrix(1 0 0 1 1317.9231 830.5063)"
+   transform="translate(1317.9231,830.5063)"
    class="st0 st1 st6"
-   inkscape:label="样品类型7">6mm全水样</text>
+   inkscape:label="样品类型7"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm全水样</text>
+
+
 
 
 
@@ -779,7 +918,9 @@
    inkscape:label="样品编码7"
    x="1450.6509"
    y="830.50629"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">654565610</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">654565610</text>
+
+
 
 
 
@@ -789,15 +930,20 @@
    inkscape:label="样重6"
    x="1632.3975"
    y="830.50629"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">3</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3</text>
+
+
 
 
 
 <text
    id="_124329496_4_"
-   transform="matrix(1 0 0 1 1719.3022 830.5063)"
+   transform="translate(1719.3022,830.5063)"
    class="st0 st1 st6"
-   inkscape:label="传输状态7">等待传输</text>
+   inkscape:label="传输状态7"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">等待传输</text>
+
+
 
 
 
@@ -807,7 +953,9 @@
    inkscape:label="传输状态8"
    x="1719.2764"
    y="869.33929"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">已传输</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">已传输</text>
+
+
 
 
 
@@ -868,7 +1016,9 @@
    inkscape:label="水分"
    x="259.16119"
    y="864.72168"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">12</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">12</text>
+
+
 
 
 
@@ -885,7 +1035,9 @@
    inkscape:label="粒度"
    x="375.29681"
    y="864.52643"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">10</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">10</text>
+
+
 
 
 
@@ -903,51 +1055,72 @@
    points="349.5,785 452.5,785 452.5,832.6 349.5,832.6 " />
 <text
    id="_124326496"
-   transform="matrix(1 0 0 1 276.9109 815.8203)"
-   class="st0 st1 st6">水分</text>
+   transform="translate(276.9109,815.8203)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">水分</text>
+
+
 
 
 
 <text
    id="_124326376"
-   transform="matrix(1 0 0 1 381.0466 815.9355)"
-   class="st0 st1 st6">粒度</text>
+   transform="translate(381.0466,815.9355)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">粒度</text>
+
+
 
 
 
 <text
    id="_124326256"
-   transform="matrix(1 0 0 1 178.8621 718.2061)"
-   class="st0 st1 st6">制样编码</text>
+   transform="translate(178.8621,718.2061)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">制样编码</text>
+
+
 
 
 
 <text
    id="_124326256_1_"
-   transform="matrix(1 0 0 1 116.4997 744.4951)"
-   class="st0 st1 st7">当前制样</text>
+   transform="translate(116.4997,744.4951)"
+   class="st0 st1 st7"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;writing-mode:tb-rl;fill:#ffffff">当前制样</text>
+
+
 
 
 
 <text
    id="_169520592"
-   transform="matrix(1 0 0 1 335.064 718.1689)"
-   class="st0 st1 st6">开始时间</text>
+   transform="translate(335.064,718.1689)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">开始时间</text>
+
+
 
 
 
 <text
    id="_124326112"
-   transform="matrix(1 0 0 1 172.7771 815.8564)"
-   class="st0 st1 st6">煤种</text>
+   transform="translate(172.7771,815.8564)"
+   class="st0 st1 st6"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">煤种</text>
+
+
 
 
 
 <text
    id="_124325992"
-   transform="matrix(1 0 0 1 172.7771 864.8115)"
+   transform="translate(172.7771,864.8115)"
    class="st0 st1 st6"
-   inkscape:label="煤种">烟煤</text>
+   inkscape:label="煤种"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">烟煤</text>
+
+
 
 
 
@@ -957,15 +1130,20 @@
    inkscape:label="制样编码"
    x="142.1167"
    y="766.91498"
-   style="font-size:19.94849968px;fill:#ffffff;font-family:MicrosoftYaHei">170220001</text>
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">170220001</text>
+
+
 
 
 
 <text
    id="_124325776"
-   transform="matrix(1 0 0 1 335.064 766.9941)"
+   transform="translate(335.064,766.9941)"
    class="st0 st1 st6"
-   inkscape:label="制样开始时间">17:16:15</text>
+   inkscape:label="制样开始时间"
+   style="font-size:19.94849968px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">17:16:15</text>
+
+
 
 
 
@@ -1420,41 +1598,57 @@
    points="1338.5,354.4 1619.3,354.4 1619.3,364.2 1338.5,364.2 " />
 <text
    id="text829"
-   transform="matrix(1 0 0 1 1647.6631 298.5703)"
-   class="st1 st23">红外干燥设置温度</text>
+   transform="translate(1647.6631,298.5703)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">红外干燥设置温度</text>
+
+
 
 
 
 <text
    id="text831"
-   transform="matrix(1 0 0 1 1684.9043 370.8535)"
+   transform="translate(1684.9043,370.8535)"
    class="st24 st1 st25"
    inkscape:label="红外干燥温度"
-   style="-inkscape-font-specification:Sans;font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:34.49950027px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
-   sodipodi:linespacing="125%"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.49950027px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ed1c24"><tspan
      sodipodi:role="line"
-     id="tspan3768">48</tspan></text>
+     id="tspan3768"
+     x="0"
+     y="0"
+     style="font-size:34.49950027px;line-height:1.25;font-family:sans-serif">48</tspan></text>
+
+
 
 
 
 <text
    id="text833"
-   transform="matrix(1 0 0 1 1725.3643 370.8535)"
-   class="st24 st1 st25">°</text>
+   transform="translate(1725.3643,370.8535)"
+   class="st24 st1 st25"
+   style="font-size:34.49950027px;line-height:0%;font-family:MicrosoftYaHei;fill:#ed1c24">°</text>
+
+
 
 
 
 <text
    id="text835"
-   transform="matrix(1 0 0 1 123.4404 398.4355)"
-   class="st1 st26">来料</text>
+   transform="translate(123.4404,398.4355)"
+   class="st1 st26"
+   style="font-size:23.88129997px;line-height:0%;font-family:MicrosoftYaHei">来料</text>
+
+
 
 
 
 <text
    id="text837"
-   transform="matrix(1 0 0 1 123.4404 427.0937)"
-   class="st1 st26">扫码</text>
+   transform="translate(123.4404,427.0937)"
+   class="st1 st26"
+   style="font-size:23.88129997px;line-height:0%;font-family:MicrosoftYaHei">扫码</text>
+
+
 
 
 
@@ -1464,8 +1658,11 @@
    points="314.8,97.3 352.7,97.3 371.6,115.7 352.7,134.1 314.8,134.1 295.9,115.7 " />
 <text
    id="text841"
-   transform="matrix(1 0 0 1 315.3418 122.2099)"
-   class="st0 st1 st28">破碎</text>
+   transform="translate(315.3418,122.2099)"
+   class="st0 st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">破碎</text>
+
+
 
 
 
@@ -1541,8 +1738,11 @@
    height="23.4" />
 <text
    id="text863"
-   transform="matrix(1 0 0 1 314.7749 151.8486)"
-   class="st0 st1 st23">6mm</text>
+   transform="translate(314.7749,151.8486)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">6mm</text>
+
+
 
 
 
@@ -1618,22 +1818,31 @@
    height="23.4" />
 <text
    id="text885"
-   transform="matrix(1 0 0 1 317.9771 250.959)"
-   class="st0 st1 st23">破碎</text>
+   transform="translate(317.9771,250.959)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">破碎</text>
+
+
 
 
 
 <text
    id="text887"
-   transform="matrix(1 0 0 1 503.5752 151.8486)"
-   class="st1 st23">6mm</text>
+   transform="translate(503.5752,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">6mm</text>
+
+
 
 
 
 <text
    id="text889"
-   transform="matrix(1 0 0 1 506.7134 250.9668)"
-   class="st1 st23">缩分</text>
+   transform="translate(506.7134,250.9668)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
@@ -1676,197 +1885,281 @@
    points="1776.5,97.3 1814.3,97.3 1833.3,115.7 1814.3,134.1 1776.5,134.1 1757.5,115.7 " />
 <text
    id="text909"
-   transform="matrix(1 0 0 1 504.0732 122.2187)"
-   class="st1 st28">缩分</text>
+   transform="translate(504.0732,122.2187)"
+   class="st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text911"
-   transform="matrix(1 0 0 1 660.7271 122.2187)"
-   class="st1 st28">缩分</text>
+   transform="translate(660.7271,122.2187)"
+   class="st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text913"
-   transform="matrix(1 0 0 1 660.2344 151.8486)"
-   class="st1 st23">6mm</text>
+   transform="translate(660.2344,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">6mm</text>
+
+
 
 
 
 <text
    id="text915"
-   transform="matrix(1 0 0 1 663.3711 250.9668)"
-   class="st1 st23">缩分</text>
+   transform="translate(663.3711,250.9668)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text917"
-   transform="matrix(1 0 0 1 826.2939 151.8486)"
-   class="st0 st1 st23">3mm</text>
+   transform="translate(826.2939,151.8486)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">3mm</text>
+
+
 
 
 
 <text
    id="text919"
-   transform="matrix(1 0 0 1 829.4956 250.959)"
-   class="st0 st1 st23">破碎</text>
+   transform="translate(829.4956,250.959)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">破碎</text>
+
+
 
 
 
 <text
    id="text921"
-   transform="matrix(1 0 0 1 826.8633 122.2099)"
-   class="st0 st1 st28">破碎</text>
+   transform="translate(826.8633,122.2099)"
+   class="st0 st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">破碎</text>
+
+
 
 
 
 <text
    id="text923"
-   transform="matrix(1 0 0 1 978.9531 151.8486)"
-   class="st1 st23">3mm</text>
+   transform="translate(978.9531,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">3mm</text>
+
+
 
 
 
 <text
    id="text925"
-   transform="matrix(1 0 0 1 982.0879 250.9668)"
-   class="st1 st23">缩分</text>
+   transform="translate(982.0879,250.9668)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text927"
-   transform="matrix(1 0 0 1 979.4443 122.2187)"
-   class="st1 st28">缩分</text>
+   transform="translate(979.4443,122.2187)"
+   class="st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text929"
-   transform="matrix(1 0 0 1 1132.627 250.9668)"
-   class="st1 st23">缩分</text>
+   transform="translate(1132.627,250.9668)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text931"
-   transform="matrix(1 0 0 1 1129.9785 122.2187)"
-   class="st1 st28">缩分</text>
+   transform="translate(1129.9785,122.2187)"
+   class="st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text933"
-   transform="matrix(1 0 0 1 1129.4883 151.8486)"
-   class="st1 st23">3mm</text>
+   transform="translate(1129.4883,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">3mm</text>
+
+
 
 
 
 <text
    id="text935"
-   transform="matrix(1 0 0 1 1284.1572 122.1279)"
-   class="st0 st1 st28">干燥</text>
+   transform="translate(1284.1572,122.1279)"
+   class="st0 st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">干燥</text>
+
+
 
 
 
 <text
    id="text937"
-   transform="matrix(1 0 0 1 1286.8125 250.8926)"
-   class="st0 st1 st23">干燥</text>
+   transform="translate(1286.8125,250.8926)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">干燥</text>
+
+
 
 
 
 <text
    id="text939"
-   transform="matrix(1 0 0 1 1450.041 151.8486)"
-   class="st1 st23">3mm</text>
+   transform="translate(1450.041,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">3mm</text>
+
+
 
 
 
 <text
    id="text941"
-   transform="matrix(1 0 0 1 1453.1816 250.9668)"
-   class="st1 st23">缩分</text>
+   transform="translate(1453.1816,250.9668)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text943"
-   transform="matrix(1 0 0 1 1450.5381 122.2187)"
-   class="st1 st28">缩分</text>
+   transform="translate(1450.5381,122.2187)"
+   class="st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text945"
-   transform="matrix(1 0 0 1 1598.5986 151.8486)"
-   class="st0 st1 st23">0</text>
+   transform="translate(1598.5986,151.8486)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">0</text>
+
+
 
 
 
 <text
    id="text947"
-   transform="matrix(1 0 0 1 1611.7744 151.8486)"
-   class="st0 st1 st23">2mm</text>
+   transform="translate(1611.7744,151.8486)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">2mm</text>
+
+
 
 
 
 <text
    id="text949"
-   transform="matrix(1 0 0 1 1607.9443 151.8486)"
-   class="st0 st1 st23">.</text>
+   transform="translate(1607.9443,151.8486)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">.</text>
+
+
 
 
 
 <text
    id="text951"
-   transform="matrix(1 0 0 1 1608.3916 251.0444)"
-   class="st0 st1 st23">粉碎</text>
+   transform="translate(1608.3916,251.0444)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">粉碎</text>
+
+
 
 
 
 <text
    id="text953"
-   transform="matrix(1 0 0 1 1605.7617 122.2099)"
-   class="st0 st1 st28">破碎</text>
+   transform="translate(1605.7617,122.2099)"
+   class="st0 st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">破碎</text>
+
+
 
 
 
 <text
    id="text955"
-   transform="matrix(1 0 0 1 1769.8066 151.8486)"
-   class="st1 st23">0</text>
+   transform="translate(1769.8066,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">0</text>
+
+
 
 
 
 <text
    id="text957"
-   transform="matrix(1 0 0 1 1782.9688 151.8486)"
-   class="st1 st23">2mm</text>
+   transform="translate(1782.9688,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">2mm</text>
+
+
 
 
 
 <text
    id="text959"
-   transform="matrix(1 0 0 1 1779.1387 151.8486)"
-   class="st1 st23">.</text>
+   transform="translate(1779.1387,151.8486)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">.</text>
+
+
 
 
 
 <text
    id="text961"
-   transform="matrix(1 0 0 1 1779.5352 250.9668)"
-   class="st1 st23">缩分</text>
+   transform="translate(1779.5352,250.9668)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
 <text
    id="text963"
-   transform="matrix(1 0 0 1 1776.8916 122.2187)"
-   class="st1 st28">缩分</text>
+   transform="translate(1776.8916,122.2187)"
+   class="st1 st28"
+   style="font-size:18.57159996px;line-height:0%;font-family:MicrosoftYaHei">缩分</text>
+
+
 
 
 
@@ -1911,15 +2204,21 @@
    height="23.4" />
 <text
    id="text991"
-   transform="matrix(1 0 0 1 1284.7705 315.0869)"
-   class="st1 st23">弃料</text>
+   transform="translate(1284.7705,315.0869)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">弃料</text>
+
+
 
 
 
 <text
    id="text993"
-   transform="matrix(1 0 0 1 1276.8682 414.6538)"
-   class="st1 st23">清洗样</text>
+   transform="translate(1276.8682,414.6538)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">清洗样</text>
+
+
 
 
 
@@ -1932,15 +2231,21 @@
    height="122.6" />
 <text
    id="text997"
-   transform="matrix(1 0 0 1 123.4404 189.6514)"
-   class="st1 st26">来料</text>
+   transform="translate(123.4404,189.6514)"
+   class="st1 st26"
+   style="font-size:23.88129997px;line-height:0%;font-family:MicrosoftYaHei">来料</text>
+
+
 
 
 
 <text
    id="text999"
-   transform="matrix(1 0 0 1 123.4404 218.3096)"
-   class="st1 st26">称重</text>
+   transform="translate(123.4404,218.3096)"
+   class="st1 st26"
+   style="font-size:23.88129997px;line-height:0%;font-family:MicrosoftYaHei">称重</text>
+
+
 
 
 
@@ -2137,8 +2442,7 @@
    cx="253.6"
    cy="542.9"
    rx="5"
-   ry="10.1"
-   d="m 258.60001,542.90002 c 0,5.57808 -2.23858,10.1 -5,10.1 -2.76143,0 -5,-4.52192 -5,-10.1 0,-5.57807 2.23857,-10.1 5,-10.1 2.76142,0 5,4.52193 5,10.1 z">
+   ry="10.1">
 	</ellipse>
 	<path
    id="_123499984"
@@ -2208,141 +2512,201 @@
    d="M448.5,422.1h25.3V302.4h-25.3V422.1z M475.7,426h-29.1h-1.9  V424V300.5v-1.9h1.9h29.1h1.9v1.9V424v1.9H475.7z" />
 <text
    id="text1046"
-   transform="matrix(1 0 0 1 242.7095 339.2011)"
-   class="st1 st23">加</text>
+   transform="translate(242.7095,339.2011)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">加</text>
+
+
 
 
 
 <text
    id="text1048"
-   transform="matrix(1 0 0 1 242.7095 358.3047)"
-   class="st1 st23">料</text>
+   transform="translate(242.7095,358.3047)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">料</text>
+
+
 
 
 
 <text
    id="text1050"
-   transform="matrix(1 0 0 1 242.7095 377.4082)"
-   class="st1 st23">斗</text>
+   transform="translate(242.7095,377.4082)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">斗</text>
+
+
 
 
 
 <text
    id="text1052"
-   transform="matrix(1 0 0 1 242.7095 396.5117)"
-   class="st1 st23">阀</text>
+   transform="translate(242.7095,396.5117)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">阀</text>
+
+
 
 
 
 <text
    id="text1054"
-   transform="matrix(1 0 0 1 295.5386 339.209)"
-   class="st1 st23">锤</text>
+   transform="translate(295.5386,339.209)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">锤</text>
+
+
 
 
 
 <text
    id="text1056"
-   transform="matrix(1 0 0 1 295.5386 358.311)"
-   class="st1 st23">破</text>
+   transform="translate(295.5386,358.311)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">破</text>
+
+
 
 
 
 <text
    id="text1058"
-   transform="matrix(1 0 0 1 295.5386 377.4145)"
-   class="st1 st23">机</text>
+   transform="translate(295.5386,377.4145)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">机</text>
+
+
 
 
 
 <text
    id="text1060"
-   transform="matrix(1 0 0 1 295.5386 396.5195)"
-   class="st1 st23">阀</text>
+   transform="translate(295.5386,396.5195)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">阀</text>
+
+
 
 
 
 <text
    id="text1062"
-   transform="matrix(1 0 0 1 347.9541 339.2763)"
-   class="st1 st23">缩</text>
+   transform="translate(347.9541,339.2763)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">缩</text>
+
+
 
 
 
 <text
    id="text1064"
-   transform="matrix(1 0 0 1 347.9541 358.3799)"
-   class="st1 st23">分</text>
+   transform="translate(347.9541,358.3799)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">分</text>
+
+
 
 
 
 <text
    id="text1066"
-   transform="matrix(1 0 0 1 347.9541 377.4824)"
-   class="st1 st23">器</text>
+   transform="translate(347.9541,377.4824)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">器</text>
+
+
 
 
 
 <text
    id="text1068"
-   transform="matrix(1 0 0 1 347.9541 396.5869)"
-   class="st1 st23">阀</text>
+   transform="translate(347.9541,396.5869)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">阀</text>
+
+
 
 
 
 <text
    id="text1070"
-   transform="matrix(1 0 0 1 403.7334 339.1797)"
-   class="st1 st23">对</text>
+   transform="translate(403.7334,339.1797)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">对</text>
+
+
 
 
 
 <text
    id="text1072"
-   transform="matrix(1 0 0 1 403.7334 358.2817)"
-   class="st1 st23">辊</text>
+   transform="translate(403.7334,358.2817)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">辊</text>
+
+
 
 
 
 <text
    id="text1074"
-   transform="matrix(1 0 0 1 403.7334 377.3852)"
-   class="st1 st23">机</text>
+   transform="translate(403.7334,377.3852)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">机</text>
+
+
 
 
 
 <text
    id="text1076"
-   transform="matrix(1 0 0 1 403.7334 396.4902)"
-   class="st1 st23">阀</text>
+   transform="translate(403.7334,396.4902)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">阀</text>
+
+
 
 
 
 <text
    id="text1078"
-   transform="matrix(1 0 0 1 453.2383 338.7583)"
-   class="st1 st23">研</text>
+   transform="translate(453.2383,338.7583)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">研</text>
+
+
 
 
 
 <text
    id="text1080"
-   transform="matrix(1 0 0 1 453.2383 357.8603)"
-   class="st1 st23">磨</text>
+   transform="translate(453.2383,357.8603)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">磨</text>
+
+
 
 
 
 <text
    id="text1082"
-   transform="matrix(1 0 0 1 453.2383 376.9638)"
-   class="st1 st23">机</text>
+   transform="translate(453.2383,376.9638)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">机</text>
+
+
 
 
 
 <text
    id="text1084"
-   transform="matrix(1 0 0 1 453.2383 396.0683)"
-   class="st1 st23">阀</text>
+   transform="translate(453.2383,396.0683)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">阀</text>
+
+
 
 
 
@@ -3480,93 +3844,126 @@
    height="23.4" />
 <text
    id="text1176"
-   transform="matrix(1 0 0 1 1741.0547 603.1624)"
-   class="st1 st23">存样间</text>
+   transform="translate(1741.0547,603.1624)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">存样间</text>
+
+
 
 
 
 <text
    id="text1181"
-   transform="matrix(1 0 0 1 574.8545 518.9336)"
-   class="st1 st23">6mm</text>
+   transform="translate(574.8545,518.9336)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">6mm</text>
+
+
 
 
 
 <text
    id="text1181_4_"
-   transform="matrix(1 0 0 1 847.0192 518.9336)"
-   class="st1 st23">3mm</text>
+   transform="translate(847.0192,518.9336)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">3mm</text>
+
+
 
 
 
 <text
    id="text1181_1_"
-   transform="matrix(1 0 0 1 594.235 534.9336)"
-   class="st71 st72"><tspan
+   transform="translate(594.235,534.9336)"
+   class="st71 st72"
+   style="line-height:0%;writing-mode:tb-rl;enable-background:new"><tspan
      x="0"
      y="0"
      class="st1 st73"
-     id="tspan728">样</tspan><tspan
+     id="tspan728"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">样</tspan><tspan
      x="0"
      y="15.9"
      class="st1 st74"
-     id="tspan730">   </tspan><tspan
+     id="tspan730"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">   </tspan><tspan
      x="0"
      y="30.1"
      class="st1 st73"
-     id="tspan732">瓶</tspan></text>
+     id="tspan732"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">瓶</tspan></text>
+
+
 
 
 
 <text
    id="text1181_2_"
-   transform="matrix(1 0 0 1 1262.7133 534.9336)"
-   class="st71 st72"><tspan
+   transform="translate(1262.7133,534.9336)"
+   class="st71 st72"
+   style="line-height:0%;writing-mode:tb-rl;enable-background:new"><tspan
      x="0"
      y="0"
      class="st1 st73"
-     id="tspan735">样</tspan><tspan
+     id="tspan735"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">样</tspan><tspan
      x="0"
      y="15.9"
      class="st1 st74"
-     id="tspan737">   </tspan><tspan
+     id="tspan737"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">   </tspan><tspan
      x="0"
      y="30.1"
      class="st1 st73"
-     id="tspan739">瓶</tspan></text>
+     id="tspan739"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">瓶</tspan></text>
+
+
 
 
 
 <text
    id="text1187"
-   transform="matrix(1 0 0 1 1236.5452 518.9336)"
-   class="st1 st23">0.2mm</text>
+   transform="translate(1236.5452,518.9336)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">0.2mm</text>
+
+
 
 
 
 <text
    id="text1181_3_"
-   transform="matrix(1 0 0 1 866.6034 534.9336)"
-   class="st71 st72"><tspan
+   transform="translate(866.6034,534.9336)"
+   class="st71 st72"
+   style="line-height:0%;writing-mode:tb-rl;enable-background:new"><tspan
      x="0"
      y="0"
      class="st1 st73"
-     id="tspan743">样</tspan><tspan
+     id="tspan743"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">样</tspan><tspan
      x="0"
      y="15.9"
      class="st1 st74"
-     id="tspan745">   </tspan><tspan
+     id="tspan745"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">   </tspan><tspan
      x="0"
      y="30.1"
      class="st1 st73"
-     id="tspan747">瓶</tspan></text>
+     id="tspan747"
+     style="font-size:15.91950035px;font-family:MicrosoftYaHei">瓶</tspan></text>
+
+
 
 
 
 <text
    id="text1221_1_"
-   transform="matrix(1 0 0 1 570.3558 634.0996)"
-   class="st0 st1 st23">进瓶口</text>
+   transform="translate(570.3558,634.0996)"
+   class="st0 st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei;fill:#ffffff">进瓶口</text>
+
+
 
 
 
@@ -3739,8 +4136,7 @@
    cx="305.1"
    cy="542.9"
    rx="5"
-   ry="10.1"
-   d="m 310.10001,542.90002 c 0,5.57808 -2.23858,10.1 -5,10.1 -2.76143,0 -5,-4.52192 -5,-10.1 0,-5.57807 2.23857,-10.1 5,-10.1 2.76142,0 5,4.52193 5,10.1 z">
+   ry="10.1">
 	</ellipse>
 	<path
    id="_125663752"
@@ -3917,8 +4313,7 @@
    cx="352.2"
    cy="542.9"
    rx="5"
-   ry="10.1"
-   d="m 357.20001,542.90002 c 0,5.57808 -2.23857,10.1 -5,10.1 -2.76142,0 -5,-4.52192 -5,-10.1 0,-5.57807 2.23858,-10.1 5,-10.1 2.76143,0 5,4.52193 5,10.1 z">
+   ry="10.1">
 	</ellipse>
 	<path
    id="_125665576"
@@ -4095,8 +4490,7 @@
    cx="405.1"
    cy="542.9"
    rx="5"
-   ry="10.1"
-   d="m 410.10001,542.90002 c 0,5.57808 -2.23858,10.1 -5,10.1 -2.76143,0 -5,-4.52192 -5,-10.1 0,-5.57807 2.23857,-10.1 5,-10.1 2.76142,0 5,4.52193 5,10.1 z">
+   ry="10.1">
 	</ellipse>
 	<path
    id="_125667400"
@@ -4273,8 +4667,7 @@
    cx="452.8"
    cy="542.9"
    rx="5"
-   ry="10.1"
-   d="m 457.79999,542.90002 c 0,5.57808 -2.23858,10.1 -5,10.1 -2.76143,0 -5,-4.52192 -5,-10.1 0,-5.57807 2.23857,-10.1 5,-10.1 2.76142,0 5,4.52193 5,10.1 z">
+   ry="10.1">
 	</ellipse>
 	<path
    id="_125669200"
@@ -4340,8 +4733,11 @@
    height="23.4" />
 <text
    id="text1176_1_"
-   transform="matrix(1 0 0 1 1588.3824 603.3253)"
-   class="st1 st23">一体机</text>
+   transform="translate(1588.3824,603.3253)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">一体机</text>
+
+
 
 
 
@@ -4386,15 +4782,21 @@
    height="23.4" />
 <text
    id="text981"
-   transform="matrix(1 0 0 1 663.408 315.0869)"
-   class="st1 st23">弃料</text>
+   transform="translate(663.408,315.0869)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">弃料</text>
+
+
 
 
 
 <text
    id="text983"
-   transform="matrix(1 0 0 1 663.408 414.6538)"
-   class="st1 st23">弃料</text>
+   transform="translate(663.408,414.6538)"
+   class="st1 st23"
+   style="font-size:15.91950035px;line-height:0%;font-family:MicrosoftYaHei">弃料</text>
+
+
 
 
 
@@ -4421,4 +4823,44 @@
 
 
 
-</svg>
+<text
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;-inkscape-font-specification:'AdobeSongStd-Light-GBpc-EUC-H, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-rule:evenodd;stroke-width:0.98160791"
+   font-size="31.2037"
+   id="text357"
+   x="152.47456"
+   y="48.941711"
+   transform="scale(0.94008492,1.0637337)"
+   inkscape:label="#1制样机点击区域"><tspan
+     sodipodi:role="line"
+     id="tspan767"
+     x="152.47456"
+     y="48.941711">#1全自动制样机</tspan></text>
+
+<ellipse
+   ry="16.66102"
+   rx="15.974161"
+   style="fill:#00a551;fill-rule:evenodd;stroke-width:1.1617986"
+   cy="40.755135"
+   cx="119.45786"
+   id="_125279232"
+   inkscape:label="制样机1_系统" /><text
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:0%;font-family:AdobeSongStd-Light-GBpc-EUC-H;-inkscape-font-specification:'AdobeSongStd-Light-GBpc-EUC-H, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-rule:evenodd;stroke-width:0.98160791"
+   font-size="31.2037"
+   id="text357-7"
+   x="458.95172"
+   y="50.221539"
+   transform="scale(0.94008492,1.0637337)"
+   inkscape:label="#2制样机点击区域"><tspan
+     sodipodi:role="line"
+     id="tspan790"
+     x="458.95172"
+     y="50.221539">#2全自动制样机</tspan></text>
+
+<ellipse
+   ry="16.307467"
+   rx="15.974161"
+   style="fill:#00a551;fill-rule:evenodd;stroke-width:1.1494056"
+   cy="41.762966"
+   cx="407.57242"
+   id="_125279232-9"
+   inkscape:label="制样机2_系统" /></svg>
