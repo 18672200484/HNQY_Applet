@@ -153,7 +153,7 @@ namespace CMCS.Common.DAO
 		/// <param name="sampleUnloadType">卸样方式</param>
 		/// <param name="sampleUnloadCmdId">返回命令Id</param>
 		/// <returns></returns>
-		public bool SendSampleUnloadCmd(string machineCode, string samplingId, string sampleCode, eEquInfSamplerUnloadType sampleUnloadType, out string sampleUnloadCmdId)
+		public bool SendSampleUnloadCmd(string machineCode, string samplingId, string sampleCode, eEquInfSamplerUnloadType sampleUnloadType, string userName, out string sampleUnloadCmdId)
 		{
 			InfBeltSampleUnloadCmd sampleUnloadCmd = new InfBeltSampleUnloadCmd
 			{
@@ -165,6 +165,7 @@ namespace CMCS.Common.DAO
 				SampleCode = sampleCode,
 				UnloadType = sampleUnloadType.ToString(),
 				SyncFlag = 0,
+				OperUser = userName,
 				SamplingId = samplingId
 			};
 

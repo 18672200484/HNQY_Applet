@@ -411,6 +411,23 @@
             <typeparam name="T"></typeparam>
             <returns></returns>
         </member>
+        <member name="T:CMCS.DapperDber.Dbs.OracleDb.OracleDapperDber_New">
+            <summary>
+            Oracle 数据库访问对象
+            </summary>
+        </member>
+        <member name="M:CMCS.DapperDber.Dbs.OracleDb.OracleDapperDber_New.#ctor(System.String)">
+            <summary>
+            OracleDapperDber
+            </summary>
+            <param name="connectionString">连接字符串</param>
+        </member>
+        <member name="M:CMCS.DapperDber.Dbs.OracleDb.OracleDapperDber_New.CreateConnection">
+            <summary>
+            创建一个 DbConnection 对象
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:CMCS.DapperDber.Dbs.OracleDb.OracleDapperDber">
             <summary>
             Oracle 数据库访问对象

@@ -594,7 +594,7 @@ namespace CMCS.UnloadSampler.Frms
 				this.IsWorking = true;
 
 				// 发送卸样命令
-				if (beltSamplerDAO.SendSampleUnloadCmd(this.currentSampler.EquipmentCode, this.CurrentRCSampling.Id, this.currentSampleCode, (eEquInfSamplerUnloadType)Convert.ToInt16(flpanUnloadType.Controls.OfType<RadioButton>().First(a => a.Checked).Tag), out this.currentUnloadCmdId))
+				if (beltSamplerDAO.SendSampleUnloadCmd(this.currentSampler.EquipmentCode, this.CurrentRCSampling.Id, this.currentSampleCode, (eEquInfSamplerUnloadType)Convert.ToInt16(flpanUnloadType.Controls.OfType<RadioButton>().First(a => a.Checked).Tag), SelfVars.LoginUser.UserName, out this.currentUnloadCmdId))
 				{
 					rTxtOutputer.Output("卸样命令发送成功，等待采样机执行", eOutputType.Normal);
 
@@ -667,7 +667,7 @@ namespace CMCS.UnloadSampler.Frms
 				this.IsWorking = true;
 
 				// 发送卸样命令
-				if (qcjxcySamplerDAO.SendSampleUnloadCmd(this.currentSampler.EquipmentCode, this.CurrentRCSampling.Id, this.currentSampleCode, (eEquInfSamplerUnloadType)Convert.ToInt16(flpanUnloadType.Controls.OfType<RadioButton>().First(a => a.Checked).Tag), out this.currentUnloadCmdId))
+				if (qcjxcySamplerDAO.SendSampleUnloadCmd(this.currentSampler.EquipmentCode, this.CurrentRCSampling.Id, this.currentSampleCode, (eEquInfSamplerUnloadType)Convert.ToInt16(flpanUnloadType.Controls.OfType<RadioButton>().First(a => a.Checked).Tag), SelfVars.LoginUser.UserName, out this.currentUnloadCmdId))
 				{
 					rTxtOutputer.Output("卸样命令发送成功，等待采样机执行", eOutputType.Normal);
 
