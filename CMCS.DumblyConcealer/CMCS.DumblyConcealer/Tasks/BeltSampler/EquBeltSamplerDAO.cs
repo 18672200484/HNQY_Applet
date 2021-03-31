@@ -169,7 +169,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 					SampleCode = entity.SampleCode,
 					SampleCount = entity.SampleCount,
 					UpdateTime = entity.UpdateTime,
-					BarrelType = entity.BarrelType
+					BarrelType = entity.BarrelType,
 				}))
 				{
 					entity.DataFlag = 1;
@@ -446,7 +446,8 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 							InFactoryBatchId = pDCYJPlan.InFactoryBatchId,
 							SampleMachine = commonDAO.GetMachineNameByCode(ConvertToCmcsMachineCode(pDCYJUnloadResult.MachineCode)),
 							SampleType = eSamplingType.皮带采样.ToString(),
-							SamplingId = pDCYJUnloadResult.SamplingId
+							SamplingId = pDCYJUnloadResult.SamplingId,
+							SampleWeight = pDCYJUnloadResult.SampleWeight,
 						};
 
 						if (commonDAO.SelfDber.Insert(rCSampleBarrel) > 0)
@@ -460,7 +461,7 @@ namespace CMCS.DumblyConcealer.Tasks.BeltSampler
 								DataFlag = pDCYJUnloadResult.DataFlag,
 								BarrelCode = pDCYJUnloadResult.BarrelCode,
 								UnloadTime = pDCYJUnloadResult.UnloadTime,
-								SamplingId = pDCYJUnloadResult.SamplingId
+								SamplingId = pDCYJUnloadResult.SamplingId,
 							}) > 0)
 							{
 								pDCYJUnloadResult.DataFlag = 1;

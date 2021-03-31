@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn5 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
-			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn6 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
-			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn7 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
-			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn8 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
+			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn1 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
+			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn2 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
+			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn3 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
+			DevComponents.DotNetBar.SuperGrid.GridColumn gridColumn4 = new DevComponents.DotNetBar.SuperGrid.GridColumn();
 			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.btnApplicationExit = new DevComponents.DotNetBar.ButtonX();
@@ -39,6 +39,7 @@
 			this.cmbEquipment = new DevComponents.DotNetBar.Controls.ComboBoxEx();
 			this.comboItem1 = new DevComponents.Editors.ComboItem();
 			this.comboItem2 = new DevComponents.Editors.ComboItem();
+			this.comboItem3 = new DevComponents.Editors.ComboItem();
 			this.btnSearch = new DevComponents.DotNetBar.ButtonX();
 			this.labelX2 = new DevComponents.DotNetBar.LabelX();
 			this.labelX1 = new DevComponents.DotNetBar.LabelX();
@@ -53,7 +54,6 @@
 			this.btnLast = new DevComponents.DotNetBar.ButtonX();
 			this.btnNext = new DevComponents.DotNetBar.ButtonX();
 			this.lblPagerInfo = new DevComponents.DotNetBar.LabelX();
-			this.comboItem3 = new DevComponents.Editors.ComboItem();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
 			this.splitContainer1.Panel2.SuspendLayout();
@@ -167,7 +167,11 @@
 			// 
 			// comboItem2
 			// 
-			this.comboItem2.Text = "#1";
+			this.comboItem2.Text = "1号轨道 ";
+			// 
+			// comboItem3
+			// 
+			this.comboItem3.Text = "2号轨道 ";
 			// 
 			// btnSearch
 			// 
@@ -366,30 +370,30 @@
 			this.superGridControl1.Name = "superGridControl1";
 			this.superGridControl1.PrimaryGrid.AutoGenerateColumns = false;
 			this.superGridControl1.PrimaryGrid.Caption.Text = "";
-			gridColumn5.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn5.DataPropertyName = "MachineCode";
-			gridColumn5.HeaderText = "设备编号";
-			gridColumn5.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn5.Name = "";
-			gridColumn5.Width = 150;
-			gridColumn6.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn6.DataPropertyName = "CrossTime";
-			gridColumn6.HeaderText = "翻车时间";
-			gridColumn6.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
-			gridColumn6.Name = "";
-			gridColumn6.Width = 140;
-			gridColumn7.DataPropertyName = "CarNumber";
-			gridColumn7.HeaderText = "车号";
-			gridColumn7.Name = "";
-			gridColumn7.ResizeMode = DevComponents.DotNetBar.SuperGrid.ColumnResizeMode.MaintainTotalWidth;
-			gridColumn7.Width = 120;
-			gridColumn8.DataPropertyName = "CarModel";
-			gridColumn8.HeaderText = "车型";
-			gridColumn8.Name = "";
-			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn5);
-			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn6);
-			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn7);
-			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn8);
+			gridColumn1.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
+			gridColumn1.DataPropertyName = "MachineCode";
+			gridColumn1.HeaderText = "设备编号";
+			gridColumn1.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
+			gridColumn1.Name = "";
+			gridColumn1.Width = 150;
+			gridColumn2.CellStyles.Default.Alignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
+			gridColumn2.DataPropertyName = "CrossTime";
+			gridColumn2.HeaderText = "翻车时间";
+			gridColumn2.InfoImageAlignment = DevComponents.DotNetBar.SuperGrid.Style.Alignment.MiddleCenter;
+			gridColumn2.Name = "";
+			gridColumn2.Width = 140;
+			gridColumn3.DataPropertyName = "CarNumber";
+			gridColumn3.HeaderText = "车号";
+			gridColumn3.Name = "";
+			gridColumn3.ResizeMode = DevComponents.DotNetBar.SuperGrid.ColumnResizeMode.MaintainTotalWidth;
+			gridColumn3.Width = 120;
+			gridColumn4.DataPropertyName = "CarModel";
+			gridColumn4.HeaderText = "车型";
+			gridColumn4.Name = "";
+			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn1);
+			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn2);
+			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn3);
+			this.superGridControl1.PrimaryGrid.Columns.Add(gridColumn4);
 			this.superGridControl1.PrimaryGrid.DefaultVisualStyles.CellStyles.Default.Font = new System.Drawing.Font("Segoe UI", 11.25F);
 			this.superGridControl1.PrimaryGrid.DefaultVisualStyles.ColumnHeaderStyles.Default.Font = new System.Drawing.Font("Segoe UI", 11.25F);
 			this.superGridControl1.PrimaryGrid.SelectionGranularity = DevComponents.DotNetBar.SuperGrid.SelectionGranularity.Row;
@@ -501,10 +505,6 @@
 			this.lblPagerInfo.Size = new System.Drawing.Size(338, 24);
 			this.lblPagerInfo.TabIndex = 99;
 			this.lblPagerInfo.Text = "共 0 条记录，每页20 条，共 0 页，当前第 0 页";
-			// 
-			// comboItem3
-			// 
-			this.comboItem3.Text = "#2";
 			// 
 			// FrmTrainRecognition
 			// 

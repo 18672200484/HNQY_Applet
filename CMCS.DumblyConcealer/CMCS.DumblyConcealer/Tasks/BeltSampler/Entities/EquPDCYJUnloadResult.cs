@@ -6,80 +6,90 @@ using CMCS.Common.Entities.Sys;
 
 namespace CMCS.DumblyConcealer.Tasks.BeltSampler.Entities
 {
-    /// <summary>
-    /// 皮带采样机接口表 - 卸样结果
-    /// </summary>
-    [CMCS.DapperDber.Attrs.DapperBind("EquTbPDCYJUnloadResult")]
-    public class EquPDCYJUnloadResult : EntityBase2
-    {
-        private string machineCode;
-        /// <summary>
-        /// 设备编号
-        /// </summary> 
-        public string MachineCode
-        {
-            get { return machineCode; }
-            set { machineCode = value; }
-        }
+	/// <summary>
+	/// 皮带采样机接口表 - 卸样结果
+	/// </summary>
+	[CMCS.DapperDber.Attrs.DapperBind("EquTbPDCYJUnloadResult")]
+	public class EquPDCYJUnloadResult : EntityBase2
+	{
+		private string machineCode;
+		/// <summary>
+		/// 设备编号
+		/// </summary> 
+		public string MachineCode
+		{
+			get { return machineCode; }
+			set { machineCode = value; }
+		}
 
-        private string samplingId;
-        /// <summary>
-        /// 采样单Id
-        /// </summary>
-        public string SamplingId
-        {
-            get { return samplingId; }
-            set { samplingId = value; }
-        }
+		private string samplingId;
+		/// <summary>
+		/// 采样单Id
+		/// </summary>
+		public string SamplingId
+		{
+			get { return samplingId; }
+			set { samplingId = value; }
+		}
 
-        private string sampleCode;
-        /// <summary>
-        /// 采样码
-        /// </summary>
-        public string SampleCode
-        {
-            get { return sampleCode; }
-            set { sampleCode = value; }
-        }
+		private string sampleCode;
+		/// <summary>
+		/// 采样码
+		/// </summary>
+		public string SampleCode
+		{
+			get { return sampleCode; }
+			set { sampleCode = value; }
+		}
 
-        private string barrelNumber;
-        /// <summary>
-        /// 样罐编号
-        /// </summary>
-        public string BarrelNumber
-        {
-            get { return barrelNumber; }
-            set { barrelNumber = value; }
-        }
+		private string barrelNumber;
+		/// <summary>
+		/// 样罐编号
+		/// </summary>
+		public string BarrelNumber
+		{
+			get { return barrelNumber; }
+			set { barrelNumber = value; }
+		}
 
-        private string barrelCode;
-        /// <summary>
-        /// 样罐编码
-        /// </summary>
-        public string BarrelCode
-        {
-            get { return barrelCode; }
-            set { barrelCode = value; }
-        }
+		private string barrelCode;
+		/// <summary>
+		/// 样罐编码
+		/// </summary>
+		public string BarrelCode
+		{
+			get { return barrelCode; }
+			set { barrelCode = value; }
+		}
 
-        private DateTime unloadTime;
-        /// <summary>
-        /// 卸样时间
-        /// </summary>
-        public DateTime UnloadTime
-        {
-            get { return unloadTime; }
-            set { unloadTime = value; }
-        }
+		private DateTime unloadTime;
+		/// <summary>
+		/// 卸样时间
+		/// </summary>
+		public DateTime UnloadTime
+		{
+			get { return unloadTime; }
+			set { unloadTime = value; }
+		}
 
-        private int dataFlag;
-        /// <summary>
-        /// 标识符
-        /// </summary>
-        public int DataFlag
-        {
-            get { return dataFlag; }
-            set { dataFlag = value; }
-        }
-    }
+		/// <summary>
+		/// 样重
+		/// </summary>
+		public double SampleWeight { get; set; }
+
+		/// <summary>
+		/// 子样数
+		/// </summary>
+		public int SampleCount { get; set; }
+
+		private int dataFlag;
+		/// <summary>
+		/// 标识符
+		/// </summary>
+		public int DataFlag
+		{
+			get { return dataFlag; }
+			set { dataFlag = value; }
+		}
+	}
 }
